@@ -1,0 +1,41 @@
+name: Collecte SEC
+
+# Relance la collecte à la demande (après une publication de résultats, par exemple)
+# et propose les nouvelles données dans une pull request à relire.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      - name: Collecte
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          test -n "$SEC_USER_AGENT" || { echo "Ajoute le secret SEC_USER_AGENT dans Settings > Secrets and variables > Actions"; exit 1; }
+          python -m fpa.ingestion.collect
+          python -m fpa.ingestion.earnings_releases
+      - name: Pull request des nouvelles données
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="data/collect-$(date -u +%Y-%m-%d)"
+          git checkout -b "$branch"
+          git add data/bronze
+          if git diff --cached --quiet; then echo "Aucune nouvelle donnée."; exit 0; fi
+          git commit -m "Collecte SEC du $(date -u +%Y-%m-%d)"
+          git push -u origin "$branch"
+          gh pr create --title "Collecte SEC du $(date -u +%Y-%m-%d)" --body "Nouvelles données SEC collectées automatiquement. Vérifier le journal de collecte avant de fusionner."

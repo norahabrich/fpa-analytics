@@ -1,0 +1,30 @@
+{
+  "cik": 27419,
+  "entityName": "TARGET CORP (fixture)",
+  "facts": {
+    "us-gaap": {
+      "Revenues": {
+        "label": "Revenues",
+        "units": {"USD": [
+          {"start": "2013-02-03", "end": "2014-02-01", "val": 1000, "fy": 2013, "fp": "FY", "form": "10-K", "filed": "2014-03-20"},
+          {"start": "2014-08-03", "end": "2014-11-01", "val": 250, "fy": 2014, "fp": "Q3", "form": "10-Q", "filed": "2014-11-26"},
+          {"start": "2014-02-02", "end": "2015-01-31", "val": 1100, "fy": 2014, "fp": "FY", "form": "10-K", "filed": "2015-03-13"}
+        ]}
+      },
+      "RevenueFromContractWithCustomerExcludingAssessedTax": {
+        "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+        "units": {"USD": [
+          {"start": "2017-01-29", "end": "2018-02-03", "val": 1300, "fy": 2018, "fp": "FY", "form": "10-K", "filed": "2019-03-13"}
+        ]}
+      }
+    },
+    "dei": {
+      "EntityCommonStockSharesOutstanding": {
+        "label": "Entity Common Stock, Shares Outstanding",
+        "units": {"shares": [
+          {"end": "2026-08-15", "val": 450, "fy": 2026, "fp": "Q2", "form": "10-Q", "filed": "2026-08-20"}
+        ]}
+      }
+    }
+  }
+}

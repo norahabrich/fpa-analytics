@@ -1,0 +1,544 @@
+taxonomy,concept,label,unit,n_obs,first_end,last_end,forms
+dei,EntityCommonStockSharesOutstanding,"Entity Common Stock, Shares Outstanding",shares,70,2009-08-26,2026-08-21,"10-K,10-K/A,10-Q"
+dei,EntityPublicFloat,Entity Public Float,USD,20,2008-08-02,2025-08-01,"10-K,10-K/A,10-Q"
+ecd,CoSelectedMeasureAmt,,USD,5,2022-01-29,2026-01-31,DEF 14A
+ecd,NonPeoNeoAvgCompActuallyPaidAmt,,USD,5,2022-01-29,2026-01-31,DEF 14A
+ecd,NonPeoNeoAvgTotalCompAmt,,USD,5,2022-01-29,2026-01-31,DEF 14A
+ecd,PeerGroupTotalShareholderRtnAmt,,USD,5,2022-01-29,2026-01-31,DEF 14A
+ecd,PeoActuallyPaidCompAmt,,USD,5,2022-01-29,2026-01-31,DEF 14A
+ecd,PeoTotalCompAmt,,USD,5,2022-01-29,2026-01-31,DEF 14A
+ecd,TotalShareholderRtnAmt,,USD,5,2022-01-29,2026-01-31,DEF 14A
+ffd,NetFeeAmt,,USD,2,2026-08-27,2026-08-28,"S-3ASR,S-8"
+ffd,TtlFeeAmt,,USD,2,2026-08-27,2026-08-28,"S-3ASR,S-8"
+ffd,TtlOfferingAmt,,USD,2,2026-08-27,2026-08-28,"S-3ASR,S-8"
+ffd,TtlOffsetAmt,,USD,2,2026-08-27,2026-08-28,"S-3ASR,S-8"
+ffd,TtlPrevslyPdAmt,,USD,1,2026-08-27,2026-08-27,S-3ASR
+us-gaap,AccountsAndOtherReceivablesNetCurrent,"Accounts and Other Receivables, Net, Current",USD,12,2020-02-01,2026-01-31,10-K
+us-gaap,AccountsPayableCurrent,"Accounts Payable, Current",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,AccrualForTaxesOtherThanIncomeTaxesCurrent,"Accrual for Taxes Other than Income Taxes, Current",USD,12,2020-02-01,2026-01-31,10-K
+us-gaap,AccruedIncomeTaxesCurrent,"Accrued Income Taxes, Current",USD,22,2010-01-30,2026-01-31,10-K
+us-gaap,AccruedIncomeTaxesNoncurrent,"Accrued Income Taxes, Noncurrent",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,AccruedLiabilitiesCurrent,"Accrued Liabilities, Current",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,AccruedLiabilitiesForUnredeeemedGiftCards,"Gift Card Liability, Current",USD,18,2010-01-30,2019-02-02,10-K
+us-gaap,AccruedSalariesCurrentAndNoncurrent,Accrued Salaries,USD,20,2011-01-29,2021-01-30,10-K
+us-gaap,AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment,"Accumulated Depreciation, Depletion and Amortization, Property, Plant, and Equipment",USD,169,2008-08-02,2026-01-31,"10-K,10-K/A,10-Q"
+us-gaap,AccumulatedOtherComprehensiveIncomeLossDefinedBenefitPensionAndOtherPostretirementPlansNetOfTax,"Accumulated Other Comprehensive (Income) Loss, Defined Benefit Plan, after Tax",USD,65,2011-04-30,2023-01-28,"10-K,10-Q"
+us-gaap,AccumulatedOtherComprehensiveIncomeLossNetOfTax,"Accumulated Other Comprehensive Income (Loss), Net of Tax",USD,180,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,AdditionalPaidInCapitalCommonStock,"Additional Paid in Capital, Common Stock",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesOther,"Adjustments, Noncash Items, to Reconcile Net Income (Loss) to Cash Provided by (Used in) Operating Activities, Other (Deprecated 2011-01-31)",USD,21,2008-02-02,2011-04-30,"10-K,10-K/A,10-Q"
+us-gaap,AdvertisingExpense,Advertising Expense,USD,48,2009-01-31,2026-01-31,10-K
+us-gaap,AllocatedShareBasedCompensationExpense,"Share-based Payment Arrangement, Expense",USD,48,2009-01-31,2026-01-31,10-K
+us-gaap,AmortizationOfIntangibleAssets,Amortization of Intangible Assets,USD,27,2011-01-29,2021-01-30,10-K
+us-gaap,AmountOfIneffectivenessOnNetInvestmentHedges,Amount of Ineffectiveness on Net Investment Hedges,USD,35,2012-01-28,2016-04-30,"10-K,10-Q"
+us-gaap,AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount,"Antidilutive Securities Excluded from Computation of Earnings Per Share, Amount",shares,210,2009-01-31,2026-08-01,"10-K,10-Q"
+us-gaap,AssetImpairmentCharges,Asset Impairment Charges,USD,15,2011-01-29,2016-10-29,"10-K,10-Q"
+us-gaap,Assets,Assets,USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,AssetsCurrent,"Assets, Current",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,AssetsOfDisposalGroupIncludingDiscontinuedOperation,"Disposal Group, Including Discontinued Operation, Assets",USD,3,2014-11-01,2015-10-31,10-Q
+us-gaap,AssetsOfDisposalGroupIncludingDiscontinuedOperationCurrent,"Disposal Group, Including Discontinued Operation, Assets, Current",USD,33,2014-02-01,2017-10-28,"10-K,10-Q"
+us-gaap,BuildingsAndImprovementsGross,"Buildings and Improvements, Gross",USD,175,2008-08-02,2025-02-01,"10-K,10-K/A,10-Q"
+us-gaap,BusinessExitCosts1,Business Exit Costs,USD,1,2026-01-31,2026-01-31,10-K
+us-gaap,CapitalLeaseObligationsCurrent,"Capital Lease Obligations, Current",USD,2,2017-01-28,2018-02-03,10-K
+us-gaap,CapitalLeaseObligationsIncurred,Lease Obligation Incurred,USD,18,2011-01-29,2018-02-03,10-K
+us-gaap,CapitalLeaseObligationsNoncurrent,"Capital Lease Obligations, Noncurrent",USD,9,2011-01-29,2019-02-02,10-K
+us-gaap,CapitalLeasedAssetsGross,"Capital Leased Assets, Gross",USD,6,2011-01-29,2014-02-01,10-K
+us-gaap,CapitalLeasesBalanceSheetAssetsByMajorClassNet,"Capital Leases, Balance Sheet, Assets by Major Class, Net",USD,8,2014-02-01,2018-02-03,10-K
+us-gaap,CapitalLeasesFutureMinimumPaymentsDue,"Capital Leases, Future Minimum Payments Due",USD,10,2011-01-29,2018-02-03,"10-K,10-Q"
+us-gaap,CapitalLeasesFutureMinimumPaymentsDueCurrent,"Capital Leases, Future Minimum Payments Due, Next Twelve Months",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,CapitalLeasesFutureMinimumPaymentsDueInFiveYears,"Capital Leases, Future Minimum Payments Due in Five Years",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,CapitalLeasesFutureMinimumPaymentsDueInFourYears,"Capital Leases, Future Minimum Payments Due in Four Years",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,CapitalLeasesFutureMinimumPaymentsDueInThreeYears,"Capital Leases, Future Minimum Payments Due in Three Years",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,CapitalLeasesFutureMinimumPaymentsDueInTwoYears,"Capital Leases, Future Minimum Payments Due in Two Years",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,CapitalLeasesFutureMinimumPaymentsDueThereafter,"Capital Leases, Future Minimum Payments Due Thereafter",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,CapitalLeasesFutureMinimumPaymentsInterestIncludedInPayments,"Capital Leases, Future Minimum Payments, Interest Included in Payments",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,CapitalLeasesFutureMinimumPaymentsPresentValueOfNetMinimumPayments,"Capital Leases, Future Minimum Payments, Present Value of Net Minimum Payments",USD,10,2011-01-29,2018-02-03,"10-K,10-Q"
+us-gaap,CapitalLeasesIncomeStatementInterestExpense,"Capital Leases, Income Statement, Interest Expense",USD,21,2010-01-30,2018-02-03,10-K
+us-gaap,CapitalLeasesLesseeBalanceSheetAssetsByMajorClassAccumulatedDeprecation,"Capital Leases, Lessee Balance Sheet, Assets by Major Class, Accumulated Depreciation",USD,8,2014-02-01,2018-02-03,10-K
+us-gaap,CapitalizedComputerSoftwareGross,"Capitalized Computer Software, Gross",USD,115,2010-07-31,2025-02-01,"10-K,10-Q"
+us-gaap,Cash,Cash,USD,16,2018-02-03,2026-01-31,10-K
+us-gaap,CashAndCashEquivalentsAtCarryingValue,"Cash and Cash Equivalents, at Carrying Value",USD,4,2016-01-30,2017-04-29,10-Q
+us-gaap,CashAndCashEquivalentsAtCarryingValueIncludingDiscontinuedOperations,"Cash and Cash Equivalents, at Carrying Value, Including Discontinued Operations",USD,44,2012-01-28,2019-02-02,"10-K,10-Q"
+us-gaap,CashAndCashEquivalentsPeriodIncreaseDecrease,"Cash and Cash Equivalents, Period Increase (Decrease)",USD,29,2008-02-02,2019-02-02,"10-K,10-K/A,10-Q"
+us-gaap,CashAndCashEquivalentsPeriodIncreaseDecreaseExcludingExchangeRateEffect,"Cash and Cash Equivalents, Period Increase (Decrease), Excluding Exchange Rate Effect",USD,31,2013-02-02,2018-08-04,"10-K,10-Q"
+us-gaap,CashCashEquivalentsAndShortTermInvestments,"Cash, Cash Equivalents, and Short-term Investments",USD,226,2007-02-03,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents,"Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",USD,120,2017-01-28,2026-08-01,"10-K,10-Q"
+us-gaap,CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect,"Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents, Period Increase (Decrease), Including Exchange Rate Effect",USD,67,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,CashEquivalentsAtCarryingValue,"Cash Equivalents, at Carrying Value",USD,15,2012-04-28,2014-08-02,10-Q
+us-gaap,CashFlowHedgeGainLossReclassifiedToInterestExpenseNet,"Cash Flow Hedge Gain (Loss) Reclassified to Interest Expense, Net (Deprecated 2013-01-31)",USD,21,2009-01-31,2011-10-29,"10-K,10-Q"
+us-gaap,CashProvidedByUsedInInvestingActivitiesDiscontinuedOperations,"Cash Provided by (Used in) Investing Activities, Discontinued Operations",USD,24,2013-02-02,2018-02-03,"10-K,10-Q"
+us-gaap,CashProvidedByUsedInOperatingActivitiesDiscontinuedOperations,"Cash Provided by (Used in) Operating Activities, Discontinued Operations",USD,58,2013-02-02,2022-01-29,"10-K,10-Q"
+us-gaap,ChangeInUnrealizedGainLossOnFairValueHedgingInstruments1,Change in Unrealized Gain (Loss) on Fair Value Hedging Instruments,USD,95,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,ChangeInUnrealizedGainLossOnHedgedItemInFairValueHedge1,Change in Unrealized Gain (Loss) on Hedged Item in Fair Value Hedge,USD,95,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,CommonStockDividendsPerShareDeclared,"Common Stock, Dividends, Per Share, Declared",USD/shares,297,2009-01-31,2026-08-01,"10-K,10-Q"
+us-gaap,CommonStockParOrStatedValuePerShare,"Common Stock, Par or Stated Value Per Share",USD/shares,159,2009-01-31,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,CommonStockSharesAuthorized,"Common Stock, Shares Authorized",shares,159,2009-01-31,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,CommonStockSharesIssued,"Common Stock, Shares, Issued",shares,159,2009-01-31,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,CommonStockSharesOutstanding,"Common Stock, Shares, Outstanding",shares,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,CommonStockValue,"Common Stock, Value, Issued",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,ComprehensiveIncomeNetOfTax,"Comprehensive Income (Loss), Net of Tax, Attributable to Parent",USD,197,2009-01-31,2026-08-01,"10-K,10-Q"
+us-gaap,ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest,"Comprehensive Income (Loss), Net of Tax, Including Portion Attributable to Noncontrolling Interest",USD,19,2008-02-02,2011-07-30,"10-K,10-K/A,10-Q"
+us-gaap,ConstructionInProgressGross,"Construction in Progress, Gross",USD,175,2008-08-02,2025-02-01,"10-K,10-K/A,10-Q"
+us-gaap,ContractWithCustomerLiability,"Contract with Customer, Liability",USD,62,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,ContractWithCustomerLiabilityCurrent,"Contract with Customer, Liability, Current",USD,2,2019-02-02,2020-02-01,10-K
+us-gaap,ContractWithCustomerLiabilityRevenueRecognized,"Contract with Customer, Liability, Revenue Recognized",USD,32,2018-05-05,2026-08-01,"10-K,10-Q"
+us-gaap,ContractWithCustomerRefundLiability,"Contract with Customer, Refund Liability",USD,92,2017-01-28,2026-08-01,"10-K,10-Q"
+us-gaap,CooperativeAdvertisingAmount,Cooperative Advertising Amount,USD,30,2009-01-31,2020-02-01,10-K
+us-gaap,CostOfGoodsAndServicesSold,Cost of Goods and Services Sold,USD,274,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,CostOfPropertyRepairsAndMaintenance,Cost of Property Repairs and Maintenance,USD,9,2009-01-31,2013-02-02,10-K
+us-gaap,CreditAndDebitCardReceivablesAtCarryingValue,"Credit and Debit Card Receivables, at Carrying Value",USD,20,2010-01-30,2017-10-28,"10-K,10-Q"
+us-gaap,CumulativeEffectOfInitialAdoptionOfNewAccountingPrinciple,Cumulative Effect of Initial Adoption of New Accounting Principle (Deprecated 2011-01-31),USD,2,2008-02-02,2008-02-02,"10-K,10-K/A"
+us-gaap,CurrentFederalTaxExpenseBenefit,Current Federal Tax Expense (Benefit),USD,48,2009-01-31,2026-01-31,10-K
+us-gaap,CurrentForeignTaxExpenseBenefit,Current Foreign Tax Expense (Benefit),USD,45,2010-01-30,2026-01-31,10-K
+us-gaap,CurrentIncomeTaxExpenseBenefit,Current Income Tax Expense (Benefit),USD,48,2009-01-31,2026-01-31,10-K
+us-gaap,CurrentStateAndLocalTaxExpenseBenefit,Current State and Local Tax Expense (Benefit),USD,42,2011-01-29,2026-01-31,10-K
+us-gaap,DebtInstrumentInterestRateStatedPercentage,"Debt Instrument, Interest Rate, Stated Percentage",pure,3,2010-07-31,2010-07-31,"10-K,10-Q"
+us-gaap,DebtInstrumentRepurchasedFaceAmount,"Debt Instrument, Repurchased Face Amount",USD,5,2014-06-30,2016-04-30,"10-K,10-Q"
+us-gaap,DeferredCompensationLiabilityClassifiedNoncurrent,"Deferred Compensation Liability, Classified, Noncurrent",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,DeferredFederalIncomeTaxExpenseBenefit,Deferred Federal Income Tax Expense (Benefit),USD,48,2009-01-31,2026-01-31,10-K
+us-gaap,DeferredForeignIncomeTaxExpenseBenefit,Deferred Foreign Income Tax Expense (Benefit),USD,42,2012-01-28,2026-01-31,10-K
+us-gaap,DeferredGainLossOnDiscontinuationOfFairValueHedge,Deferred (Gain) Loss on Discontinuation of Fair Value Hedge,USD,9,2015-05-02,2016-10-29,10-Q
+us-gaap,DeferredGainLossOnDiscontinuationOfInterestRateFairValueHedge,Deferred Gain (Loss) on Discontinuation of Interest Rate Fair Value Hedge,USD,69,2009-01-31,2016-01-30,"10-K,10-Q"
+us-gaap,DeferredIncomeTaxExpenseBenefit,Deferred Income Tax Expense (Benefit),USD,158,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,DeferredIncomeTaxLiabilities,"Deferred Tax Liabilities, Gross",USD,22,2015-01-31,2026-01-31,10-K
+us-gaap,DeferredIncomeTaxLiabilitiesNet,"Deferred Income Tax Liabilities, Net",USD,85,2017-10-28,2026-08-01,"10-K,10-Q"
+us-gaap,DeferredRentCreditCurrent,"Deferred Rent Credit, Current",USD,16,2010-01-30,2018-02-03,10-K
+us-gaap,DeferredRevenueNoncurrent,"Deferred Revenue, Noncurrent",USD,22,2015-01-31,2026-01-31,10-K
+us-gaap,DeferredStateAndLocalIncomeTaxExpenseBenefit,Deferred State and Local Income Tax Expense (Benefit),USD,41,2011-01-29,2026-01-31,10-K
+us-gaap,DeferredTaxAssetsCapitalLossCarryforwards,"Deferred Tax Assets, Capital Loss Carryforwards",USD,3,2015-01-31,2016-01-30,10-K
+us-gaap,DeferredTaxAssetsDeferredIncome,"Deferred Tax Assets, Deferred Income",USD,18,2016-01-30,2025-02-01,10-K
+us-gaap,DeferredTaxAssetsGross,"Deferred Tax Assets, Gross",USD,35,2010-01-30,2026-01-31,"10-K,10-Q"
+us-gaap,DeferredTaxAssetsGrossNoncurrent,"Deferred Tax Assets, Gross, Noncurrent",USD,4,2012-01-28,2014-02-01,10-K
+us-gaap,DeferredTaxAssetsLiabilitiesNet,"Deferred Tax Assets, Net",USD,10,2010-01-30,2015-01-31,10-K
+us-gaap,DeferredTaxAssetsNetCurrent,"Deferred Tax Assets, Net of Valuation Allowance, Current",USD,10,2010-01-30,2015-01-31,10-K
+us-gaap,DeferredTaxAssetsOperatingLossCarryforwardsForeign,"Deferred Tax Assets, Operating Loss Carryforwards, Foreign",USD,8,2012-01-28,2016-01-30,"10-K,10-Q"
+us-gaap,DeferredTaxAssetsOther,"Deferred Tax Assets, Other",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefits,"Deferred Tax Assets, Tax Deferred Expense, Compensation and Benefits",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,DeferredTaxAssetsTaxDeferredExpenseReservesAndAccrualsAccruedLiabilities,"Deferred Tax Assets, Tax Deferred Expense, Reserves and Accruals, Accrued Liabilities",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,DeferredTaxAssetsTaxDeferredExpenseReservesAndAccrualsAllowanceForDoubtfulAccounts,"Deferred Tax Assets, Tax Deferred Expense, Reserves and Accruals, Allowance for Doubtful Accounts",USD,8,2010-01-30,2014-02-01,10-K
+us-gaap,DeferredTaxAssetsTaxDeferredExpenseReservesAndAccrualsSelfInsurance,"Deferred Tax Assets, Tax Deferred Expense, Reserves and Accruals, Self Insurance",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,DeferredTaxAssetsValuationAllowance,"Deferred Tax Assets, Valuation Allowance",USD,3,2016-01-30,2016-01-30,10-K
+us-gaap,DeferredTaxLiabilities,"Deferred Tax Liabilities, Net",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,DeferredTaxLiabilitiesDeferredExpenseCapitalizedInventoryCosts,"Deferred Tax Liabilities, Inventory",USD,30,2011-01-29,2026-01-31,10-K
+us-gaap,DeferredTaxLiabilitiesLeasingArrangements,"Deferred Tax Liabilities, Leasing Arrangements",USD,14,2019-02-02,2026-01-31,10-K
+us-gaap,DeferredTaxLiabilitiesNoncurrent,"Deferred Tax Liabilities, Net, Noncurrent",USD,108,2008-08-02,2020-02-01,"10-K,10-K/A,10-Q"
+us-gaap,DeferredTaxLiabilitiesOther,"Deferred Tax Liabilities, Other",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,DeferredTaxLiabilitiesPropertyPlantAndEquipment,"Deferred Tax Liabilities, Property, Plant and Equipment",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanAccumulatedBenefitObligation,"Defined Benefit Plan, Accumulated Benefit Obligation",USD,12,2010-01-30,2016-01-30,10-K
+us-gaap,DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeBeforeTax,"Defined Benefit Plan, Accumulated Other Comprehensive (Income) Loss, before Tax",USD,10,2018-02-03,2023-01-28,10-K
+us-gaap,DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeNetGainsLossesBeforeTax,"Defined Benefit Plan, Accumulated Other Comprehensive Income (Loss), Gain (Loss), before Tax",USD,16,2018-02-03,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeNetPriorServiceCostCreditBeforeTax,"Defined Benefit Plan, Accumulated Other Comprehensive (Income) Loss, Prior Service Cost (Credit), before Tax",USD,10,2018-02-03,2023-01-28,10-K
+us-gaap,DefinedBenefitPlanAmortizationOfGainsLosses,"Defined Benefit Plan, Amortization of Gain (Loss)",USD,35,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,DefinedBenefitPlanAmortizationOfNetGainsLosses,"Defined Benefit Plan, Amortization of Net Gains (Losses) (Deprecated 2013-01-31)",USD,3,2011-01-29,2013-02-02,10-K
+us-gaap,DefinedBenefitPlanAmortizationOfNetPriorServiceCostCredit,"Defined Benefit Plan, Amortization of Net Prior Service Cost (Credit) (Deprecated 2013-01-31)",USD,3,2011-01-29,2013-02-02,10-K
+us-gaap,DefinedBenefitPlanAmortizationOfPriorServiceCostCredit,"Defined Benefit Plan, Amortization of Prior Service Cost (Credit)",USD,37,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,DefinedBenefitPlanAmountToBeAmortizedFromAccumulatedOtherComprehensiveIncomeLossNextFiscalYear,"Defined Benefit Plan, Amount to be Amortized from Accumulated Other Comprehensive Income (Loss) Next Fiscal Year (Deprecated 2017-01-31)",USD,3,2014-02-01,2016-01-30,10-K
+us-gaap,DefinedBenefitPlanAmountsThatWillBeAmortizedFromAccumulatedOtherComprehensiveIncomeLossInNextFiscalYear,"Pension and Other Postretirement Benefit Plans, Amounts that Will be Amortized from Accumulated Other Comprehensive Income (Loss) in Next Fiscal Year (Deprecated 2013-01-31)",USD,3,2011-01-29,2013-02-02,10-K
+us-gaap,DefinedBenefitPlanAssetsForPlanBenefitsNoncurrent,"Assets for Plan Benefits, Defined Benefit Plan",USD,6,2023-01-28,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationDiscountRate,"Defined Benefit Plan, Assumptions Used Calculating Benefit Obligation, Discount Rate",pure,16,2018-02-03,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationRateOfCompensationIncrease,"Defined Benefit Plan, Assumptions Used Calculating Benefit Obligation, Rate of Compensation Increase",pure,16,2018-02-03,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanAssumptionsUsedCalculatingBenefitObligationWeightedAverageInterestCreditingRate,"Defined Benefit Plan, Assumptions Used Calculating Benefit Obligation, Weighted-Average Interest Crediting Rate",pure,12,2020-02-01,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostDiscountRate,"Defined Benefit Plan, Assumptions Used Calculating Net Periodic Benefit Cost, Discount Rate",pure,24,2017-01-28,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostExpectedLongTermReturnOnAssets,"Defined Benefit Plan, Assumptions Used Calculating Net Periodic Benefit Cost, Expected Long-term Rate of Return on Plan Assets",pure,24,2017-01-28,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostRateOfCompensationIncrease,"Defined Benefit Plan, Assumptions Used Calculating Net Periodic Benefit Cost, Rate of Compensation Increase",pure,24,2017-01-28,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostWeightedAverageInterestCreditingRate,"Defined Benefit Plan, Assumptions Used Calculating Net Periodic Benefit Cost, Weighted-Average Interest Crediting Rate",pure,18,2019-02-02,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanContributionsByEmployer,"Defined Benefit Plan, Plan Assets, Contributions by Employer",USD,7,2022-01-29,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanEffectOfOnePercentagePointDecreaseOnAccumulatedPostretirementBenefitObligation,"Defined Benefit Plan, Effect of One Percentage Point Decrease on Accumulated Postretirement Benefit Obligation (Deprecated 2012-01-31)",USD,2,2011-01-29,2012-01-28,10-K
+us-gaap,DefinedBenefitPlanEffectOfOnePercentagePointDecreaseOnAccumulatedPostretirementBenefitObligation1,"Defined Benefit Plan, Effect of One Percentage Point Decrease on Accumulated Postretirement Benefit Obligation",USD,3,2013-02-02,2015-01-31,10-K
+us-gaap,DefinedBenefitPlanEffectOfOnePercentagePointDecreaseOnServiceAndInterestCostComponents,"Defined Benefit Plan, Effect of One Percentage Point Decrease on Service and Interest Cost Components (Deprecated 2012-01-31)",USD,2,2011-01-29,2012-01-28,10-K
+us-gaap,DefinedBenefitPlanEffectOfOnePercentagePointDecreaseOnServiceAndInterestCostComponents1,"Defined Benefit Plan, Effect of One Percentage Point Decrease on Service and Interest Cost Components",USD,3,2013-02-02,2015-01-31,10-K
+us-gaap,DefinedBenefitPlanEffectOfOnePercentagePointIncreaseOnAccumulatedPostretirementBenefitObligation,"Defined Benefit Plan, Effect of One Percentage Point Increase on Accumulated Postretirement Benefit Obligation",USD,5,2011-01-29,2015-01-31,10-K
+us-gaap,DefinedBenefitPlanEffectOfOnePercentagePointIncreaseOnServiceAndInterestCostComponents,"Defined Benefit Plan, Effect of One Percentage Point Increase on Service and Interest Cost Components",USD,5,2011-01-29,2015-01-31,10-K
+us-gaap,DefinedBenefitPlanExpectedAmortizationNextFiscalYear,"Defined Benefit Plan, Expected Amortization, Next Fiscal Year",USD,2,2019-02-02,2020-02-01,10-K
+us-gaap,DefinedBenefitPlanExpectedFutureBenefitPaymentsFiveFiscalYearsThereafter,"Defined Benefit Plan, Expected Future Benefit Payment, after Year Five for Next Five Years",USD,8,2019-02-02,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanExpectedFutureBenefitPaymentsNextTwelveMonths,"Defined Benefit Plan, Expected Future Benefit Payment, Year One",USD,8,2019-02-02,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanExpectedFutureBenefitPaymentsYearFive,"Defined Benefit Plan, Expected Future Benefit Payment, Year Five",USD,8,2019-02-02,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanExpectedFutureBenefitPaymentsYearFour,"Defined Benefit Plan, Expected Future Benefit Payment, Year Four",USD,8,2019-02-02,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanExpectedFutureBenefitPaymentsYearThree,"Defined Benefit Plan, Expected Future Benefit Payment, Year Three",USD,8,2019-02-02,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanExpectedFutureBenefitPaymentsYearTwo,"Defined Benefit Plan, Expected Future Benefit Payment, Year Two",USD,8,2019-02-02,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanExpectedReturnOnPlanAssets,"Defined Benefit Plan, Expected Return (Loss) on Plan Assets",USD,41,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,DefinedBenefitPlanFairValueOfPlanAssets,"Defined Benefit Plan, Plan Assets, Amount",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanFutureAmortizationOfGainLoss,"Defined Benefit Plan, Future Amortization of Gain (Loss) (Deprecated 2017-01-31)",USD,3,2014-02-01,2016-01-30,10-K
+us-gaap,DefinedBenefitPlanFutureAmortizationOfPriorServiceCostCredit,"Defined Benefit Plan, Future Amortization of Prior Service Cost (Credit) (Deprecated 2017-01-31)",USD,3,2014-02-01,2016-01-30,10-K
+us-gaap,DefinedBenefitPlanHealthCareCostTrendRateAssumedForNextFiscalYear,"Defined Benefit Plan, Health Care Cost Trend Rate Assumed for Next Fiscal Year (Deprecated 2017-01-31)",pure,5,2011-01-29,2015-01-31,10-K
+us-gaap,DefinedBenefitPlanInterestCost,"Defined Benefit Plan, Interest Cost",USD,41,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,DefinedBenefitPlanNetPeriodicBenefitCost,"Defined Benefit Plan, Net Periodic Benefit Cost (Credit)",USD,44,2017-01-28,2026-08-01,"10-K,10-Q"
+us-gaap,DefinedBenefitPlanPensionPlansWithAccumulatedBenefitObligationsInExcessOfPlanAssetsAggregateAccumulatedBenefitObligation,"Defined Benefit Plan, Plan with Accumulated Benefit Obligation in Excess of Plan Assets, Accumulated Benefit Obligation",USD,12,2010-01-30,2016-01-30,10-K
+us-gaap,DefinedBenefitPlanPensionPlansWithAccumulatedBenefitObligationsInExcessOfPlanAssetsAggregateFairValueOfPlanAssets,"Defined Benefit Plan, Plan with Accumulated Benefit Obligation in Excess of Plan Assets, Plan Assets",USD,2,2015-01-31,2016-01-30,10-K
+us-gaap,DefinedBenefitPlanPensionPlansWithAccumulatedBenefitObligationsInExcessOfPlanAssetsAggregateProjectedBenefitObligation,"Defined Benefit Plan, Pension Plan with Accumulated Benefit Obligation in Excess of Plan Assets, Projected Benefit Obligation",USD,12,2010-01-30,2016-01-30,10-K
+us-gaap,DefinedBenefitPlanPlanAssetsTargetAllocationPercentage,"Defined Benefit Plan, Plan Assets, Target Allocation, Percentage",pure,9,2018-02-03,2026-01-31,10-K
+us-gaap,DefinedBenefitPlanRealEstate,"Defined Benefit Plan, Real Estate (Deprecated 2012-01-31)",pure,2,2011-01-29,2012-01-28,10-K
+us-gaap,DefinedBenefitPlanRecognizedNetGainLossDueToSettlementsAndCurtailments1,"Defined Benefit Plan, Net Periodic Benefit Cost (Credit), Gain (Loss) Due to Settlement and Curtailment",USD,12,2018-02-03,2023-01-28,10-K
+us-gaap,DefinedBenefitPlanServiceCost,"Defined Benefit Plan, Service Cost",USD,41,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,DefinedBenefitPlanTargetPlanAssetAllocations,"Defined Benefit Plan, Target Plan Asset Allocations (Deprecated 2017-01-31)",pure,4,2014-02-01,2017-01-28,10-K
+us-gaap,DefinedBenefitPlanUltimateHealthCareCostTrendRate,"Defined Benefit Plan, Ultimate Health Care Cost Trend Rate (Deprecated 2017-01-31)",pure,5,2011-01-29,2015-01-31,10-K
+us-gaap,DefinedBenefitPlanWeightedAverageAssetAllocations,"Defined Benefit Plan, Plan Assets, Actual Allocation, Percentage",pure,32,2010-01-30,2026-01-31,10-K
+us-gaap,DefinedContributionPlanCostRecognized,"Defined Contribution Plan, Cost",USD,48,2009-01-31,2026-01-31,10-K
+us-gaap,DefinedContributionPlanEmployerMatchingContributionPercent,"Defined Contribution Plan, Employer Matching Contribution, Percent of Employees' Gross Pay",pure,14,2013-02-02,2026-01-31,10-K
+us-gaap,DelinquentAmountAtEndOfPeriodOnLoansManagedAndSecuritized,Delinquent Amount at End of Period on Loans Managed and Securitized or Asset-backed Financing Arrangement,USD,17,2010-05-01,2012-07-28,"10-K,10-Q"
+us-gaap,Depreciation,Depreciation,USD,30,2009-01-31,2026-01-31,10-K
+us-gaap,DepreciationAndAmortization,"Depreciation, Depletion and Amortization, Nonproduction",USD,145,2016-01-30,2026-08-01,"10-K,10-Q"
+us-gaap,DepreciationDepletionAndAmortization,"Depreciation, Depletion and Amortization",USD,238,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,DerivativeAssetNotDesignatedAsHedgingInstrumentFairValue,"Derivative Asset Not Designated as Hedging Instrument, Fair Value (Deprecated 2011-01-31)",USD,2,2010-01-30,2011-01-29,10-K
+us-gaap,DerivativeFairValueOfDerivativeAsset,"Derivative Asset, Fair Value, Gross Asset",USD,4,2011-01-29,2013-02-02,10-K
+us-gaap,DerivativeFairValueOfDerivativeLiability,"Derivative Liability, Fair Value, Gross Liability",USD,4,2011-01-29,2013-02-02,10-K
+us-gaap,DerivativeGainLossOnDerivativeNet,"Derivative, Gain (Loss) on Derivative, Net",USD,28,2021-01-30,2026-08-01,"10-K,10-Q"
+us-gaap,DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet,"Derivative Instruments Not Designated as Hedging Instruments, Gain (Loss), Net",USD,7,2009-01-31,2011-10-29,"10-K,10-Q"
+us-gaap,DerivativeLiabilityNotDesignatedAsHedgingInstrumentFairValue,"Derivative Liability Not Designated as Hedging Instrument, Fair Value (Deprecated 2011-01-31)",USD,2,2010-01-30,2011-01-29,10-K
+us-gaap,DerivativeNumberOfInstrumentsHeld,"Derivative, Number of Instruments Held",instrument,20,2011-07-30,2014-05-03,"10-K,10-Q"
+us-gaap,DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare,"Discontinued Operation, Income (Loss) from Discontinued Operation, Net of Tax, Per Basic Share",USD/shares,132,2013-02-02,2022-01-29,"10-K,10-Q"
+us-gaap,DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare,"Discontinued Operation, Income (Loss) from Discontinued Operation, Net of Tax, Per Diluted Share",USD/shares,132,2013-02-02,2022-01-29,"10-K,10-Q"
+us-gaap,DisposalGroupIncludingDiscontinuedOperationAssetsNoncurrent,"Disposal Group, Including Discontinued Operation, Assets, Noncurrent",USD,33,2014-02-01,2017-10-28,"10-K,10-Q"
+us-gaap,DisposalGroupIncludingDiscontinuedOperationCashAndCashEquivalents,"Disposal Group, Including Discontinued Operation, Cash and Cash Equivalents",USD,12,2013-02-02,2015-01-31,"10-K,10-Q"
+us-gaap,DisposalGroupIncludingDiscontinuedOperationInventory1,"Disposal Group, Including Discontinued Operation, Inventory",USD,3,2014-11-01,2015-10-31,10-Q
+us-gaap,DisposalGroupIncludingDiscontinuedOperationOtherCurrentAssets,"Disposal Group, Including Discontinued Operation, Other Assets, Current",USD,5,2014-11-01,2016-01-30,"10-K,10-Q"
+us-gaap,DisposalGroupIncludingDiscontinuedOperationOtherNoncurrentAssets,"Disposal Group, Including Discontinued Operation, Other Assets, Noncurrent",USD,3,2014-11-01,2015-10-31,10-Q
+us-gaap,Dividends,Dividends,USD,30,2008-02-02,2012-04-28,"10-K,10-K/A,10-Q"
+us-gaap,DividendsCommonStock,"Dividends, Common Stock",USD,219,2011-01-29,2026-08-01,"10-K,10-Q"
+us-gaap,DividendsPayableAmount,"Dividends Payable, Amount (Deprecated 2012-01-31)",USD,6,2008-02-02,2010-01-30,"10-K,10-K/A"
+us-gaap,DividendsPayableCurrent,"Dividends Payable, Current",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,DueFromBanks,Due from Banks,USD,18,2017-01-28,2026-01-31,10-K
+us-gaap,EarningsPerShareBasic,"Earnings Per Share, Basic",USD/shares,308,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,EarningsPerShareDiluted,"Earnings Per Share, Diluted",USD/shares,308,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,EffectOfExchangeRateOnCashAndCashEquivalents,Effect of Exchange Rate on Cash and Cash Equivalents,USD,12,2013-02-02,2016-01-30,"10-K,10-Q"
+us-gaap,EffectOfExchangeRateOnCashAndCashEquivalentsContinuingOperations,"Effect of Exchange Rate on Cash and Cash Equivalents, Continuing Operations",USD,23,2011-10-29,2014-11-01,"10-K,10-Q"
+us-gaap,EffectiveIncomeTaxRateContinuingOperations,"Effective Income Tax Rate Reconciliation, Percent",pure,78,2009-01-31,2026-01-31,"10-K,10-Q"
+us-gaap,EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate,"Effective Income Tax Rate Reconciliation, at Federal Statutory Income Tax Rate, Percent",pure,48,2009-01-31,2026-01-31,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationChangeInDeferredTaxAssetsValuationAllowance,"Effective Income Tax Rate Reconciliation, Change in Deferred Tax Assets Valuation Allowance, Percent",pure,9,2014-02-01,2018-02-03,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationCrossBorderTaxEffectAmount,,USD,1,2026-01-31,2026-01-31,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationCrossBorderTaxEffectPercent,,pure,1,2026-01-31,2026-01-31,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationForeignIncomeTaxRateDifferential,"Effective Income Tax Rate Reconciliation, Foreign Income Tax Rate Differential, Percent",pure,44,2010-01-30,2025-02-01,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationNondeductibleExpense,"Effective Income Tax Rate Reconciliation, Nondeductible Expense, Percent",pure,1,2026-01-31,2026-01-31,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationOtherAdjustments,"Effective Income Tax Rate Reconciliation, Other Adjustments, Percent",pure,48,2009-01-31,2026-01-31,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationShareBasedCompensationExcessTaxBenefitPercent,"Effective Income Tax Rate Reconciliation, Tax Expense (Benefit), Share-based Payment Arrangement, Percent",pure,20,2018-02-03,2025-02-01,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationStateAndLocalIncomeTaxes,"Effective Income Tax Rate Reconciliation, State and Local Income Taxes, Percent",pure,48,2009-01-31,2026-01-31,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationTaxContingencies,"Effective Income Tax Rate Reconciliation, Tax Contingency, Percent",pure,1,2026-01-31,2026-01-31,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationTaxCredits,"Effective Income Tax Rate Reconciliation, Tax Credit, Percent",pure,24,2017-01-28,2026-01-31,10-K
+us-gaap,EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017Percent,"Effective Income Tax Rate Reconciliation, Tax Cuts and Jobs Act, Percent",pure,6,2018-02-03,2021-01-30,10-K
+us-gaap,EmployeeRelatedLiabilitiesCurrent,"Employee-related Liabilities, Current",USD,10,2021-01-30,2026-01-31,10-K
+us-gaap,EmployeeServiceShareBasedCompensationCashReceivedFromExerciseOfStockOptions,"Employee Service Share-based Compensation, Cash Received from Exercise of Stock Options (Deprecated 2017-01-31)",USD,6,2014-02-01,2017-01-28,10-K
+us-gaap,EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedStockOptions,"Share-based Payment Arrangement, Nonvested Award, Option, Cost Not yet Recognized, Amount",USD,4,2021-01-30,2024-02-03,10-K
+us-gaap,EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense,"Share-based Payment Arrangement, Expense, Tax Benefit",USD,48,2009-01-31,2026-01-31,10-K
+us-gaap,EmployeeServiceShareBasedCompensationTaxBenefitFromExerciseOfStockOptions,"Share-based Payment Arrangement, Exercise of Option, Tax Benefit",USD,18,2017-01-28,2024-02-03,10-K
+us-gaap,EmployeeServiceShareBasedCompensationTaxBenefitRealizedFromExerciseOfStockOptions,"Employee Service Share-based Compensation, Tax Benefit Realized from Exercise of Stock Options (Deprecated 2017-01-31)",USD,6,2014-02-01,2017-01-28,10-K
+us-gaap,FeesAndCommissions,Fees and Commissions (Deprecated 2018-01-31),USD,24,2009-01-31,2018-02-03,10-K
+us-gaap,FinanceLeaseInterestExpense,"Finance Lease, Interest Expense",USD,34,2017-01-28,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseInterestPaymentOnLiability,"Finance Lease, Interest Payment on Liability",USD,30,2017-01-28,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseLiability,"Finance Lease, Liability",USD,15,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseLiabilityCurrent,"Finance Lease, Liability, Current",USD,25,2017-04-29,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseLiabilityNoncurrent,"Finance Lease, Liability, Noncurrent",USD,25,2017-04-29,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseLiabilityPaymentsDue,"Finance Lease, Liability, Payment, Due",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseLiabilityPaymentsDueAfterYearFive,"Finance Lease, Liability, to be Paid, after Year Five",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseLiabilityPaymentsDueNextTwelveMonths,"Finance Lease, Liability, to be Paid, Year One",USD,6,2021-01-30,2026-01-31,10-K
+us-gaap,FinanceLeaseLiabilityPaymentsDueYearFive,"Finance Lease, Liability, to be Paid, Year Five",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseLiabilityPaymentsDueYearFour,"Finance Lease, Liability, to be Paid, Year Four",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseLiabilityPaymentsDueYearThree,"Finance Lease, Liability, to be Paid, Year Three",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseLiabilityPaymentsDueYearTwo,"Finance Lease, Liability, to be Paid, Year Two",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseLiabilityPaymentsRemainderOfFiscalYear,"Finance Lease, Liability, to be Paid, Remainder of Fiscal Year",USD,5,2018-05-05,2020-02-01,"10-K,10-Q"
+us-gaap,FinanceLeaseLiabilityUndiscountedExcessAmount,"Finance Lease, Liability, Undiscounted Excess Amount",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeasePrincipalPayments,"Finance Lease, Principal Payments",USD,30,2017-01-28,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseRightOfUseAsset,"Finance Lease, Right-of-Use Asset, after Accumulated Amortization",USD,25,2017-04-29,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseRightOfUseAssetAccumulatedAmortization,"Finance Lease, Right-of-Use Asset, Accumulated Amortization",USD,12,2020-02-01,2026-01-31,10-K
+us-gaap,FinanceLeaseRightOfUseAssetAmortization,"Finance Lease, Right-of-Use Asset, Amortization",USD,34,2017-01-28,2026-01-31,"10-K,10-Q"
+us-gaap,FinanceLeaseWeightedAverageDiscountRatePercent,"Finance Lease, Weighted Average Discount Rate, Percent",pure,25,2017-04-29,2026-01-31,"10-K,10-Q"
+us-gaap,FinancingReceivable,Financing Receivable (Deprecated 2012-01-31),USD,11,2010-07-31,2012-04-28,"10-K,10-Q"
+us-gaap,FinancingReceivableAllowanceForCreditLosses,"Financing Receivable, Allowance for Credit Loss",USD,34,2009-01-31,2013-08-03,"10-K,10-Q"
+us-gaap,FinancingReceivableAllowanceForCreditLossesProvisions,"Financing Receivable, Allowance for Credit Losses, Provisions (Deprecated 2012-01-31)",USD,13,2010-01-30,2012-04-28,"10-K,10-Q"
+us-gaap,FinancingReceivableAllowanceForCreditLossesRecoveries,"Financing Receivable, Allowance for Credit Losses, Recoveries (Deprecated 2012-01-31)",USD,13,2010-01-30,2012-04-28,"10-K,10-Q"
+us-gaap,FinancingReceivableAllowanceForCreditLossesRecovery,"Financing Receivable, Allowance for Credit Loss, Recovery",USD,4,2011-07-30,2012-07-28,10-Q
+us-gaap,FinancingReceivableAllowanceForCreditLossesWriteOffs,"Financing Receivable, Allowance for Credit Loss, Writeoff",USD,17,2010-01-30,2012-07-28,"10-K,10-Q"
+us-gaap,FinancingReceivableModificationsNumberOfContracts,"Financing Receivable, Modifications, Number of Contracts (Deprecated 2012-01-31)",contract,6,2010-10-30,2012-04-28,"10-K,10-Q"
+us-gaap,FinancingReceivableModificationsNumberOfContracts1,"Financing Receivable, Modifications, Number of Contracts (Deprecated 2013-01-31)",contract,2,2011-07-30,2012-07-28,10-Q
+us-gaap,FinancingReceivableModificationsPreModificationRecordedInvestment,"Financing Receivable, Modifications, Pre-Modification Recorded Investment (Deprecated 2012-01-31)",USD,6,2010-10-30,2012-04-28,"10-K,10-Q"
+us-gaap,FinancingReceivableModificationsPreModificationRecordedInvestment1,"Financing Receivable, Modifications, Pre-Modification Recorded Investment (Deprecated 2013-01-31)",USD,2,2011-07-30,2012-07-28,10-Q
+us-gaap,FiniteLivedIntangibleAssetsAccumulatedAmortization,"Finite-Lived Intangible Assets, Accumulated Amortization",USD,16,2010-01-30,2018-02-03,10-K
+us-gaap,FiniteLivedIntangibleAssetsAmortizationExpense,"Finite-Lived Intangible Assets, Amortization Expense (Deprecated 2012-01-31)",USD,6,2009-01-31,2012-01-28,10-K
+us-gaap,FiniteLivedIntangibleAssetsAmortizationExpenseNextTwelveMonths,"Finite-Lived Intangible Asset, Expected Amortization, Year One",USD,7,2013-02-02,2021-01-30,10-K
+us-gaap,FiniteLivedIntangibleAssetsAmortizationExpenseYearFive,"Finite-Lived Intangible Asset, Expected Amortization, Year Five",USD,7,2013-02-02,2021-01-30,10-K
+us-gaap,FiniteLivedIntangibleAssetsAmortizationExpenseYearFour,"Finite-Lived Intangible Asset, Expected Amortization, Year Four",USD,7,2013-02-02,2021-01-30,10-K
+us-gaap,FiniteLivedIntangibleAssetsAmortizationExpenseYearThree,"Finite-Lived Intangible Asset, Expected Amortization, Year Three",USD,7,2013-02-02,2021-01-30,10-K
+us-gaap,FiniteLivedIntangibleAssetsAmortizationExpenseYearTwo,"Finite-Lived Intangible Asset, Expected Amortization, Year Two",USD,7,2013-02-02,2021-01-30,10-K
+us-gaap,FiniteLivedIntangibleAssetsGross,"Finite-Lived Intangible Assets, Gross",USD,16,2010-01-30,2018-02-03,10-K
+us-gaap,FiniteLivedIntangibleAssetsNet,"Finite-Lived Intangible Assets, Net",USD,22,2010-01-30,2021-01-30,10-K
+us-gaap,FurnitureAndFixturesGross,"Furniture and Fixtures, Gross",USD,175,2008-08-02,2025-02-01,"10-K,10-K/A,10-Q"
+us-gaap,FutureAmortizationExpenseYearFive,"Future Amortization Expense, Year Five (Deprecated 2012-01-31)",USD,2,2011-01-29,2012-01-28,10-K
+us-gaap,FutureAmortizationExpenseYearFour,"Future Amortization Expense, Year Four (Deprecated 2012-01-31)",USD,2,2011-01-29,2012-01-28,10-K
+us-gaap,FutureAmortizationExpenseYearOne,"Future Amortization Expense, Year One (Deprecated 2012-01-31)",USD,2,2011-01-29,2012-01-28,10-K
+us-gaap,FutureAmortizationExpenseYearThree,"Future Amortization Expense, Year Three (Deprecated 2012-01-31)",USD,2,2011-01-29,2012-01-28,10-K
+us-gaap,FutureAmortizationExpenseYearTwo,"Future Amortization Expense, Year Two (Deprecated 2012-01-31)",USD,2,2011-01-29,2012-01-28,10-K
+us-gaap,GainLossOnCashFlowHedgeIneffectivenessNet,"Gain (Loss) on Cash Flow Hedge Ineffectiveness, Net",USD,3,2021-01-30,2023-01-28,10-K
+us-gaap,GainLossOnDerivativeInstrumentsNetPretax,"Gain (Loss) on Derivative Instruments, Net, Pretax",USD,27,2009-01-31,2015-01-31,"10-K,10-Q"
+us-gaap,GainLossOnDispositionOfAssets1,Gain (Loss) on Disposition of Assets,USD,25,2014-02-01,2018-02-03,10-K
+us-gaap,GainLossOnFairValueHedgesRecognizedInEarnings,Gain (Loss) on Fair Value Hedges Recognized in Earnings,USD,47,2018-02-03,2022-10-29,"10-K,10-Q"
+us-gaap,GainLossOnRepurchaseOfDebtInstrument,Gain (Loss) on Repurchase of Debt Instrument,USD,6,2014-05-03,2016-04-30,"10-K,10-Q"
+us-gaap,GainLossOnSaleOfBusiness,Gain (Loss) on Disposition of Business,USD,21,2020-02-01,2024-02-03,"10-K,10-Q"
+us-gaap,GainLossOnSaleOfPropertyPlantEquipment,Gain (Loss) on Disposition of Property Plant Equipment,USD,16,2008-02-02,2010-10-30,"10-K,10-K/A,10-Q"
+us-gaap,GainsLossesOnExtinguishmentOfDebt,Gain (Loss) on Extinguishment of Debt,USD,62,2012-01-28,2023-01-28,"10-K,10-Q"
+us-gaap,GainsLossesOnSalesOfCreditCardPortfolio,Gains (Losses) on Sales of Credit Card Portfolio,USD,16,2012-10-27,2014-11-01,10-Q
+us-gaap,Goodwill,Goodwill,USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,GoodwillAndIntangibleAssetImpairment,Goodwill and Intangible Asset Impairment,USD,5,2015-10-31,2016-01-30,"10-K,10-Q"
+us-gaap,GoodwillImpairmentLoss,"Goodwill, Impairment Loss",USD,42,2011-01-29,2026-01-31,"10-K,10-Q"
+us-gaap,GrossProfit,Gross Profit,USD,73,2013-05-04,2018-02-03,"10-K,10-Q"
+us-gaap,HedgedLiabilityFairValueHedge,"Hedged Liability, Fair Value Hedge",USD,36,2022-07-30,2026-08-01,"10-K,10-Q"
+us-gaap,HedgedLiabilityFairValueHedgeCumulativeIncreaseDecrease,"Hedged Liability, Fair Value Hedge, Cumulative Increase (Decrease)",USD,36,2022-07-30,2026-08-01,"10-K,10-Q"
+us-gaap,ImpairmentOfIntangibleAssetsFinitelived,"Impairment of Intangible Assets, Finite-lived",USD,2,2015-10-31,2015-10-31,10-Q
+us-gaap,ImpairmentOfRealEstate,Impairment of Real Estate,USD,6,2014-02-01,2016-01-30,10-K
+us-gaap,ImpairmentOfRetainedInterest,Impairment of Retained Interest,USD,1,2013-05-04,2013-05-04,10-Q
+us-gaap,IncomeLossFromContinuingOperations,"Income (Loss) from Continuing Operations, Net of Tax, Attributable to Parent",USD,132,2013-02-02,2022-01-29,"10-K,10-Q"
+us-gaap,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest,"Income (Loss) from Continuing Operations before Income Taxes, Noncontrolling Interest",USD,65,2020-02-01,2026-08-01,"10-K,10-Q"
+us-gaap,IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign,"Income (Loss) from Continuing Operations before Income Taxes, Foreign",USD,39,2012-01-28,2026-01-31,10-K
+us-gaap,IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,"Income (Loss) from Continuing Operations before Equity Method Investments, Income Taxes, Noncontrolling Interest",USD,243,2008-02-02,2021-07-31,"10-K,10-K/A,10-Q"
+us-gaap,IncomeLossFromContinuingOperationsBeforeInterestExpenseInterestIncomeIncomeTaxesExtraordinaryItemsNoncontrollingInterestsNet,"Income (Loss) from Continuing Operations before Interest Expense, Interest Income, Income Taxes, Noncontrolling Interests, Net",USD,155,2010-01-30,2018-11-03,"10-K,10-Q"
+us-gaap,IncomeLossFromContinuingOperationsPerBasicShare,"Income (Loss) from Continuing Operations, Per Basic Share",USD/shares,132,2013-02-02,2022-01-29,"10-K,10-Q"
+us-gaap,IncomeLossFromContinuingOperationsPerDilutedShare,"Income (Loss) from Continuing Operations, Per Diluted Share",USD/shares,132,2013-02-02,2022-01-29,"10-K,10-Q"
+us-gaap,IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity,"Income (Loss) from Discontinued Operations, Net of Tax, Attributable to Parent",USD,132,2013-02-02,2022-01-29,"10-K,10-Q"
+us-gaap,IncomeTaxExpenseBenefit,Income Tax Expense (Benefit),USD,300,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,IncomeTaxPaidFederalAfterRefundReceived,,USD,1,2026-01-31,2026-01-31,10-K
+us-gaap,IncomeTaxPaidForeignAfterRefundReceived,,USD,1,2026-01-31,2026-01-31,10-K
+us-gaap,IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate,"Effective Income Tax Rate Reconciliation at Federal Statutory Income Tax Rate, Amount",USD,1,2026-01-31,2026-01-31,10-K
+us-gaap,IncomeTaxReconciliationNondeductibleExpense,"Effective Income Tax Rate Reconciliation, Nondeductible Expense, Amount",USD,1,2026-01-31,2026-01-31,10-K
+us-gaap,IncomeTaxReconciliationOtherAdjustments,"Effective Income Tax Rate Reconciliation, Other Adjustments, Amount",USD,5,2013-11-02,2026-01-31,"10-K,10-Q"
+us-gaap,IncomeTaxReconciliationPriorYearIncomeTaxes,"Effective Income Tax Rate Reconciliation, Prior Year Income Taxes, Amount",USD,4,2017-10-28,2017-10-28,10-Q
+us-gaap,IncomeTaxReconciliationStateAndLocalIncomeTaxes,"Effective Income Tax Rate Reconciliation, State and Local Income Taxes, Amount",USD,1,2026-01-31,2026-01-31,10-K
+us-gaap,IncomeTaxReconciliationTaxContingencies,"Effective Income Tax Rate Reconciliation, Tax Contingency, Amount",USD,1,2026-01-31,2026-01-31,10-K
+us-gaap,IncomeTaxReconciliationTaxCredits,"Effective Income Tax Rate Reconciliation, Tax Credit, Amount",USD,1,2026-01-31,2026-01-31,10-K
+us-gaap,IncomeTaxesPaid,Income Taxes Paid,USD,21,2008-02-02,2015-01-31,"10-K,10-K/A"
+us-gaap,IncomeTaxesPaidNet,"Income Taxes Paid, Net",USD,33,2014-02-01,2026-01-31,10-K
+us-gaap,IncreaseDecreaseInAccountsAndOtherReceivables,Increase (Decrease) in Accounts and Other Receivables,USD,58,2008-02-02,2016-01-30,"10-K,10-K/A,10-Q"
+us-gaap,IncreaseDecreaseInAccountsPayable,Increase (Decrease) in Accounts Payable,USD,137,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,IncreaseDecreaseInAccountsPayableAndAccruedLiabilities,Increase (Decrease) in Accounts Payable and Accrued Liabilities,USD,9,2013-02-02,2017-01-28,10-K
+us-gaap,IncreaseDecreaseInAccruedLiabilities,Increase (Decrease) in Accrued Liabilities,USD,15,2016-01-30,2022-01-29,10-K
+us-gaap,IncreaseDecreaseInAccruedTaxesPayable,Increase (Decrease) in Accrued Taxes Payable,USD,1,2020-02-01,2020-02-01,10-K
+us-gaap,IncreaseDecreaseInInventories,Increase (Decrease) in Inventories,USD,158,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,IncreaseDecreaseInOtherAccruedLiabilities,Increase (Decrease) in Other Accrued Liabilities,USD,134,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,IncreaseDecreaseInOtherCurrentAssets,Increase (Decrease) in Other Current Assets,USD,115,2010-01-30,2025-11-01,"10-K,10-Q"
+us-gaap,IncreaseDecreaseInOtherNoncurrentAssets,Increase (Decrease) in Other Noncurrent Assets,USD,30,2010-01-30,2014-11-01,"10-K,10-Q"
+us-gaap,IncreaseDecreaseInOtherNoncurrentLiabilities,Increase (Decrease) in Other Noncurrent Liabilities,USD,31,2010-01-30,2014-11-01,"10-K,10-Q"
+us-gaap,IncreaseDecreaseInOtherOperatingAssets,Increase (Decrease) in Other Operating Assets,USD,43,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,IncreaseDecreaseInOtherOperatingCapitalNet,"Increase (Decrease) in Other Operating Assets and Liabilities, Net",USD,6,2008-02-02,2009-01-31,"10-K,10-K/A,10-Q"
+us-gaap,IncrementalCommonSharesAttributableToShareBasedPaymentArrangements,Incremental Common Shares Attributable to Dilutive Effect of Share-based Payment Arrangements,shares,77,2009-01-31,2016-10-29,"10-K,10-Q"
+us-gaap,InsuranceSettlementsReceivableCurrent,"Insurance Settlements Receivable, Current",USD,4,2014-02-01,2014-08-02,10-Q
+us-gaap,InterestAndFeeIncomeLoansConsumerInstallmentCreditCard,"Interest and Fee Income, Loans, Consumer Installment, Credit Card",USD,90,2008-02-02,2015-01-31,"10-K,10-K/A,10-Q"
+us-gaap,InterestExpense,Interest Expense,USD,270,2008-02-02,2024-05-04,"10-K,10-K/A,10-Q"
+us-gaap,InterestExpenseNonoperating,,USD,30,2023-01-28,2026-08-01,"10-K,10-Q"
+us-gaap,InterestExpenseOther,"Interest Expense, Other",USD,61,2008-02-02,2013-02-02,"10-K,10-K/A,10-Q"
+us-gaap,InterestPaidNet,"Interest Paid, Excluding Capitalized Interest, Operating Activities",USD,54,2008-02-02,2026-01-31,"10-K,10-K/A"
+us-gaap,InterestPayableCurrent,"Interest Payable, Current",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,InterestRateDerivativeAssetsAtFairValue,"Interest Rate Derivative Assets, at Fair Value",USD,12,2010-01-30,2016-01-30,10-K
+us-gaap,InventoryLIFOReservePeriodCharge,"Inventory, LIFO Reserve, Period Charge",USD,8,2022-01-29,2026-01-31,10-K
+us-gaap,InventoryNet,"Inventory, Net",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,InvestmentIncomeInterest,"Investment Income, Interest",USD,44,2008-02-02,2012-01-28,"10-K,10-K/A,10-Q"
+us-gaap,Land,Land,USD,175,2008-08-02,2025-02-01,"10-K,10-K/A,10-Q"
+us-gaap,LeaseCost,"Lease, Cost",USD,34,2017-01-28,2026-01-31,"10-K,10-Q"
+us-gaap,LesseeOperatingLeaseLiabilityPaymentsDue,"Lessee, Operating Lease, Liability, to be Paid",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive,"Lessee, Operating Lease, Liability, to be Paid, after Year Five",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths,"Lessee, Operating Lease, Liability, to be Paid, Year One",USD,6,2021-01-30,2026-01-31,10-K
+us-gaap,LesseeOperatingLeaseLiabilityPaymentsDueYearFive,"Lessee, Operating Lease, Liability, to be Paid, Year Five",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,LesseeOperatingLeaseLiabilityPaymentsDueYearFour,"Lessee, Operating Lease, Liability, to be Paid, Year Four",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,LesseeOperatingLeaseLiabilityPaymentsDueYearThree,"Lessee, Operating Lease, Liability, to be Paid, Year Three",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,LesseeOperatingLeaseLiabilityPaymentsDueYearTwo,"Lessee, Operating Lease, Liability, to be Paid, Year Two",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,LesseeOperatingLeaseLiabilityPaymentsRemainderOfFiscalYear,"Lessee, Operating Lease, Liability, to be Paid, Remainder of Fiscal Year",USD,5,2018-05-05,2020-02-01,"10-K,10-Q"
+us-gaap,LesseeOperatingLeaseLiabilityUndiscountedExcessAmount,"Lessee, Operating Lease, Liability, Undiscounted Excess Amount",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,LettersOfCreditOutstandingAmount,"Letters of Credit Outstanding, Amount",USD,10,2011-01-29,2023-01-28,10-K
+us-gaap,LiabilitiesAndStockholdersEquity,Liabilities and Equity,USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,LiabilitiesCurrent,"Liabilities, Current",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,LiabilitiesNoncurrent,"Liabilities, Noncurrent",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,LiabilitiesOfDisposalGroupIncludingDiscontinuedOperationCurrent,"Disposal Group, Including Discontinued Operation, Liabilities, Current",USD,30,2014-02-01,2017-07-29,"10-K,10-Q"
+us-gaap,LiabilitiesOfDisposalGroupIncludingDiscontinuedOperationNoncurrent,"Disposal Group, Including Discontinued Operation, Liabilities, Noncurrent",USD,33,2014-02-01,2017-10-28,"10-K,10-Q"
+us-gaap,LifeInsuranceCorporateOrBankOwnedAmount,"Life Insurance, Corporate or Bank Owned, Amount",USD,14,2019-02-02,2026-01-31,10-K
+us-gaap,LineOfCreditFacilityAmountOutstanding,"Line of Credit Facility, Amount Outstanding (Deprecated 2014-01-31)",USD,2,2012-01-28,2013-02-02,10-K
+us-gaap,LineOfCreditFacilityAverageOutstandingAmount,"Line of Credit Facility, Average Outstanding Amount",USD,37,2015-01-31,2026-01-31,"10-K,10-Q"
+us-gaap,LineOfCreditFacilityMaximumBorrowingCapacity,"Line of Credit Facility, Maximum Borrowing Capacity",USD,7,2007-04-30,2016-01-30,10-K
+us-gaap,LoansAndLeasesReceivableAllowance,"Loans and Leases Receivable, Allowance",USD,41,2008-08-02,2012-10-27,"10-K,10-K/A,10-Q"
+us-gaap,LoansAndLeasesReceivableConsumerRevolvingCreditCard,"Loans and Leases Receivable, Gross, Consumer, Revolving, Credit Card (Deprecated 2019-01-31)",USD,38,2008-08-02,2012-07-28,"10-K,10-K/A,10-Q"
+us-gaap,LoansAndLeasesReceivableImpairedNonperformingOver90DaysAccrualOfInterest,"Loans and Leases Receivable, Impaired, Nonperforming, over 90 Days, Accrual of Interest (Deprecated 2011-01-31)",USD,6,2009-08-01,2010-10-30,10-Q
+us-gaap,LoansHeldForSaleConsumerCreditCard,"Disposal Group, Including Discontinued Operation, Consumer, Credit Card Loans (Deprecated 2015-01-31)",USD,9,2012-10-27,2014-02-01,"10-K,10-Q"
+us-gaap,LoansInsurancePolicy,"Loans, Gross, Insurance Policy",USD,11,2009-08-01,2011-04-30,"10-K,10-Q"
+us-gaap,LongTermDebt,Long-term Debt,USD,20,2011-01-29,2026-01-31,10-K
+us-gaap,LongTermDebtAndCapitalLeaseObligations,Long-term Debt and Lease Obligation,USD,104,2013-02-02,2026-08-01,"10-K,10-Q"
+us-gaap,LongTermDebtAndCapitalLeaseObligationsCurrent,"Long-term Debt and Lease Obligation, Current",USD,98,2016-01-30,2026-08-01,"10-K,10-Q"
+us-gaap,LongTermDebtCurrent,"Long-term Debt, Current Maturities",USD,10,2011-01-29,2020-02-01,10-K
+us-gaap,LongTermDebtMaturitiesRepaymentsOfPrincipalAfterYearFive,"Long-Term Debt, Maturity, after Year Five",USD,4,2023-01-28,2026-01-31,10-K
+us-gaap,LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths,"Long-Term Debt, Maturity, Year One",USD,16,2011-01-29,2026-01-31,10-K
+us-gaap,LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFive,"Long-Term Debt, Maturity, Year Five",USD,16,2011-01-29,2026-01-31,10-K
+us-gaap,LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour,"Long-Term Debt, Maturity, Year Four",USD,16,2011-01-29,2026-01-31,10-K
+us-gaap,LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree,"Long-Term Debt, Maturity, Year Three",USD,16,2011-01-29,2026-01-31,10-K
+us-gaap,LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo,"Long-Term Debt, Maturity, Year Two",USD,16,2011-01-29,2026-01-31,10-K
+us-gaap,LongTermDebtNoncurrent,"Long-term Debt, Excluding Current Maturities",USD,6,2010-07-31,2013-02-02,"10-K,10-Q"
+us-gaap,LongtermDebtWeightedAverageInterestRate,"Long-term Debt, Weighted Average Interest Rate, at Point in Time",pure,11,2012-01-28,2022-01-29,10-K
+us-gaap,MarketableSecuritiesCurrent,"Marketable Securities, Current",USD,76,2008-08-02,2018-05-05,"10-K,10-K/A,10-Q"
+us-gaap,NetCashProvidedByUsedInContinuingOperations,Net Cash Provided by (Used in) Continuing Operations,USD,29,2010-01-30,2014-11-01,"10-K,10-Q"
+us-gaap,NetCashProvidedByUsedInFinancingActivities,Net Cash Provided by (Used in) Financing Activities,USD,129,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,NetCashProvidedByUsedInFinancingActivitiesContinuingOperations,"Net Cash Provided by (Used in) Financing Activities, Continuing Operations",USD,29,2010-01-30,2014-11-01,"10-K,10-Q"
+us-gaap,NetCashProvidedByUsedInInvestingActivities,Net Cash Provided by (Used in) Investing Activities,USD,129,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,NetCashProvidedByUsedInInvestingActivitiesContinuingOperations,"Net Cash Provided by (Used in) Investing Activities, Continuing Operations",USD,53,2010-01-30,2018-02-03,"10-K,10-Q"
+us-gaap,NetCashProvidedByUsedInOperatingActivities,Net Cash Provided by (Used in) Operating Activities,USD,129,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,NetCashProvidedByUsedInOperatingActivitiesContinuingOperations,"Net Cash Provided by (Used in) Operating Activities, Continuing Operations",USD,87,2010-01-30,2022-01-29,"10-K,10-Q"
+us-gaap,NetIncomeLoss,Net Income (Loss) Attributable to Parent,USD,171,2018-05-05,2026-08-01,"10-K,10-Q,DEF 14A"
+us-gaap,NetIncomeLossAvailableToCommonStockholdersBasic,"Net Income (Loss) Available to Common Stockholders, Basic",USD,214,2010-01-30,2022-01-29,"10-K,10-Q"
+us-gaap,NontradeReceivablesCurrent,"Nontrade Receivables, Current",USD,2,2019-02-02,2020-02-01,10-K
+us-gaap,NotesReceivableNet,"Financing Receivable, after Allowance for Credit Loss",USD,8,2011-07-30,2012-07-28,"10-K,10-Q"
+us-gaap,NumberOfBusinessesAcquired,Number of Businesses Acquired,business,1,2014-02-01,2014-02-01,10-K
+us-gaap,NumberOfOperatingSegments,Number of Operating Segments,segment,7,2025-02-01,2026-08-01,"10-K,10-Q"
+us-gaap,NumberOfReportableSegments,Number of Reportable Segments,segment,15,2013-02-02,2026-08-01,"10-K,10-Q"
+us-gaap,OperatingIncomeLoss,Operating Income (Loss),USD,190,2010-01-30,2026-08-01,"10-K,10-Q"
+us-gaap,OperatingLeaseCost,"Operating Lease, Cost",USD,34,2017-01-28,2026-01-31,"10-K,10-Q"
+us-gaap,OperatingLeaseLiability,"Operating Lease, Liability",USD,11,2018-05-05,2026-01-31,"10-K,10-Q"
+us-gaap,OperatingLeaseLiabilityCurrent,"Operating Lease, Liability, Current",USD,25,2017-04-29,2026-01-31,"10-K,10-Q"
+us-gaap,OperatingLeaseLiabilityNoncurrent,"Operating Lease, Liability, Noncurrent",USD,94,2017-04-29,2026-08-01,"10-K,10-Q"
+us-gaap,OperatingLeasePayments,"Operating Lease, Payments",USD,30,2017-01-28,2026-01-31,"10-K,10-Q"
+us-gaap,OperatingLeaseRightOfUseAsset,"Operating Lease, Right-of-Use Asset",USD,94,2017-04-29,2026-08-01,"10-K,10-Q"
+us-gaap,OperatingLeaseWeightedAverageDiscountRatePercent,"Operating Lease, Weighted Average Discount Rate, Percent",pure,25,2017-04-29,2026-01-31,"10-K,10-Q"
+us-gaap,OperatingLeasesFutureMinimumPaymentsDue,"Operating Leases, Future Minimum Payments Due",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,OperatingLeasesFutureMinimumPaymentsDueCurrent,"Operating Leases, Future Minimum Payments Due, Next Twelve Months",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,OperatingLeasesFutureMinimumPaymentsDueInFiveYears,"Operating Leases, Future Minimum Payments, Due in Five Years",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,OperatingLeasesFutureMinimumPaymentsDueInFourYears,"Operating Leases, Future Minimum Payments, Due in Four Years",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,OperatingLeasesFutureMinimumPaymentsDueInThreeYears,"Operating Leases, Future Minimum Payments, Due in Three Years",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,OperatingLeasesFutureMinimumPaymentsDueInTwoYears,"Operating Leases, Future Minimum Payments, Due in Two Years",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,OperatingLeasesFutureMinimumPaymentsDueThereafter,"Operating Leases, Future Minimum Payments, Due Thereafter",USD,8,2011-01-29,2018-02-03,10-K
+us-gaap,OperatingLeasesRentExpenseNet,"Operating Leases, Rent Expense, Net",USD,21,2010-01-30,2018-02-03,10-K
+us-gaap,OperatingLeasesRentExpenseSubleaseRentals1,"Operating Leases, Rent Expense, Sublease Rentals",USD,21,2010-01-30,2018-02-03,10-K
+us-gaap,OperatingLossCarryforwards,Operating Loss Carryforwards,USD,6,2012-01-28,2014-02-01,"10-K,10-Q"
+us-gaap,OtherAssetsCurrent,"Other Assets, Current",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,OtherAssetsMiscellaneousCurrent,"Other Assets, Miscellaneous, Current",USD,30,2011-01-29,2026-01-31,10-K
+us-gaap,OtherAssetsMiscellaneousNoncurrent,"Other Assets, Miscellaneous, Noncurrent",USD,30,2011-01-29,2026-01-31,10-K
+us-gaap,OtherAssetsNoncurrent,"Other Assets, Noncurrent",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPeriodIncreaseDecrease,"Other Comprehensive Income (Loss), Pension and Other Postretirement Benefit Plans, Adjustment, Net of Tax (Deprecated 2012-01-31)",USD,23,2008-02-02,2011-07-30,"10-K,10-K/A,10-Q"
+us-gaap,OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPortionAttributableToParent,"Other Comprehensive (Income) Loss, Defined Benefit Plan, after Tax and Reclassification Adjustment, Attributable to Parent",USD,183,2010-01-30,2026-08-01,"10-K,10-Q"
+us-gaap,OtherComprehensiveIncomeDefinedBenefitPlansTax,"Other Comprehensive Income (Loss), Pension and Other Postretirement Benefit Plans, Tax (Deprecated 2012-01-31)",USD,23,2008-02-02,2011-07-30,"10-K,10-K/A,10-Q"
+us-gaap,OtherComprehensiveIncomeDefinedBenefitPlansTaxPortionAttributableToParent,"Other Comprehensive (Income) Loss, Defined Benefit Plan, after Reclassification Adjustment, Tax, Attributable to Parent",USD,85,2010-01-30,2018-05-05,"10-K,10-Q"
+us-gaap,OtherComprehensiveIncomeDerivativesQualifyingAsHedgesNetOfTaxPortionAttributableToParent,"Other Comprehensive Income (Loss), Derivatives Qualifying as Hedges, Net of Tax, Portion Attributable to Parent",USD,5,2010-01-30,2012-01-28,"10-K,10-Q"
+us-gaap,OtherComprehensiveIncomeDerivativesQualifyingAsHedgesTaxPortionAttributableToParent,"Other Comprehensive Income (Loss), Derivatives Qualifying as Hedges, Tax, Portion Attributable to Parent",USD,5,2010-01-30,2012-01-28,"10-K,10-Q"
+us-gaap,OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease,"Other Comprehensive Income (Loss), Foreign Currency Transaction and Translation Adjustment, Net of Tax (Deprecated 2012-01-31)",USD,16,2009-08-01,2011-07-30,"10-K,10-K/A,10-Q"
+us-gaap,OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent,"Other Comprehensive Income (Loss), Foreign Currency Transaction and Translation Adjustment, Net of Tax, Portion Attributable to Parent",USD,35,2010-01-30,2018-11-03,"10-K,10-Q"
+us-gaap,OtherComprehensiveIncomeForeignCurrencyTranslationAdjustmentTax,"Other Comprehensive Income (Loss), Foreign Currency Translation Adjustment, Tax (Deprecated 2012-01-31)",USD,16,2009-08-01,2011-07-30,"10-K,10-K/A,10-Q"
+us-gaap,OtherComprehensiveIncomeForeignCurrencyTranslationAdjustmentTaxPortionAttributableToParent,"Other Comprehensive Income (Loss), Foreign Currency Translation Adjustment, Tax, Portion Attributable to Parent",USD,31,2010-01-30,2018-05-05,"10-K,10-Q"
+us-gaap,OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax,"Other Comprehensive Income (Loss), before Reclassifications, Net of Tax",USD,42,2013-05-04,2026-08-01,"10-K,10-Q"
+us-gaap,OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent,"Other Comprehensive Income (Loss), Net of Tax, Portion Attributable to Parent",USD,299,2011-04-30,2026-08-01,"10-K,10-Q"
+us-gaap,OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodNetOfTax,"Other Comprehensive Income (Loss), Unrealized Gain (Loss) on Derivatives Arising During Period, Net of Tax",USD,35,2008-02-02,2020-02-01,"10-K,10-K/A,10-Q"
+us-gaap,OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodTax,"Other Comprehensive Income (Loss), Unrealized Gain (Loss) on Derivatives Arising During Period, Tax",USD,29,2008-02-02,2018-02-03,"10-K,10-K/A,10-Q"
+us-gaap,OtherExpenses,Other Expenses,USD,9,2012-01-28,2016-01-30,10-K
+us-gaap,OtherLiabilitiesNoncurrent,"Other Liabilities, Noncurrent",USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,OtherLongTermDebtCurrent,"Other Long-term Debt, Current",USD,45,2012-04-28,2017-10-28,10-Q
+us-gaap,OtherLongTermDebtNoncurrent,"Other Long-term Debt, Noncurrent",USD,45,2012-04-28,2017-10-28,10-Q
+us-gaap,OtherNoncashIncomeExpense,Other Noncash Income (Expense),USD,137,2010-01-30,2026-08-01,"10-K,10-Q"
+us-gaap,OtherNonoperatingIncomeExpense,Other Nonoperating Income (Expense),USD,132,2015-01-31,2026-08-01,"10-K,10-Q"
+us-gaap,OtherRestructuringCosts,Other Restructuring Costs,USD,3,2025-11-01,2026-01-31,"10-K,10-Q"
+us-gaap,OtherSalesRevenueNet,"Other Revenue, Net (Deprecated 2018-01-31)",USD,6,2017-04-29,2018-08-04,10-Q
+us-gaap,OtherShortTermBorrowings,Other Short-term Borrowings,USD,43,2008-08-02,2013-02-02,"10-K,10-K/A,10-Q"
+us-gaap,OtherSundryLiabilitiesCurrent,"Other Sundry Liabilities, Current",USD,32,2010-01-30,2026-01-31,10-K
+us-gaap,OtherSundryLiabilitiesNoncurrent,"Other Sundry Liabilities, Noncurrent",USD,30,2011-01-29,2026-01-31,10-K
+us-gaap,PaymentsForProceedsFromOtherInvestingActivities,Payments for (Proceeds from) Other Investing Activities,USD,158,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,PaymentsForRepurchaseOfCommonStock,Payments for Repurchase of Common Stock,USD,151,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,PaymentsForRepurchaseOfEquity,Payments for Repurchase of Equity,USD,16,2015-10-31,2019-11-02,10-Q
+us-gaap,PaymentsOfDividendsCommonStock,"Payments of Ordinary Dividends, Common Stock",USD,158,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,PaymentsRelatedToTaxWithholdingForShareBasedCompensation,"Payment, Tax Withholding, Share-based Payment Arrangement",USD,31,2022-01-29,2026-08-01,"10-K,10-Q"
+us-gaap,PaymentsToAcquireBusinessesNetOfCashAcquired,"Payments to Acquire Businesses, Net of Cash Acquired",USD,33,2012-01-28,2020-02-01,"10-K,10-Q"
+us-gaap,PaymentsToAcquireInvestments,Payments to Acquire Investments,USD,2,2013-05-04,2013-08-03,10-Q
+us-gaap,PaymentsToAcquirePropertyPlantAndEquipment,"Payments to Acquire Property, Plant, and Equipment",USD,158,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,PensionAndOtherPostretirementBenefitContributions,Payment for Pension and Other Postretirement Benefits,USD,2,2011-01-29,2012-01-28,10-K
+us-gaap,PensionAndOtherPostretirementDefinedBenefitPlansLiabilitiesNoncurrent,"Liability, Defined Benefit Plan, Noncurrent",USD,30,2010-01-30,2025-02-01,10-K
+us-gaap,PreferredStockParOrStatedValuePerShare,"Preferred Stock, Par or Stated Value Per Share",USD/shares,159,2009-01-31,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,PreferredStockSharesAuthorized,"Preferred Stock, Shares Authorized",shares,159,2009-01-31,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,PreferredStockSharesIssued,"Preferred Stock, Shares Issued",shares,159,2009-01-31,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,PreferredStockSharesOutstanding,"Preferred Stock, Shares Outstanding",shares,159,2009-01-31,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,PrepaidExpenseCurrent,"Prepaid Expense, Current",USD,28,2012-01-28,2026-01-31,10-K
+us-gaap,PrincipalAmountOutstandingOnLoansSecuritized,Principal Amount Outstanding on Loans Securitized or Asset-backed Financing Arrangement,USD,22,2010-01-30,2012-10-27,"10-K,10-Q"
+us-gaap,ProceedsFromDivestitureOfBusinesses,Proceeds from Divestiture of Businesses,USD,38,2014-02-01,2024-02-03,"10-K,10-Q"
+us-gaap,ProceedsFromIssuanceOfLongTermDebt,Proceeds from Issuance of Long-term Debt,USD,123,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,ProceedsFromIssuanceOfSharesUnderIncentiveAndShareBasedCompensationPlansIncludingStockOptions,"Proceeds, Issuance of Shares, Share-based Payment Arrangement, Including Option Exercised",USD,12,2017-01-28,2022-01-29,10-K
+us-gaap,ProceedsFromOtherShortTermDebt,Proceeds from Other Short-term Debt,USD,2,2008-02-02,2008-02-02,"10-K,10-K/A"
+us-gaap,ProceedsFromPaymentsForOtherFinancingActivities,Proceeds from (Payments for) Other Financing Activities,USD,29,2008-02-02,2015-01-31,"10-K,10-K/A,10-Q"
+us-gaap,ProceedsFromRepaymentsOfCommercialPaper,Proceeds from (Repayments of) Commercial Paper,USD,25,2015-01-31,2024-05-04,"10-K,10-Q"
+us-gaap,ProceedsFromSaleOfPropertyPlantAndEquipment,"Proceeds from Sale of Property, Plant, and Equipment",USD,145,2008-02-02,2025-02-01,"10-K,10-K/A,10-Q"
+us-gaap,ProceedsFromShortTermDebt,Proceeds from Short-term Debt,USD,6,2012-01-28,2014-02-01,"10-K,10-Q"
+us-gaap,ProceedsFromStockOptionsExercised,Proceeds from Stock Options Exercised,USD,139,2008-02-02,2025-02-01,"10-K,10-K/A,10-Q"
+us-gaap,ProfitLoss,"Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",USD,65,2008-02-02,2012-10-27,"10-K,10-K/A,10-Q"
+us-gaap,PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAccumulatedDepreciationAndAmortization,"Property, Plant, and Equipment and Finance Lease Right-of-Use Asset, Accumulated Depreciation and Amortization",USD,8,2020-02-01,2025-02-01,10-K
+us-gaap,PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization,"Property, Plant, and Equipment and Finance Lease Right-of-Use Asset, after Accumulated Depreciation and Amortization",USD,25,2020-02-01,2026-08-01,"10-K,10-Q"
+us-gaap,PropertyPlantAndEquipmentNet,"Property, Plant and Equipment, Net",USD,167,2008-08-02,2024-11-02,"10-K,10-K/A,10-Q"
+us-gaap,ProvisionForDoubtfulAccounts,"Accounts Receivable, Credit Loss Expense (Reversal)",USD,11,2012-01-28,2014-11-01,"10-K,10-Q"
+us-gaap,ProvisionForLoanAndLeaseLosses,Provision for Loan and Lease Losses,USD,53,2008-02-02,2013-08-03,"10-K,10-K/A,10-Q"
+us-gaap,ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax,"Reclassification from Accumulated Other Comprehensive Income, Current Period, Net of Tax",USD,46,2013-05-04,2026-08-01,"10-K,10-Q"
+us-gaap,RentalIncomeNonoperating,"Rental Income, Nonoperating",USD,34,2017-01-28,2026-01-31,"10-K,10-Q"
+us-gaap,RepaymentsOfLongTermDebt,Repayments of Long-term Debt,USD,158,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,RepaymentsOfOtherShortTermDebt,Repayments of Other Short-term Debt,USD,14,2008-02-02,2015-01-31,"10-K,10-K/A,10-Q"
+us-gaap,RestructuringCharges,Restructuring Charges,USD,11,2014-02-01,2025-11-01,"10-K,10-Q"
+us-gaap,RestructuringCosts,Restructuring Costs,USD,20,2014-05-03,2016-10-29,10-Q
+us-gaap,RestructuringReserve,Restructuring Reserve,USD,2,2015-05-02,2016-04-30,10-Q
+us-gaap,RetainedEarningsAccumulatedDeficit,Retained Earnings (Accumulated Deficit),USD,192,2008-08-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,RetainedInterestFairValueDisclosure,"Retained Interest, Fair Value Disclosure",USD,12,2013-05-04,2015-01-31,"10-K,10-Q"
+us-gaap,RevenueFromContractWithCustomerExcludingAssessedTax,"Revenue from Contract with Customer, Excluding Assessed Tax",USD,126,2017-01-28,2026-08-01,"10-K,10-Q"
+us-gaap,Revenues,Revenues,USD,101,2008-02-02,2015-01-31,"10-K,10-K/A,10-Q"
+us-gaap,RightOfUseAssetObtainedInExchangeForFinanceLeaseLiability,Right-of-Use Asset Obtained in Exchange for Finance Lease Liability,USD,67,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability,Right-of-Use Asset Obtained in Exchange for Operating Lease Liability,USD,67,2018-02-03,2026-08-01,"10-K,10-Q"
+us-gaap,SalesRevenueGoodsNet,"Sales Revenue, Goods, Net (Deprecated 2018-01-31)",USD,2,2017-04-29,2018-05-05,10-Q
+us-gaap,SalesRevenueNet,"Revenue, Net (Deprecated 2018-01-31)",USD,180,2008-02-02,2018-08-04,"10-K,10-K/A,10-Q"
+us-gaap,SecuredDebtCurrent,"Secured Debt, Current",USD,15,2010-07-31,2013-02-02,"10-K,10-Q"
+us-gaap,SecuredDebtOther,"Secured Debt, Other",USD,17,2010-07-31,2012-07-28,"10-K,10-Q"
+us-gaap,SegmentReportingSegmentOperatingProfitLoss,"Segment Reporting, Segment Operating Profit (Loss) (Deprecated 2011-01-31)",USD,13,2009-01-31,2011-04-30,"10-K,10-Q"
+us-gaap,SelfInsuranceReserveCurrent,"Self Insurance Reserve, Current",USD,14,2019-02-02,2026-01-31,10-K
+us-gaap,SelfInsuranceReserveNoncurrent,"Self Insurance Reserve, Noncurrent",USD,14,2019-02-02,2026-01-31,10-K
+us-gaap,SellingGeneralAndAdministrativeExpense,"Selling, General and Administrative Expense",USD,300,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,SeveranceCosts1,Severance Costs,USD,6,2014-02-01,2026-01-31,"10-K,10-Q"
+us-gaap,ShareBasedCompensation,"Share-based Payment Arrangement, Noncash Expense",USD,158,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant,"Share-based Compensation Arrangement by Share-based Payment Award, Number of Shares Available for Grant",shares,25,2010-01-30,2026-01-31,10-K
+us-gaap,ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercisable, Number",shares,12,2018-02-03,2024-02-03,10-K
+us-gaap,ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercisable, Weighted Average Exercise Price",USD/shares,12,2018-02-03,2024-02-03,10-K
+us-gaap,ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodTotalIntrinsicValue,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercises in Period, Intrinsic Value",USD,24,2014-02-01,2024-02-03,10-K
+us-gaap,ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriod,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Forfeitures and Expirations in Period",shares,4,2019-02-02,2022-01-29,10-K
+us-gaap,ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriodWeightedAverageExercisePrice,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Forfeitures and Expirations in Period, Weighted Average Exercise Price",USD/shares,4,2019-02-02,2022-01-29,10-K
+us-gaap,ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriod,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Grants in Period, Net of Forfeitures",shares,4,2019-02-02,2022-01-29,10-K
+us-gaap,ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingIntrinsicValue,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Intrinsic Value",USD,12,2018-02-03,2024-02-03,10-K
+us-gaap,ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Number",shares,12,2018-02-03,2024-02-03,10-K
+us-gaap,ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Exercise Price",USD/shares,12,2018-02-03,2024-02-03,10-K
+us-gaap,ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsExercisesInPeriodWeightedAverageExercisePrice,"Share-based Compensation Arrangements by Share-based Payment Award, Options, Exercises in Period, Weighted Average Exercise Price",USD/shares,6,2019-02-02,2024-02-03,10-K
+us-gaap,ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageExercisePrice,"Share-based Compensation Arrangements by Share-based Payment Award, Options, Grants in Period, Weighted Average Exercise Price",USD/shares,4,2019-02-02,2022-01-29,10-K
+us-gaap,SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableIntrinsicValue1,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercisable, Intrinsic Value",USD,12,2018-02-03,2024-02-03,10-K
+us-gaap,SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsVestedInPeriodFairValue1,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Vested in Period, Fair Value",USD,6,2017-01-28,2020-02-01,10-K
+us-gaap,ShortTermBorrowings,Short-term Debt,USD,3,2011-07-30,2013-02-02,"10-K,10-Q"
+us-gaap,ShortTermDebtWeightedAverageInterestRateOverTime,"Short-term Debt, Weighted Average Interest Rate, over Time",pure,10,2022-04-30,2023-10-28,10-Q
+us-gaap,ShortTermInvestments,Short-term Investments,USD,16,2018-02-03,2026-01-31,10-K
+us-gaap,ShorttermDebtAverageOutstandingAmount,"Short-term Debt, Average Outstanding Amount",USD,20,2011-07-30,2024-02-03,"10-K,10-Q"
+us-gaap,ShorttermDebtMaximumAmountOutstandingDuringPeriod,"Short-term Debt, Maximum Amount Outstanding During Period",USD,16,2022-04-30,2024-02-03,"10-K,10-Q"
+us-gaap,SignificantChangeInUnrecognizedTaxBenefitsIsReasonablyPossibleAmountOfUnrecordedBenefit,"Significant Change in Unrecognized Tax Benefits is Reasonably Possible, Amount of Unrecorded Benefit",USD,1,2010-07-31,2010-07-31,10-Q
+us-gaap,SignificantChangeInUnrecognizedTaxBenefitsIsReasonablyPossibleEstimatedRangeOfChangeLowerBound,"Significant (Increase) Decrease in Unrecognized Tax Benefits is Reasonably Possible, Estimated Range of Change, Lower Bound (Deprecated 2015-01-31)",USD,1,2011-07-30,2011-07-30,10-Q
+us-gaap,SignificantChangeInUnrecognizedTaxBenefitsIsReasonablyPossibleEstimatedRangeOfChangeUpperBound,"Significant (Increase) Decrease in Unrecognized Tax Benefits is Reasonably Possible, Estimated Range of Change, Upper Bound (Deprecated 2015-01-31)",USD,1,2011-07-30,2011-07-30,10-Q
+us-gaap,StockIssuedDuringPeriodSharesStockOptionsExercised,"Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercises in Period",shares,6,2019-02-02,2024-02-03,10-K
+us-gaap,StockIssuedDuringPeriodValueShareBasedCompensation,"Shares Issued, Value, Share-based Payment Arrangement, after Forfeiture",USD,249,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,StockRepurchaseProgramAuthorizedAmount,"Stock Repurchase Program, Authorized Amount (Deprecated 2014-01-31)",USD,2,2011-07-30,2011-10-29,10-Q
+us-gaap,StockRepurchaseProgramRemainingAuthorizedRepurchaseAmount,"Stock Repurchase Program, Remaining Authorized Repurchase Amount (Deprecated 2014-01-31)",USD,1,2012-01-28,2012-01-28,10-K
+us-gaap,StockRepurchasedAndRetiredDuringPeriodShares,"Stock Repurchased and Retired During Period, Shares",shares,155,2009-01-31,2026-08-01,"10-K,10-Q"
+us-gaap,StockRepurchasedAndRetiredDuringPeriodValue,"Stock Repurchased and Retired During Period, Value",USD,182,2009-01-31,2026-01-31,"10-K,10-Q"
+us-gaap,StockRepurchasedDuringPeriodShares,"Stock Repurchased During Period, Shares",shares,51,2013-08-03,2024-02-03,"10-K,10-Q"
+us-gaap,StockRepurchasedDuringPeriodValue,"Stock Repurchased During Period, Value",USD,82,2008-02-02,2022-04-30,"10-K,10-K/A,10-Q"
+us-gaap,StockholdersEquity,Stockholders' Equity Attributable to Parent,USD,308,2009-01-31,2026-08-01,"10-K,10-Q"
+us-gaap,StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest,"Stockholders' Equity, Including Portion Attributable to Noncontrolling Interest",USD,40,2007-02-03,2011-07-30,"10-K,10-K/A,10-Q"
+us-gaap,SubleaseIncome,Sublease Income,USD,34,2017-01-28,2026-01-31,"10-K,10-Q"
+us-gaap,SupplierFinanceProgramObligation,,USD,36,2022-07-30,2026-08-01,"10-K,10-Q"
+us-gaap,SupplierFinanceProgramObligationDecreaseSettlement,,USD,2,2025-02-01,2026-01-31,10-K
+us-gaap,SupplierFinanceProgramObligationIncrease,,USD,2,2025-02-01,2026-01-31,10-K
+us-gaap,TangibleAssetImpairmentCharges,Tangible Asset Impairment Charges,USD,138,2013-02-02,2026-08-01,"10-K,10-Q"
+us-gaap,TaxAdjustmentsSettlementsAndUnusualProvisions,"Tax Adjustments, Settlements, and Unusual Provisions",USD,4,2010-10-30,2021-07-31,10-Q
+us-gaap,TaxCutsAndJobsActOf2017ChangeInTaxRateIncomeTaxExpenseBenefit,"Tax Cuts and Jobs Act, Change in Tax Rate, Income Tax Expense (Benefit)",USD,1,2019-02-02,2019-02-02,10-K
+us-gaap,TaxCutsAndJobsActOf2017IncomeTaxExpenseBenefit,"Tax Cuts and Jobs Act, Income Tax Expense (Benefit)",USD,2,2018-02-03,2019-02-02,10-K
+us-gaap,TaxCutsAndJobsActOf2017IncompleteAccountingProvisionalIncomeTaxExpenseBenefit,"Tax Cuts and Jobs Act, Incomplete Accounting, Provisional Income Tax Expense (Benefit) (Deprecated 2020-01-31)",USD,1,2018-02-03,2018-02-03,10-K
+us-gaap,TaxCutsAndJobsActOf2017ReclassificationFromAociToRetainedEarningsTaxEffect,"Tax Cuts and Jobs Act, Reclassification from AOCI to Retained Earnings, Tax Effect",USD,1,2018-02-03,2018-02-03,10-K
+us-gaap,TaxesPayableCurrent,"Taxes Payable, Current",USD,20,2010-01-30,2020-02-01,10-K
+us-gaap,TreasuryStockAcquiredAverageCostPerShare,"Treasury Stock Acquired, Average Cost Per Share",USD/shares,200,2009-01-31,2026-08-01,"10-K,10-Q"
+us-gaap,UnrecognizedTaxBenefits,Unrecognized Tax Benefits,USD,63,2009-01-31,2026-01-31,10-K
+us-gaap,UnrecognizedTaxBenefitsDecreasesResultingFromCurrentPeriodTaxPositions,"Unrecognized Tax Benefits, Decrease Resulting from Current Period Tax Positions",USD,1,2011-01-29,2011-01-29,10-K
+us-gaap,UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions,"Unrecognized Tax Benefits, Decrease Resulting from Prior Period Tax Positions",USD,47,2010-01-30,2026-01-31,10-K
+us-gaap,UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities,"Unrecognized Tax Benefits, Decrease Resulting from Settlements with Taxing Authorities",USD,42,2011-01-29,2026-01-31,10-K
+us-gaap,UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestAccrued,"Unrecognized Tax Benefits, Income Tax Penalties and Interest Accrued",USD,47,2010-01-30,2026-01-31,10-K
+us-gaap,UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense,"Unrecognized Tax Benefits, Income Tax Penalties and Interest Expense",USD,48,2009-01-31,2026-01-31,10-K
+us-gaap,UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions,"Unrecognized Tax Benefits, Increase Resulting from Current Period Tax Positions",USD,47,2010-01-30,2026-01-31,10-K
+us-gaap,UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions,"Unrecognized Tax Benefits, Increase Resulting from Prior Period Tax Positions",USD,47,2010-01-30,2026-01-31,10-K
+us-gaap,UnrecognizedTaxBenefitsPeriodIncreaseDecrease,"Unrecognized Tax Benefits, Period Increase (Decrease)",USD,2,2010-04-30,2010-05-01,10-Q
+us-gaap,UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate,Unrecognized Tax Benefits that Would Impact Effective Tax Rate,USD,24,2011-01-29,2026-01-31,10-K
+us-gaap,UnrecordedUnconditionalPurchaseObligationBalanceOnFirstAnniversary,"Unrecorded Unconditional Purchase Obligation, to be Paid, Year One",CAD,2,2011-01-29,2011-01-31,"10-K,10-Q"
+us-gaap,UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount,Unrecorded Unconditional Purchase Obligation,CAD,1,2011-10-30,2011-10-30,10-Q
+us-gaap,UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount,Unrecorded Unconditional Purchase Obligation,USD,6,2010-01-30,2013-02-02,10-K
+us-gaap,UnsecuredLongTermDebt,"Unsecured Long-term Debt, Noncurrent",USD,43,2008-08-02,2013-02-02,"10-K,10-K/A,10-Q"
+us-gaap,WeightedAverageNumberDilutedSharesOutstandingAdjustment,Weighted Average Number Diluted Shares Outstanding Adjustment,shares,35,2012-01-28,2018-11-03,"10-K,10-Q"
+us-gaap,WeightedAverageNumberOfDilutedSharesOutstanding,"Weighted Average Number of Shares Outstanding, Diluted",shares,228,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
+us-gaap,WeightedAverageNumberOfSharesOutstandingBasic,"Weighted Average Number of Shares Outstanding, Basic",shares,228,2008-02-02,2026-08-01,"10-K,10-K/A,10-Q"
