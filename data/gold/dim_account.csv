@@ -1,0 +1,26 @@
+account,label_fr,statement,kind,statement_label
+revenue,Chiffre d'affaires (Net Sales),IS,flow,Compte de résultat
+cogs,Coût des ventes,IS,flow,Compte de résultat
+sga,Frais commerciaux et administratifs (SG&A),IS,flow,Compte de résultat
+da_opex,Amortissements hors coût des ventes,IS,flow,Compte de résultat
+operating_income,Résultat opérationnel (EBIT),IS,flow,Compte de résultat
+interest_expense,Charges d'intérêts nettes,IS,flow,Compte de résultat
+income_tax,Impôt sur le résultat,IS,flow,Compte de résultat
+net_income,Résultat net,IS,flow,Compte de résultat
+eps_diluted,BPA dilué (USD par action),IS,per_share,Compte de résultat
+diluted_shares,Nombre moyen d'actions diluées,IS,average,Compte de résultat
+da_total,Amortissements totaux (tableau de flux),CF,flow,Flux de trésorerie
+cfo,Flux de trésorerie opérationnels,CF,flow,Flux de trésorerie
+capex,Investissements corporels (capex),CF,flow,Flux de trésorerie
+dividends_paid,Dividendes versés,CF,flow,Flux de trésorerie
+share_buybacks,Rachats d'actions,CF,flow,Flux de trésorerie
+cash,Trésorerie et placements à court terme,BS,stock,Bilan
+inventory,Stocks,BS,stock,Bilan
+accounts_payable,Dettes fournisseurs,BS,stock,Bilan
+current_assets,Actif courant,BS,stock,Bilan
+current_liabilities,Passif courant,BS,stock,Bilan
+total_assets,Total actif,BS,stock,Bilan
+total_liabilities_equity,Total passif et capitaux propres,BS,stock,Bilan
+equity,Capitaux propres,BS,stock,Bilan
+current_debt,Dette financière à moins d'un an,BS,stock,Bilan
+long_term_debt,Dette financière à plus d'un an,BS,stock,Bilan

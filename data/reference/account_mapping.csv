@@ -1,0 +1,26 @@
+account,label_fr,statement,kind,concepts
+revenue,Chiffre d'affaires (Net Sales),IS,flow,RevenueFromContractWithCustomerExcludingAssessedTax|Revenues
+cogs,Coût des ventes,IS,flow,CostOfGoodsAndServicesSold
+sga,Frais commerciaux et administratifs (SG&A),IS,flow,SellingGeneralAndAdministrativeExpense
+da_opex,Amortissements hors coût des ventes,IS,flow,DepreciationAndAmortization
+operating_income,Résultat opérationnel (EBIT),IS,flow,OperatingIncomeLoss
+interest_expense,Charges d'intérêts nettes,IS,flow,InterestExpenseNonoperating|InterestExpense
+income_tax,Impôt sur le résultat,IS,flow,IncomeTaxExpenseBenefit
+net_income,Résultat net,IS,flow,NetIncomeLoss|NetIncomeLossAvailableToCommonStockholdersBasic|ProfitLoss
+eps_diluted,BPA dilué (USD par action),IS,per_share,EarningsPerShareDiluted
+diluted_shares,Nombre moyen d'actions diluées,IS,average,WeightedAverageNumberOfDilutedSharesOutstanding
+da_total,Amortissements totaux (tableau de flux),CF,flow,DepreciationDepletionAndAmortization
+cfo,Flux de trésorerie opérationnels,CF,flow,NetCashProvidedByUsedInOperatingActivities
+capex,Investissements corporels (capex),CF,flow,PaymentsToAcquirePropertyPlantAndEquipment
+dividends_paid,Dividendes versés,CF,flow,PaymentsOfDividendsCommonStock
+share_buybacks,Rachats d'actions,CF,flow,PaymentsForRepurchaseOfCommonStock
+cash,Trésorerie et placements à court terme,BS,stock,CashCashEquivalentsAndShortTermInvestments
+inventory,Stocks,BS,stock,InventoryNet
+accounts_payable,Dettes fournisseurs,BS,stock,AccountsPayableCurrent
+current_assets,Actif courant,BS,stock,AssetsCurrent
+current_liabilities,Passif courant,BS,stock,LiabilitiesCurrent
+total_assets,Total actif,BS,stock,Assets
+total_liabilities_equity,Total passif et capitaux propres,BS,stock,LiabilitiesAndStockholdersEquity
+equity,Capitaux propres,BS,stock,StockholdersEquity
+current_debt,Dette financière à moins d'un an,BS,stock,LongTermDebtAndCapitalLeaseObligationsCurrent
+long_term_debt,Dette financière à plus d'un an,BS,stock,LongTermDebtAndCapitalLeaseObligations
