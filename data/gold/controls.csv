@@ -1,0 +1,226 @@
+control,scope,account,expected,actual,gap,tolerance,status,comment
+C1,FY2017-Q1,total_assets,38560.0,38560.0,0.0,0.5,OK,
+C1,FY2017-Q2,total_assets,38667.0,38667.0,0.0,0.5,OK,
+C1,FY2017-Q3,total_assets,42009.0,42009.0,0.0,0.5,OK,
+C1,FY2017-Q4,total_assets,40303.0,40303.0,0.0,0.5,OK,
+C1,FY2018-Q1,total_assets,38929.0,38929.0,0.0,0.5,OK,
+C1,FY2018-Q2,total_assets,39996.0,39996.0,0.0,0.5,OK,
+C1,FY2018-Q3,total_assets,43572.0,43572.0,0.0,0.5,OK,
+C1,FY2018-Q4,total_assets,41290.0,41290.0,0.0,0.5,OK,
+C1,FY2019-Q1,total_assets,40619.0,40619.0,0.0,0.5,OK,
+C1,FY2019-Q2,total_assets,41566.0,41566.0,0.0,0.5,OK,
+C1,FY2019-Q3,total_assets,43741.0,43741.0,0.0,0.5,OK,
+C1,FY2019-Q4,total_assets,42779.0,42779.0,0.0,0.5,OK,
+C1,FY2020-Q1,total_assets,44806.0,44806.0,0.0,0.5,OK,
+C1,FY2020-Q2,total_assets,48000.0,48000.0,0.0,0.5,OK,
+C1,FY2020-Q3,total_assets,50661.0,50661.0,0.0,0.5,OK,
+C1,FY2020-Q4,total_assets,51248.0,51248.0,0.0,0.5,OK,
+C1,FY2021-Q1,total_assets,50471.0,50471.0,0.0,0.5,OK,
+C1,FY2021-Q2,total_assets,51385.0,51385.0,0.0,0.5,OK,
+C1,FY2021-Q3,total_assets,54411.0,54411.0,0.0,0.5,OK,
+C1,FY2021-Q4,total_assets,53811.0,53811.0,0.0,0.5,OK,
+C1,FY2022-Q1,total_assets,50842.0,50842.0,0.0,0.5,OK,
+C1,FY2022-Q2,total_assets,52470.0,52470.0,0.0,0.5,OK,
+C1,FY2022-Q3,total_assets,55615.0,55615.0,0.0,0.5,OK,
+C1,FY2022-Q4,total_assets,53335.0,53335.0,0.0,0.5,OK,
+C1,FY2023-Q1,total_assets,52150.0,52150.0,0.0,0.5,OK,
+C1,FY2023-Q2,total_assets,53206.0,53206.0,0.0,0.5,OK,
+C1,FY2023-Q3,total_assets,56229.0,56229.0,0.0,0.5,OK,
+C1,FY2023-Q4,total_assets,55356.0,55356.0,0.0,0.5,OK,
+C1,FY2024-Q1,total_assets,55117.0,55117.0,0.0,0.5,OK,
+C1,FY2024-Q2,total_assets,55995.0,55995.0,0.0,0.5,OK,
+C1,FY2024-Q3,total_assets,58531.0,58531.0,0.0,0.5,OK,
+C1,FY2024-Q4,total_assets,57769.0,57769.0,0.0,0.5,OK,
+C1,FY2025-Q1,total_assets,56185.0,56185.0,0.0,0.5,OK,
+C1,FY2025-Q2,total_assets,57851.0,57851.0,0.0,0.5,OK,
+C1,FY2025-Q3,total_assets,59991.0,59991.0,0.0,0.5,OK,
+C1,FY2025-Q4,total_assets,59490.0,59490.0,0.0,0.5,OK,
+C1,FY2026-Q1,total_assets,58010.0,58010.0,0.0,0.5,OK,
+C1,FY2026-Q2,total_assets,61235.0,61235.0,0.0,0.5,OK,
+C2,FY2017-Q1,operating_income,1155.0,1155.0,0.0,0.5,OK,
+C2,FY2017-Q2,operating_income,1093.0,1093.0,0.0,0.5,OK,
+C2,FY2017-Q3,operating_income,847.0,847.0,0.0,0.5,OK,
+C2,FY2017-Q4,operating_income,1129.0,1129.0,0.0,0.5,OK,
+C2,FY2018-Q1,operating_income,1041.0,1041.0,0.0,0.5,OK,
+C2,FY2018-Q2,operating_income,1133.0,1133.0,0.0,0.5,OK,
+C2,FY2018-Q3,operating_income,819.0,819.0,0.0,0.5,OK,
+C2,FY2018-Q4,operating_income,1117.0,1117.0,0.0,0.5,OK,
+C2,FY2019-Q1,operating_income,1135.0,1135.0,0.0,0.5,OK,
+C2,FY2019-Q2,operating_income,1324.0,1324.0,0.0,0.5,OK,
+C2,FY2019-Q3,operating_income,1002.0,1002.0,0.0,0.5,OK,
+C2,FY2019-Q4,operating_income,1198.0,1198.0,0.0,0.5,OK,
+C2,FY2021-Q3,operating_income,2010.0,2010.0,0.0,0.5,OK,
+C2,FY2021-Q4,operating_income,2095.0,2095.0,0.0,0.5,OK,
+C2,FY2022-Q1,operating_income,1346.0,1346.0,0.0,0.5,OK,
+C2,FY2022-Q2,operating_income,321.0,321.0,0.0,0.5,OK,
+C2,FY2022-Q3,operating_income,1022.0,1022.0,0.0,0.5,OK,
+C2,FY2022-Q4,operating_income,1159.0,1159.0,0.0,0.5,OK,
+C2,FY2023-Q1,operating_income,1328.0,1328.0,0.0,0.5,OK,
+C2,FY2023-Q2,operating_income,1197.0,1197.0,0.0,0.5,OK,
+C2,FY2023-Q3,operating_income,1317.0,1317.0,0.0,0.5,OK,
+C2,FY2023-Q4,operating_income,1865.0,1865.0,0.0,0.5,OK,
+C2,FY2024-Q1,operating_income,1296.0,1296.0,0.0,0.5,OK,
+C2,FY2024-Q2,operating_income,1635.0,1635.0,0.0,0.5,OK,
+C2,FY2024-Q3,operating_income,1168.0,1168.0,0.0,0.5,OK,
+C2,FY2024-Q4,operating_income,1467.0,1467.0,0.0,0.5,OK,
+C2,FY2025-Q1,operating_income,1472.0,1472.0,0.0,0.5,OK,
+C2,FY2025-Q2,operating_income,1317.0,1317.0,0.0,0.5,OK,
+C2,FY2025-Q3,operating_income,948.0,948.0,0.0,0.5,OK,
+C2,FY2025-Q4,operating_income,1380.0,1380.0,0.0,0.5,OK,
+C2,FY2026-Q1,operating_income,1135.0,1135.0,0.0,0.5,OK,
+C2,FY2026-Q2,operating_income,2560.0,2560.0,0.0,0.5,OK,
+C3,FY2017,revenue,72714.0,72714.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2018,revenue,75356.0,75355.0,-1.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2019,revenue,78112.0,78112.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2020,revenue,93561.0,93561.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2021,revenue,106005.0,106005.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2022,revenue,109120.0,109120.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2023,revenue,107412.0,107412.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2024,revenue,106566.0,106566.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2025,revenue,104780.0,104780.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2017,cogs,51125.0,51125.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2018,cogs,53299.0,53299.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2019,cogs,54864.0,54864.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2020,cogs,66177.0,66177.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2021,cogs,74963.0,74963.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2022,cogs,82306.0,82306.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2023,cogs,77828.0,77828.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2024,cogs,76502.0,76501.0,-1.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2025,cogs,75511.0,75511.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2017,sga,15140.0,15141.0,1.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2018,sga,15723.0,15723.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2019,sga,16233.0,16232.0,-1.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2020,sga,18615.0,18615.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2021,sga,19752.0,19752.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2022,sga,20581.0,20581.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2023,sga,21462.0,21462.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2024,sga,21969.0,21970.0,1.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2025,sga,21535.0,21535.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2017,da_opex,2225.0,2224.0,-1.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2018,da_opex,2224.0,2223.0,-1.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2019,da_opex,2357.0,2357.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2020,da_opex,2230.0,2230.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2021,da_opex,2344.0,2344.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2022,da_opex,2385.0,2385.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2023,da_opex,2415.0,2415.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2024,da_opex,2529.0,2529.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2025,da_opex,2617.0,2617.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2017,operating_income,4224.0,4224.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2018,operating_income,4110.0,4110.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2019,operating_income,4658.0,4659.0,1.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2020,operating_income,6539.0,6539.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2021,operating_income,8946.0,8946.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2022,operating_income,3848.0,3848.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2023,operating_income,5707.0,5707.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2024,operating_income,5566.0,5566.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2025,operating_income,5117.0,5117.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2017,net_income,2914.0,2914.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2018,net_income,2937.0,2938.0,1.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2019,net_income,3281.0,3281.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2020,net_income,4368.0,4368.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2021,net_income,6946.0,6946.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2022,net_income,2780.0,2780.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2023,net_income,4138.0,4138.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2024,net_income,4091.0,4091.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2025,net_income,3705.0,3706.0,1.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2017,cfo,6935.0,6935.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2018,cfo,5973.0,5973.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2019,cfo,7117.0,7117.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2020,cfo,10525.0,10525.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2021,cfo,8625.0,8625.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2022,cfo,4018.0,4018.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2023,cfo,8621.0,8621.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2024,cfo,7367.0,7367.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2025,cfo,6562.0,6562.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2017,capex,2533.0,2533.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2018,capex,3516.0,3516.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2019,capex,3027.0,3027.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2020,capex,2649.0,2649.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2021,capex,3544.0,3544.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2022,capex,5528.0,5528.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2023,capex,4806.0,4806.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2024,capex,2891.0,2891.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C3,FY2025,capex,3727.0,3727.0,0.0,2.0,OK,tolérance : 4 arrondis au million
+C4,FY2017,revenue,49731.0,49731.0,0.0,1.5,OK,"trimestres retraités dans un dépôt ultérieur, cumul 9 mois jamais republié"
+C4,FY2018,revenue,52379.0,52378.0,-1.0,1.5,OK,"trimestres retraités dans un dépôt ultérieur, cumul 9 mois jamais republié"
+C4,FY2019,revenue,54713.0,54714.0,1.0,1.5,OK,
+C4,FY2020,revenue,65222.0,65222.0,0.0,1.5,OK,
+C4,FY2021,revenue,75009.0,75009.0,0.0,1.5,OK,
+C4,FY2022,revenue,77725.0,77725.0,0.0,1.5,OK,
+C4,FY2023,revenue,75493.0,75493.0,0.0,1.5,OK,
+C4,FY2024,revenue,75651.0,75651.0,0.0,1.5,OK,
+C4,FY2025,revenue,74327.0,74327.0,0.0,1.5,OK,
+C4,FY2017,cogs,34330.0,34330.0,0.0,1.5,OK,"trimestres retraités dans un dépôt ultérieur, cumul 9 mois jamais republié"
+C4,FY2018,cogs,36400.0,36399.0,-1.0,1.5,OK,
+C4,FY2019,cogs,37808.0,37808.0,0.0,1.5,OK,
+C4,FY2021,cogs,52202.0,52202.0,0.0,1.5,OK,
+C4,FY2022,cogs,58283.0,58283.0,0.0,1.5,OK,
+C4,FY2023,cogs,54333.0,54333.0,0.0,1.5,OK,
+C4,FY2024,cogs,53700.0,53699.0,-1.0,1.5,OK,"trimestres retraités dans un dépôt ultérieur, cumul 9 mois jamais republié"
+C4,FY2025,cogs,53168.0,53168.0,0.0,1.5,OK,
+C4,FY2017,sga,10686.0,10687.0,1.0,1.5,OK,"trimestres retraités dans un dépôt ultérieur, cumul 9 mois jamais republié"
+C4,FY2018,sga,11347.0,11347.0,0.0,1.5,OK,
+C4,FY2019,sga,11728.0,11728.0,0.0,1.5,OK,
+C4,FY2020,sga,13167.0,13167.0,0.0,1.5,OK,
+C4,FY2021,sga,14217.0,14217.0,0.0,1.5,OK,
+C4,FY2022,sga,14983.0,14983.0,0.0,1.5,OK,
+C4,FY2023,sga,15525.0,15525.0,0.0,1.5,OK,
+C4,FY2024,sga,15969.0,15970.0,1.0,1.5,OK,"trimestres retraités dans un dépôt ultérieur, cumul 9 mois jamais republié"
+C4,FY2025,sga,15486.0,15486.0,0.0,1.5,OK,
+C4,FY2017,da_opex,1620.0,1619.0,-1.0,1.5,OK,"trimestres retraités dans un dépôt ultérieur, cumul 9 mois jamais republié"
+C4,FY2018,da_opex,1639.0,1639.0,0.0,1.5,OK,
+C4,FY2019,da_opex,1717.0,1717.0,0.0,1.5,OK,
+C4,FY2020,da_opex,1660.0,1660.0,0.0,1.5,OK,
+C4,FY2021,da_opex,1739.0,1739.0,0.0,1.5,OK,
+C4,FY2022,da_opex,1770.0,1770.0,0.0,1.5,OK,
+C4,FY2023,da_opex,1793.0,1793.0,0.0,1.5,OK,
+C4,FY2024,da_opex,1883.0,1883.0,0.0,1.5,OK,
+C4,FY2025,da_opex,1936.0,1936.0,0.0,1.5,OK,
+C4,FY2017,operating_income,3160.0,3095.0,-65.0,1.5,ECART,"trimestres retraités dans un dépôt ultérieur, cumul 9 mois jamais republié"
+C4,FY2018,operating_income,2993.0,2993.0,0.0,1.5,OK,
+C4,FY2019,operating_income,3460.0,3461.0,1.0,1.5,OK,
+C4,FY2020,operating_income,4703.0,4703.0,0.0,1.5,OK,
+C4,FY2021,operating_income,6851.0,6851.0,0.0,1.5,OK,
+C4,FY2022,operating_income,2689.0,2689.0,0.0,1.5,OK,
+C4,FY2023,operating_income,3842.0,3842.0,0.0,1.5,OK,
+C4,FY2024,operating_income,4099.0,4099.0,0.0,1.5,OK,
+C4,FY2025,operating_income,3737.0,3737.0,0.0,1.5,OK,
+C4,FY2017,net_income,1827.0,1827.0,0.0,1.5,OK,"trimestres retraités dans un dépôt ultérieur, cumul 9 mois jamais republié"
+C4,FY2018,net_income,2139.0,2139.0,0.0,1.5,OK,
+C4,FY2017,cfo,4495.0,4495.0,0.0,1.5,OK,"trimestres retraités dans un dépôt ultérieur, cumul 9 mois jamais republié"
+C4,FY2018,cfo,3624.0,3624.0,0.0,1.5,OK,
+C4,FY2019,cfo,4159.0,4159.0,0.0,1.5,OK,
+C4,FY2020,cfo,7044.0,7044.0,0.0,1.5,OK,
+C4,FY2021,cfo,5597.0,5597.0,0.0,1.5,OK,
+C4,FY2022,cfo,552.0,552.0,0.0,1.5,OK,
+C4,FY2023,cfo,5332.0,5332.0,0.0,1.5,OK,
+C4,FY2024,cfo,4078.0,4078.0,0.0,1.5,OK,
+C4,FY2025,cfo,3485.0,3485.0,0.0,1.5,OK,
+C4,FY2017,capex,2049.0,2049.0,0.0,1.5,OK,
+C4,FY2018,capex,2873.0,2873.0,0.0,1.5,OK,
+C4,FY2019,capex,2403.0,2403.0,0.0,1.5,OK,
+C4,FY2020,capex,2009.0,2009.0,0.0,1.5,OK,
+C4,FY2021,capex,2483.0,2483.0,0.0,1.5,OK,
+C4,FY2022,capex,4323.0,4323.0,0.0,1.5,OK,
+C4,FY2023,capex,3952.0,3952.0,0.0,1.5,OK,
+C4,FY2024,capex,1968.0,1968.0,0.0,1.5,OK,
+C4,FY2025,capex,2842.0,2842.0,0.0,1.5,OK,
+C5,toutes périodes,*,0.0,0.0,0.0,0.0,OK,valeurs absentes sur 494 attendues
+C6,FY2018,operating_income,4110.0,4110.0,0.0,0.5,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741920000004/a2019q4ex-99.htm
+C6,FY2019,revenue,78100.0,78112.0,12.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741920000004/a2019q4ex-99.htm
+C6,FY2019,operating_income,4658.0,4658.0,0.0,0.5,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741920000004/a2019q4ex-99.htm
+C6,FY2020,revenue,93600.0,93561.0,-39.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741921000007/a2020q4ex-99.htm
+C6,FY2020,operating_income,6500.0,6539.0,39.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741921000007/a2020q4ex-99.htm
+C6,FY2021,revenue,106000.0,106005.0,5.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741922000002/a2021q4ex-99.htm
+C6,FY2021,operating_income,8900.0,8946.0,46.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741922000002/a2021q4ex-99.htm
+C6,FY2022,revenue,109100.0,109120.0,20.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741923000010/a2022q4ex-99.htm
+C6,FY2022,operating_income,3800.0,3848.0,48.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741923000010/a2022q4ex-99.htm
+C6,FY2023,revenue,107400.0,107412.0,12.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741924000008/a2023q4ex-99.htm
+C6,FY2023,operating_income,5700.0,5707.0,7.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741924000008/a2023q4ex-99.htm
+C6,FY2024,revenue,106600.0,106566.0,-34.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741925000008/a2024q4ex-99.htm
+C6,FY2024,operating_income,5600.0,5566.0,-34.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741925000008/a2024q4ex-99.htm
+C6,FY2024,gross_margin_rate,28.2,28.21256310643169,0.012563106431692006,0.05,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741925000008/a2024q4ex-99.htm
+C6,FY2025,revenue,104800.0,104780.0,-20.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741926000012/a2025q4ex-99.htm
+C6,FY2025,operating_income,5100.0,5117.0,17.0,50.0,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741926000012/a2025q4ex-99.htm
+C6,FY2025,gross_margin_rate,27.9,27.93376598587517,0.033765985875170657,0.05,OK,https://www.sec.gov/Archives/edgar/data/27419/000002741926000012/a2025q4ex-99.htm
+C7,toutes périodes,"revenue,cogs,sga",0.0,0.0,0.0,0.0,OK,nombre de trimestres non plausibles

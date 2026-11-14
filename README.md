@@ -40,7 +40,7 @@ flowchart LR
 ## Avancement
 
 - [x] **Phase 1 : collecte.** Comptes XBRL, liste des dépôts, 31 communiqués de résultats, référentiel de guidance sourcé
-- [ ] **Phase 2 : fiabilisation.** Couche Silver/Gold, trimestres, rapport de contrôles vs 10-K
+- [x] **Phase 2 : fiabilisation.** Couches Silver et Gold, 38 trimestres reconstruits (FY2017 à FY2026-T2), [rapport de contrôles](docs/rapport-controles.md)
 - [ ] **Phase 3 : analyse et dashboard V1.** P&L de gestion, réel vs N-1 et vs guidance, effets prix/volume, BFR, free cash-flow
 - [ ] **Phase 4 : prévision et scénarios.** ETS/SARIMA vs référence saisonnière (MAE, WAPE), cash projeté, Streamlit, note de gestion
 
@@ -61,6 +61,8 @@ Chaque collecte est tracée dans `data/bronze/_ingestion_log.jsonl`. Les instant
 - **Changements de libellés XBRL.** Le chiffre d'affaires passe de `Revenues` (jusqu'en 2015) à `RevenueFromContractWithCustomerExcludingAssessedTax` (à partir de 2017).
 - **Changement de présentation au T4 2024.** Le CA devient une seule ligne « Net Sales », et le taux de marge brute est recalculé sur cette base.
 - **Montants cumulés.** Les 10-Q publient des cumuls depuis le début de l'exercice. Le T4 se déduit de l'exercice moins les 9 mois.
+- **Retraitements.** 115 périodes ont changé de valeur entre deux dépôts ; on garde la dernière version.
+- **Balises manquantes.** Le coût des ventes n'est pas balisé de FY2020-T1 à FY2021-T2 ; il est déduit de l'identité du compte de résultat, vérifiée exactement sur les 32 autres trimestres.
 
 ## Installation
 
@@ -82,17 +84,38 @@ export SEC_USER_AGENT="Prénom Nom prenom.nom@exemple.com"
 python -m fpa.ingestion.collect                       # comptes + liste des dépôts
 python -m fpa.ingestion.earnings_releases             # communiqués de résultats
 python -m fpa.ingestion.earnings_releases --offline   # réextraction depuis les archives
+
+python -m fpa.silver.build      # Silver : faits normalisés, trimestres reconstruits
+python -m fpa.gold.build        # Gold : modèle en étoile (Parquet + CSV pour Power BI)
+python -m fpa.gold.controls     # contrôles qualité -> docs/rapport-controles.md
 ```
+
+### Tables Gold pour Power BI
+
+| Table | Grain | Contenu |
+|---|---|---|
+| `dim_period` | trimestre fiscal | clé `FY2022-Q1`, dates, nombre de jours et de semaines |
+| `dim_account` | compte | libellé, état financier, nature (flux, stock, par action) |
+| `fact_financials` | trimestre × compte | valeur en MUSD et méthode d'obtention (publiée ou déduite) |
+| `fact_guidance` | objectif publié | fourchette, point central, citation et lien SEC |
+| `kpi_quarterly` | trimestre | marges, EBITDA, free cash-flow, DIO, DPO, dette nette, croissance N-1, cumul 12 mois |
+| `kpi_annual` | exercice | mêmes indicateurs sur l'exercice, BPA dilué publié |
+
+Les fichiers sont dans `data/gold/` en CSV (import direct dans Power BI) et en Parquet.
 
 ## Structure
 
 ```
 ├── data/
 │   ├── bronze/          # données brutes SEC, datées et journalisées
-│   └── reference/       # référentiels saisis à la main et sourcés (guidance)
+│   ├── silver/          # faits normalisés, trimestres reconstruits
+│   ├── gold/            # modèle en étoile et indicateurs pour Power BI
+│   └── reference/       # référentiels sourcés : guidance, mapping des comptes, points de rapprochement
 ├── docs/                # méthodologie et décisions
 ├── src/fpa/
-│   └── ingestion/       # client SEC, archivage Bronze, inventaires, communiqués
+│   ├── ingestion/       # client SEC, archivage Bronze, inventaires, communiqués
+│   ├── silver/          # calendrier fiscal, versions, reconstruction trimestrielle
+│   └── gold/            # SQL DuckDB du modèle en étoile, contrôles qualité
 └── tests/               # tests unitaires et contrôles de traçabilité
 ```
 

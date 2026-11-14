@@ -1,0 +1,18 @@
+issued_date,fiscal_year,metric,value,tolerance,unit,quote_en,source_url
+2020-03-03,FY2018,operating_income,4110,0.5,musd,"from $4,110 million last year",https://www.sec.gov/Archives/edgar/data/27419/000002741920000004/a2019q4ex-99.htm
+2020-03-03,FY2019,revenue,78100,50,musd,Full-year revenue of $78.1 billion,https://www.sec.gov/Archives/edgar/data/27419/000002741920000004/a2019q4ex-99.htm
+2020-03-03,FY2019,operating_income,4658,0.5,musd,"Full-year operating income was $4,658 million in 2019",https://www.sec.gov/Archives/edgar/data/27419/000002741920000004/a2019q4ex-99.htm
+2021-03-02,FY2020,revenue,93600,50,musd,Full-year revenue of $93.6 billion,https://www.sec.gov/Archives/edgar/data/27419/000002741921000007/a2020q4ex-99.htm
+2021-03-02,FY2020,operating_income,6500,50,musd,Full-year operating income was $6.5 billion in 2020,https://www.sec.gov/Archives/edgar/data/27419/000002741921000007/a2020q4ex-99.htm
+2022-03-01,FY2021,revenue,106000,50,musd,Full-year revenue of $106.0 billion,https://www.sec.gov/Archives/edgar/data/27419/000002741922000002/a2021q4ex-99.htm
+2022-03-01,FY2021,operating_income,8900,50,musd,Full-year operating income was $8.9 billion in 2021,https://www.sec.gov/Archives/edgar/data/27419/000002741922000002/a2021q4ex-99.htm
+2023-02-28,FY2022,revenue,109100,50,musd,Full-year total revenue of $109.1 billion,https://www.sec.gov/Archives/edgar/data/27419/000002741923000010/a2022q4ex-99.htm
+2023-02-28,FY2022,operating_income,3800,50,musd,Full-year operating income of $3.8 billion in 2022,https://www.sec.gov/Archives/edgar/data/27419/000002741923000010/a2022q4ex-99.htm
+2024-03-05,FY2023,revenue,107400,50,musd,Full-year total revenue of $107.4 billion,https://www.sec.gov/Archives/edgar/data/27419/000002741924000008/a2023q4ex-99.htm
+2024-03-05,FY2023,operating_income,5700,50,musd,Full-year operating income of $5.7 billion in 2023,https://www.sec.gov/Archives/edgar/data/27419/000002741924000008/a2023q4ex-99.htm
+2025-03-04,FY2024,revenue,106600,50,musd,Full-year Net Sales decreased 0.8 percent to $106.6 billion,https://www.sec.gov/Archives/edgar/data/27419/000002741925000008/a2024q4ex-99.htm
+2025-03-04,FY2024,operating_income,5600,50,musd,Full-year operating income of $5.6 billion in 2024,https://www.sec.gov/Archives/edgar/data/27419/000002741925000008/a2024q4ex-99.htm
+2025-03-04,FY2024,gross_margin_rate,28.2,0.05,pct,Full-year gross margin rate was 28.2 percent,https://www.sec.gov/Archives/edgar/data/27419/000002741925000008/a2024q4ex-99.htm
+2026-03-03,FY2025,revenue,104800,50,musd,Full-year net sales decreased 1.7 percent to $104.8 billion,https://www.sec.gov/Archives/edgar/data/27419/000002741926000012/a2025q4ex-99.htm
+2026-03-03,FY2025,operating_income,5100,50,musd,of $5.1 billion in 2025,https://www.sec.gov/Archives/edgar/data/27419/000002741926000012/a2025q4ex-99.htm
+2026-03-03,FY2025,gross_margin_rate,27.9,0.05,pct,Full-year gross margin rate was 27.9 percent,https://www.sec.gov/Archives/edgar/data/27419/000002741926000012/a2025q4ex-99.htm
