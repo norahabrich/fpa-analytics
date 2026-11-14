@@ -15,9 +15,7 @@ dist/
 .idea/
 .vscode/
 
-# Données intermédiaires régénérables (Bronze et référentiels sont versionnés)
-data/silver/
-data/gold/
+# Fichiers temporaires d'écriture
 *.tmp
 
 # Power BI : fichiers de verrouillage
