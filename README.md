@@ -54,12 +54,18 @@ flowchart LR
 
 ![Pont EBIT FY2021 → FY2022](docs/img/pont-ebit-fy2022.png)
 
+## Résultat clé (phase 4)
+
+**FY2026 devrait atterrir à +4,4 % de croissance du CA et 5,6 % de marge opérationnelle**, contre environ 5 % et 6 % annoncés par la direction en août 2026 : un peu en dessous, mais dans nos intervalles à 80 %. Sur le CA, la combinaison référence saisonnière + ETS bat la référence seule (WAPE 2,9 % contre 3,1 %) ; la marge reste dix fois plus difficile à prévoir. Côté cash, **un jour de stock vaut environ 256 MUSD** : cinq jours pèsent plus qu'un milliard de capex. Synthèse dans la [note de gestion](docs/note-de-gestion.md).
+
+![Scénarios de cash FY2026](docs/img/scenarios-cash.png)
+
 ## Avancement
 
 - [x] **Phase 1 : collecte.** Comptes XBRL, liste des dépôts, 31 communiqués de résultats, référentiel de guidance sourcé
 - [x] **Phase 2 : fiabilisation.** Couches Silver et Gold, 38 trimestres reconstruits (FY2017 à FY2026-T2), [rapport de contrôles](docs/rapport-controles.md)
 - [x] **Phase 3 : analyse et dashboard V1.** Pont de résultat opérationnel, ventes comparables (trafic, panier), réel vs guidance, BFR et free cash-flow, [note d'analyse](docs/analyse-marge-fy2022.md), [guide Power BI](docs/powerbi/README.md)
-- [ ] **Phase 4 : prévision et scénarios.** ETS/SARIMA vs référence saisonnière (MAE, WAPE), cash projeté, Streamlit, note de gestion
+- [x] **Phase 4 : prévision et scénarios.** 5 modèles en validation chronologique (MAE, WAPE), atterrissage FY2026 vs guidance, scénarios de cash, [simulateur Streamlit](app/simulateur.py), [note de gestion](docs/note-de-gestion.md), [méthode](docs/phase-4-prevision.md)
 
 ## Données
 
@@ -109,6 +115,12 @@ python -m fpa.gold.controls     # contrôles qualité -> docs/rapport-controles.
 python -m fpa.analysis.comparable_sales  # ventes comparables extraites des communiqués
 python -m fpa.analysis.build             # Gold : ponts EBIT, réel vs guidance
 python -m fpa.analysis.charts            # graphiques -> docs/img/
+
+python -m fpa.forecast.build             # Gold : validation des modèles, atterrissage, scénarios de cash
+python -m fpa.forecast.charts            # graphiques de prévision -> docs/img/
+
+pip install -e ".[app]"
+streamlit run app/simulateur.py          # simulateur d'hypothèses dans le navigateur
 ```
 
 ### Tables Gold pour Power BI
@@ -124,6 +136,10 @@ python -m fpa.analysis.charts            # graphiques -> docs/img/
 | `fact_comparable_sales` | trimestre | ventes comparables, trafic, panier moyen (trimestre et cumul) |
 | `bridge_operating_income` | période × étape | pont EBIT : volume (trafic, panier, autres), taux de marge brute, SG&A, amortissements |
 | `guidance_vs_actual` | objectif publié | objectif, réel comparable, écart et verdict |
+| `forecast_scores` | modèle × horizon | MAE, WAPE et biais en validation chronologique |
+| `forecast_quarterly` | trimestre | réel et prévision (CA, marge) avec intervalle à 80 % |
+| `forecast_landing` | exercice × indicateur | atterrissage prévu vs dernière guidance |
+| `cash_scenarios` | scénario | free cash-flow et dette nette de fin d'exercice selon les leviers |
 
 Les fichiers sont dans `data/gold/` en CSV (import direct dans Power BI) et en Parquet. Le modèle, les relations, les mesures DAX, le thème et la maquette des pages sont dans [`docs/powerbi/`](docs/powerbi/README.md).
 
@@ -140,7 +156,9 @@ Les fichiers sont dans `data/gold/` en CSV (import direct dans Power BI) et en P
 │   ├── ingestion/       # client SEC, archivage Bronze, inventaires, communiqués
 │   ├── silver/          # calendrier fiscal, versions, reconstruction trimestrielle
 │   ├── gold/            # SQL DuckDB du modèle en étoile, contrôles qualité
-│   └── analysis/        # ventes comparables, ponts EBIT, réel vs guidance, graphiques
+│   ├── analysis/        # ventes comparables, ponts EBIT, réel vs guidance, graphiques
+│   └── forecast/        # modèles de prévision, validation chronologique, modèle de cash
+├── app/                 # simulateur Streamlit
 └── tests/               # tests unitaires et contrôles de traçabilité
 ```
 

@@ -139,6 +139,11 @@ Question : *d'où vient la baisse du résultat, et à quel point l'année s'est-
 
 Le verdict est en texte (« sous l'objectif », « dans la fourchette », « au-dessus de l'objectif ») : la couleur n'est jamais le seul moyen de le lire.
 
-## 6. Pages suivantes (phase 4)
+## 6. Pages « Forecast » et « Cash » (phase 4)
 
-« Forecast » (prévision trimestrielle vs réel, intervalle) et « Cash » (scénarios de stocks, délais fournisseurs, investissements) seront ajoutées avec les tables de la phase 4.
+Importer aussi `forecast_quarterly`, `forecast_scores`, `forecast_landing` et `cash_scenarios`. Relier `forecast_quarterly[period_key]` à `dim_period[period_key]` : les trimestres prévus (FY2026-Q3 et suivants) n'existent pas dans `dim_period`, donc pour cette page utiliser directement `forecast_quarterly[period_key]` en axe, sans relation.
+
+| Page | Visuels |
+|---|---|
+| Forecast | courbe `value` par `period_key`, légende `kind` (réel / prévision), bande `low`–`high` (courbe d'erreur) ; filtre `series = "revenue"` ; tableau `forecast_landing` (atterrissage, intervalle, guidance, écart) ; courbes `wape_pct` par `horizon` et `model_label` depuis `forecast_scores` |
+| Cash | barres horizontales `free_cash_flow` par `scenario` ; cartes `net_debt_end` et `cash_per_day` pour le scénario « Base » |
