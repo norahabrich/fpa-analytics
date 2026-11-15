@@ -1,0 +1,11 @@
+# Statistiques de langages GitHub (Linguist)
+# Les données SEC archivées (communiqués HTML, JSON XBRL) et les tables générées
+# ne sont pas du code écrit pour le projet : on les exclut du décompte.
+data/** linguist-vendored
+docs/img/** linguist-vendored
+
+# SQL est classé « données » par défaut : on le compte comme du code.
+*.sql linguist-detectable
+
+*.parquet binary
+*.png binary

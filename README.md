@@ -16,6 +16,17 @@ Ce projet reconstruit l'analyse qu'aurait menée une équipe FP&A :
 
 Les comptes historiques et les objectifs de la direction sont réels et sourcés ; les prévisions et les scénarios sont des calculs propres au projet.
 
+## Stack technique
+
+| Domaine | Technologies |
+|---|---|
+| Données sources | **XBRL** (comptes balisés des 10-K/10-Q via l'API Company Facts), HTML des communiqués 8-K, API REST SEC EDGAR |
+| Ingestion et transformation | **Python** (pandas, requests), architecture médaillon Bronze / Silver / Gold |
+| Modélisation | **SQL** (DuckDB), schéma en étoile, Parquet |
+| Analyse | pont de résultat opérationnel, effets volume / taux, réel vs guidance, BFR, free cash-flow |
+| Restitution | **Power BI** (mesures **DAX**, thème), matplotlib |
+| Qualité | pytest, ruff, contrôles de rapprochement avec les 10-K, GitHub Actions (CI) |
+
 ## Architecture
 
 ```mermaid
