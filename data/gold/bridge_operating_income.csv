@@ -1,0 +1,337 @@
+grain,period_key,reference_key,step_order,step,label_fr,value,is_total,revenue_effect,rate_change_pts
+annual,FY2018,FY2017,0,start,Résultat opérationnel N-1,4224.0,True,,
+annual,FY2018,FY2017,1,volume_traffic,Volume : trafic,0.0,False,0.0,
+annual,FY2018,FY2017,2,volume_ticket,Volume : panier moyen,0.0,False,0.0,
+annual,FY2018,FY2017,3,volume_other,"Volume : magasins, autres revenus, calendrier",153.41727865335426,False,2641.0,
+annual,FY2018,FY2017,4,gross_margin_rate,Taux de marge brute,-317.12065076876894,False,,-0.42083557928308535
+annual,FY2018,FY2017,5,sga_rate,Taux de SG&A,-32.07314959980241,False,,0.04256273585004633
+annual,FY2018,FY2017,6,da_rate,Taux d'amortissements,81.77652171521292,False,,-0.10852169294036616
+annual,FY2018,FY2017,7,end,Résultat opérationnel N,4110.0,True,,
+annual,FY2019,FY2018,0,start,Résultat opérationnel N-1,4110.0,True,,
+annual,FY2019,FY2018,1,volume_traffic,Volume : trafic,110.97000000000001,False,2034.5850000000003,
+annual,FY2019,FY2018,2,volume_ticket,Volume : panier moyen,29.54678999999999,False,541.7270949999998,
+annual,FY2019,FY2018,3,volume_other,"Volume : magasins, autres revenus, calendrier",9.855049957534332,False,180.6879049999999,
+annual,FY2019,FY2018,4,gross_margin_rate,Taux de marge brute,385.0410457169412,False,,0.49293456282893944
+annual,FY2019,FY2018,5,sga_rate,Taux de SG&A,66.25460818791164,False,,-0.084820012530612
+annual,FY2019,FY2018,6,da_rate,Taux d'amortissements,-52.66749386238458,False,,0.06742561176565007
+annual,FY2019,FY2018,7,end,Résultat opérationnel N,4659.0,True,,
+annual,FY2020,FY2019,0,start,Résultat opérationnel N-1,4659.0,True,,
+annual,FY2020,FY2019,1,volume_traffic,Volume : trafic,172.383,False,2890.1440000000002,
+annual,FY2020,FY2019,2,volume_ticket,Volume : panier moyen,724.7074499999999,False,12150.3216,
+annual,FY2020,FY2019,3,volume_other,"Volume : magasins, autres revenus, calendrier",24.367085333879583,False,408.53440000000046,
+annual,FY2020,FY2019,4,gross_margin_rate,Taux de marge brute,-461.9920114707085,False,,-0.4937869534001438
+annual,FY2020,FY2019,5,sga_rate,Taux de SG&A,827.3667554281028,False,,-0.8843073026454429
+annual,FY2020,FY2019,6,da_rate,Taux d'amortissements,593.1677207087259,False,,-0.6339903599883776
+annual,FY2020,FY2019,7,end,Résultat opérationnel N,6539.0,True,,
+annual,FY2021,FY2020,0,start,Résultat opérationnel N-1,6539.0,True,,
+annual,FY2021,FY2020,1,volume_traffic,Volume : trafic,804.297,False,11508.003,
+annual,FY2021,FY2020,2,volume_ticket,Volume : panier moyen,29.373188,False,420.276012,
+annual,FY2021,FY2020,3,volume_other,"Volume : magasins, autres revenus, calendrier",36.043859519799874,False,515.7209879999994,
+annual,FY2021,FY2020,4,gross_margin_rate,Taux de marge brute,15.814730496679148,False,,0.014918853352841044
+annual,FY2021,FY2020,5,sga_rate,Taux de SG&A,1338.8719979478635,False,,-1.2630272137614862
+annual,FY2021,FY2020,6,da_rate,Taux d'amortissements,182.59922403565577,False,,-0.17225529365186149
+annual,FY2021,FY2020,7,end,Résultat opérationnel N,8946.0,True,,
+annual,FY2022,FY2021,0,start,Résultat opérationnel N-1,8946.0,True,,
+annual,FY2022,FY2021,1,volume_traffic,Volume : trafic,187.866,False,2226.105,
+annual,FY2022,FY2021,2,volume_ticket,Volume : panier moyen,9.133866,False,108.231105,
+annual,FY2022,FY2021,3,volume_other,"Volume : magasins, autres revenus, calendrier",65.88197919598133,False,780.663895,
+annual,FY2022,FY2021,4,gross_margin_rate,Taux de marge brute,-5140.1817838781135,False,,-4.710577147982143
+annual,FY2022,FY2021,5,sga_rate,Taux de SG&A,-248.57945379934944,False,,0.22780375164896394
+annual,FY2022,FY2021,6,da_rate,Taux d'amortissements,27.879392481486693,False,,-0.025549296628928422
+annual,FY2022,FY2021,7,end,Résultat opérationnel N,3848.0,True,,
+annual,FY2023,FY2022,0,start,Résultat opérationnel N-1,3848.0,True,,
+annual,FY2023,FY2022,1,volume_traffic,Volume : trafic,-92.352,False,-2618.88,
+annual,FY2023,FY2022,2,volume_ticket,Volume : panier moyen,-52.57907199999999,False,-1491.0156799999997,
+annual,FY2023,FY2022,3,volume_other,"Volume : magasins, autres revenus, calendrier",84.70028021114368,False,2401.8956799999996,
+annual,FY2023,FY2022,4,gross_margin_rate,Taux de marge brute,3189.705938416419,False,,2.9695992425580187
+annual,FY2023,FY2022,5,sga_rate,Taux de SG&A,-1203.1439516129037,False,,1.1201206118617135
+annual,FY2023,FY2022,6,da_rate,Taux d'amortissements,-67.33119501466273,False,,0.06268498400054251
+annual,FY2023,FY2022,7,end,Résultat opérationnel N,5707.0,True,,
+annual,FY2024,FY2023,0,start,Résultat opérationnel N-1,5707.0,True,,
+annual,FY2024,FY2023,1,volume_traffic,Volume : trafic,79.89799999999998,False,1503.7679999999998,
+annual,FY2024,FY2023,2,volume_ticket,Volume : panier moyen,-75.229674,False,-1415.904984,
+annual,FY2024,FY2023,3,volume_other,"Volume : magasins, autres revenus, calendrier",-49.61788470852419,False,-933.863016,
+annual,FY2024,FY2023,4,gross_margin_rate,Taux de marge brute,714.009943023133,False,,0.6700166497974336
+annual,FY2024,FY2023,5,sga_rate,Taux de SG&A,-677.0393252150594,False,,0.6353239543710559
+annual,FY2024,FY2023,6,da_rate,Taux d'amortissements,-133.02105909954165,False,,0.12482504654349573
+annual,FY2024,FY2023,7,end,Résultat opérationnel N,5566.0,True,,
+annual,FY2025,FY2024,0,start,Résultat opérationnel N-1,5566.0,True,,
+annual,FY2025,FY2024,1,volume_traffic,Volume : trafic,-122.45200000000001,False,-2344.452,
+annual,FY2025,FY2024,2,volume_ticket,Volume : panier moyen,-21.774192,False,-416.886192,
+annual,FY2025,FY2024,3,volume_other,"Volume : magasins, autres revenus, calendrier",50.94244296184525,False,975.3381920000002,
+annual,FY2025,FY2024,4,gross_margin_rate,Taux de marge brute,-292.1236229191308,False,,-0.2787971205565287
+annual,FY2025,FY2024,5,sga_rate,Taux de SG&A,66.79231649869342,False,,-0.06374529156202846
+annual,FY2025,FY2024,6,da_rate,Taux d'amortissements,-130.38494454141102,False,,0.12443686251327642
+annual,FY2025,FY2024,7,end,Résultat opérationnel N,5117.0,True,,
+quarterly,FY2018-Q1,FY2017-Q1,0,start,Résultat opérationnel N-1,1155.0,True,,
+quarterly,FY2018-Q1,FY2017-Q1,1,volume_traffic,Volume : trafic,0.0,False,0.0,
+quarterly,FY2018-Q1,FY2017-Q1,2,volume_ticket,Volume : panier moyen,0.0,False,0.0,
+quarterly,FY2018-Q1,FY2017-Q1,3,volume_other,"Volume : magasins, autres revenus, calendrier",39.72693090057326,False,558.0,
+quarterly,FY2018-Q1,FY2017-Q1,4,gross_margin_rate,Taux de marge brute,-40.803550514701286,False,,-0.2431532716447249
+quarterly,FY2018-Q1,FY2017-Q1,5,sga_rate,Taux de SG&A,-76.6715157492451,False,,0.45689479619358264
+quarterly,FY2018-Q1,FY2017-Q1,6,da_rate,Taux d'amortissements,-36.25186463662693,False,,0.21602922732034402
+quarterly,FY2018-Q1,FY2017-Q1,7,end,Résultat opérationnel N,1041.0,True,,
+quarterly,FY2018-Q2,FY2017-Q2,0,start,Résultat opérationnel N-1,1093.0,True,,
+quarterly,FY2018-Q2,FY2017-Q2,1,volume_traffic,Volume : trafic,0.0,False,0.0,
+quarterly,FY2018-Q2,FY2017-Q2,2,volume_ticket,Volume : panier moyen,0.0,False,0.0,
+quarterly,FY2018-Q2,FY2017-Q2,3,volume_other,"Volume : magasins, autres revenus, calendrier",75.03943729710232,False,1142.0,
+quarterly,FY2018-Q2,FY2017-Q2,4,gross_margin_rate,Taux de marge brute,-36.03354574966916,False,,-0.20270896573846287
+quarterly,FY2018-Q2,FY2017-Q2,5,sga_rate,Taux de SG&A,-16.774918840928578,False,,0.09436835531575483
+quarterly,FY2018-Q2,FY2017-Q2,6,da_rate,Taux d'amortissements,17.76902729349529,False,,-0.09996077460337136
+quarterly,FY2018-Q2,FY2017-Q2,7,end,Résultat opérationnel N,1133.0,True,,
+quarterly,FY2018-Q3,FY2017-Q3,0,start,Résultat opérationnel N-1,847.0,True,,
+quarterly,FY2018-Q3,FY2017-Q3,1,volume_traffic,Volume : trafic,0.0,False,0.0,
+quarterly,FY2018-Q3,FY2017-Q3,2,volume_ticket,Volume : panier moyen,0.0,False,0.0,
+quarterly,FY2018-Q3,FY2017-Q3,3,volume_other,"Volume : magasins, autres revenus, calendrier",47.535202086049544,False,947.0,
+quarterly,FY2018-Q3,FY2017-Q3,4,gross_margin_rate,Taux de marge brute,-165.7009600568925,False,,-0.9298073063065626
+quarterly,FY2018-Q3,FY2017-Q3,5,sga_rate,Taux de SG&A,5.502844613014021,False,,-0.03087842777068639
+quarterly,FY2018-Q3,FY2017-Q3,6,da_rate,Taux d'amortissements,84.66291335782854,False,,-0.47507386430519355
+quarterly,FY2018-Q3,FY2017-Q3,7,end,Résultat opérationnel N,819.0,True,,
+quarterly,FY2018-Q4,FY2017-Q4,0,start,Résultat opérationnel N-1,1129.0,True,,
+quarterly,FY2018-Q4,FY2017-Q4,1,volume_traffic,Volume : trafic,0.0,False,0.0,
+quarterly,FY2018-Q4,FY2017-Q4,2,volume_ticket,Volume : panier moyen,0.0,False,0.0,
+quarterly,FY2018-Q4,FY2017-Q4,3,volume_other,"Volume : magasins, autres revenus, calendrier",-0.2947395901318366,False,-6.0,
+quarterly,FY2018-Q4,FY2017-Q4,4,gross_margin_rate,Taux de marge brute,-109.38454509855093,False,,-0.476061039729081
+quarterly,FY2018-Q4,FY2017-Q4,5,sga_rate,Taux de SG&A,76.83722751598995,False,,-0.33440931155498954
+quarterly,FY2018-Q4,FY2017-Q4,6,da_rate,Taux d'amortissements,20.84205717269282,False,,-0.09070834822950263
+quarterly,FY2018-Q4,FY2017-Q4,7,end,Résultat opérationnel N,1117.0,True,,
+quarterly,FY2019-Q1,FY2018-Q1,0,start,Résultat opérationnel N-1,1041.0,True,,
+quarterly,FY2019-Q1,FY2018-Q1,1,volume_traffic,Volume : trafic,0.0,False,0.0,
+quarterly,FY2019-Q1,FY2018-Q1,2,volume_ticket,Volume : panier moyen,0.0,False,0.0,
+quarterly,FY2019-Q1,FY2018-Q1,3,volume_other,"Volume : magasins, autres revenus, calendrier",52.48113938382695,False,846.0,
+quarterly,FY2019-Q1,FY2018-Q1,4,gross_margin_rate,Taux de marge brute,-36.935403134498976,False,,-0.2095387935241333
+quarterly,FY2019-Q1,FY2018-Q1,5,sga_rate,Taux de SG&A,60.718193194684666,False,,-0.3444612991132051
+quarterly,FY2019-Q1,FY2018-Q1,6,da_rate,Taux d'amortissements,17.736070555985915,False,,-0.10061876981894771
+quarterly,FY2019-Q1,FY2018-Q1,7,end,Résultat opérationnel N,1135.0,True,,
+quarterly,FY2019-Q2,FY2018-Q2,0,start,Résultat opérationnel N-1,1133.0,True,,
+quarterly,FY2019-Q2,FY2018-Q2,1,volume_traffic,Volume : trafic,0.0,False,0.0,
+quarterly,FY2019-Q2,FY2018-Q2,2,volume_ticket,Volume : panier moyen,0.0,False,0.0,
+quarterly,FY2019-Q2,FY2018-Q2,3,volume_other,"Volume : magasins, autres revenus, calendrier",41.17450495049505,False,646.0,
+quarterly,FY2019-Q2,FY2018-Q2,4,gross_margin_rate,Taux de marge brute,58.77914041404152,False,,0.31907035291521835
+quarterly,FY2019-Q2,FY2018-Q2,5,sga_rate,Taux de SG&A,93.45848334833477,False,,-0.5073199617215002
+quarterly,FY2019-Q2,FY2018-Q2,6,da_rate,Taux d'amortissements,-2.4121287128713256,False,,0.013093739620406719
+quarterly,FY2019-Q2,FY2018-Q2,7,end,Résultat opérationnel N,1324.0,True,,
+quarterly,FY2019-Q3,FY2018-Q3,0,start,Résultat opérationnel N-1,819.0,True,,
+quarterly,FY2019-Q3,FY2018-Q3,1,volume_traffic,Volume : trafic,0.0,False,0.0,
+quarterly,FY2019-Q3,FY2018-Q3,2,volume_ticket,Volume : panier moyen,0.0,False,0.0,
+quarterly,FY2019-Q3,FY2018-Q3,3,volume_other,"Volume : magasins, autres revenus, calendrier",38.787722350036475,False,844.0,
+quarterly,FY2019-Q3,FY2018-Q3,4,gross_margin_rate,Taux de marge brute,193.65579933785978,False,,1.0375344191688174
+quarterly,FY2019-Q3,FY2018-Q3,5,sga_rate,Taux de SG&A,-29.544245552999236,False,,0.1582868767907808
+quarterly,FY2019-Q3,FY2018-Q3,6,da_rate,Taux d'amortissements,-19.899276134897026,False,,0.10661278400694897
+quarterly,FY2019-Q3,FY2018-Q3,7,end,Résultat opérationnel N,1002.0,True,,
+quarterly,FY2019-Q4,FY2018-Q4,0,start,Résultat opérationnel N-1,1117.0,True,,
+quarterly,FY2019-Q4,FY2018-Q4,1,volume_traffic,Volume : trafic,14.521,False,298.701,
+quarterly,FY2019-Q4,FY2018-Q4,2,volume_ticket,Volume : panier moyen,2.263042,False,46.551401999999996,
+quarterly,FY2019-Q4,FY2018-Q4,3,volume_other,"Volume : magasins, autres revenus, calendrier",3.6823809446838136,False,75.74759799999998,
+quarterly,FY2019-Q4,FY2018-Q4,4,gross_margin_rate,Taux de marge brute,153.65313139226046,False,,0.6566934412866932
+quarterly,FY2019-Q4,FY2018-Q4,5,sga_rate,Taux de SG&A,-47.819993906949925,False,,0.20437641639007575
+quarterly,FY2019-Q4,FY2018-Q4,6,da_rate,Taux d'amortissements,-45.299560429995196,False,,0.19360441247113086
+quarterly,FY2019-Q4,FY2018-Q4,7,end,Résultat opérationnel N,1198.0,True,,
+quarterly,FY2020-Q1,FY2019-Q1,0,start,Résultat opérationnel N-1,1135.0,True,,
+quarterly,FY2020-Q1,FY2019-Q1,1,volume_traffic,Volume : trafic,-17.025,False,-264.405,
+quarterly,FY2020-Q1,FY2019-Q1,2,volume_ticket,Volume : panier moyen,139.74687500000002,False,2170.324375,
+quarterly,FY2020-Q1,FY2019-Q1,3,volume_other,"Volume : magasins, autres revenus, calendrier",5.285159662733282,False,82.0806249999996,
+quarterly,FY2020-Q1,FY2019-Q1,4,gross_margin_rate,Taux de marge brute,-880.6518409258516,False,,-4.489685653458331
+quarterly,FY2020-Q1,FY2019-Q1,5,sga_rate,Taux de SG&A,16.118738299199798,False,,-0.08217557124241548
+quarterly,FY2020-Q1,FY2019-Q1,6,da_rate,Taux d'amortissements,69.52606796391893,False,,-0.3544535710625487
+quarterly,FY2020-Q1,FY2019-Q1,7,end,Résultat opérationnel N,468.0,True,,
+quarterly,FY2020-Q2,FY2019-Q2,0,start,Résultat opérationnel N-1,1324.0,True,,
+quarterly,FY2020-Q2,FY2019-Q2,1,volume_traffic,Volume : trafic,60.904,False,847.412,
+quarterly,FY2020-Q2,FY2019-Q2,2,volume_ticket,Volume : panier moyen,260.36195200000003,False,3622.649456,
+quarterly,FY2020-Q2,FY2019-Q2,3,volume_other,"Volume : magasins, autres revenus, calendrier",5.960842050591658,False,82.93854399999964,
+quarterly,FY2020-Q2,FY2019-Q2,4,gross_margin_rate,Taux de marge brute,72.27060036912424,False,,0.31456191673177036
+quarterly,FY2020-Q2,FY2019-Q2,5,sga_rate,Taux de SG&A,418.8513733579419,False,,-1.8230745303936535
+quarterly,FY2020-Q2,FY2019-Q2,6,da_rate,Taux d'amortissements,157.6512322223429,False,,-0.6861859944389246
+quarterly,FY2020-Q2,FY2019-Q2,7,end,Résultat opérationnel N,2300.0,True,,
+quarterly,FY2020-Q3,FY2019-Q3,0,start,Résultat opérationnel N-1,1002.0,True,,
+quarterly,FY2020-Q3,FY2019-Q3,1,volume_traffic,Volume : trafic,45.089999999999996,False,839.925,
+quarterly,FY2020-Q3,FY2019-Q3,2,volume_ticket,Volume : panier moyen,163.34604,False,3042.7682999999997,
+quarterly,FY2020-Q3,FY2019-Q3,3,volume_other,"Volume : magasins, autres revenus, calendrier",4.525867313152965,False,84.30670000000009,
+quarterly,FY2020-Q3,FY2019-Q3,4,gross_margin_rate,Taux de marge brute,175.1639432092154,False,,0.7739658148162576
+quarterly,FY2020-Q3,FY2019-Q3,5,sga_rate,Taux de SG&A,388.66547013126177,False,,-1.7173271037966675
+quarterly,FY2020-Q3,FY2019-Q3,6,da_rate,Taux d'amortissements,156.20867934637022,False,,-0.6902115559666411
+quarterly,FY2020-Q3,FY2019-Q3,7,end,Résultat opérationnel N,1935.0,True,,
+quarterly,FY2020-Q4,FY2019-Q4,0,start,Résultat opérationnel N-1,1198.0,True,,
+quarterly,FY2020-Q4,FY2019-Q4,1,volume_traffic,Volume : trafic,77.87,False,1520.8700000000001,
+quarterly,FY2020-Q4,FY2019-Q4,2,volume_ticket,Volume : panier moyen,167.13897,False,3264.37197,
+quarterly,FY2020-Q4,FY2019-Q4,3,volume_other,"Volume : magasins, autres revenus, calendrier",7.9749602504487545,False,155.75802999999996,
+quarterly,FY2020-Q4,FY2019-Q4,4,gross_margin_rate,Taux de marge brute,172.74784169587247,False,,0.6095763495390538
+quarterly,FY2020-Q4,FY2019-Q4,5,sga_rate,Taux de SG&A,7.118215232070866,False,,-0.02511808896598633
+quarterly,FY2020-Q4,FY2019-Q4,6,da_rate,Taux d'amortissements,205.15001282160873,False,,-0.7239140859649554
+quarterly,FY2020-Q4,FY2019-Q4,7,end,Résultat opérationnel N,1836.0,True,,
+quarterly,FY2021-Q1,FY2020-Q1,0,start,Résultat opérationnel N-1,468.0,True,,
+quarterly,FY2021-Q1,FY2020-Q1,1,volume_traffic,Volume : trafic,80.028,False,3354.1650000000004,
+quarterly,FY2021-Q1,FY2020-Q1,2,volume_ticket,Volume : panier moyen,27.401400000000002,False,1148.4582500000001,
+quarterly,FY2021-Q1,FY2020-Q1,3,volume_other,"Volume : magasins, autres revenus, calendrier",1.8938730053530328,False,79.37674999999945,
+quarterly,FY2021-Q1,FY2020-Q1,4,gross_margin_rate,Taux de marge brute,1183.4886566403252,False,,4.89105532355385
+quarterly,FY2021-Q1,FY2020-Q1,5,sga_rate,Taux de SG&A,499.40275299515696,False,,-2.063903595467029
+quarterly,FY2021-Q1,FY2020-Q1,6,da_rate,Taux d'amortissements,113.7853173591639,False,,-0.47024555671845225
+quarterly,FY2021-Q1,FY2020-Q1,7,end,Résultat opérationnel N,2374.0,True,,
+quarterly,FY2021-Q2,FY2020-Q2,0,start,Résultat opérationnel N-1,2300.0,True,,
+quarterly,FY2021-Q2,FY2020-Q2,1,volume_traffic,Volume : trafic,292.1,False,2917.825,
+quarterly,FY2021-Q2,FY2020-Q2,2,volume_ticket,Volume : panier moyen,-88.13140000000001,False,-880.3560500000001,
+quarterly,FY2021-Q2,FY2020-Q2,3,volume_other,"Volume : magasins, autres revenus, calendrier",14.769158433079463,False,147.53105000000028,
+quarterly,FY2021-Q2,FY2020-Q2,4,gross_margin_rate,Taux de marge brute,-116.44483133841149,False,,-0.4628172946677722
+quarterly,FY2021-Q2,FY2020-Q2,5,sga_rate,Taux de SG&A,35.16104461371079,False,,-0.1397497798637154
+quarterly,FY2021-Q2,FY2020-Q2,6,da_rate,Taux d'amortissements,29.546028291621308,False,,-0.11743254487925799
+quarterly,FY2021-Q2,FY2020-Q2,7,end,Résultat opérationnel N,2467.0,True,,
+quarterly,FY2021-Q3,FY2020-Q3,0,start,Résultat opérationnel N-1,1935.0,True,,
+quarterly,FY2021-Q3,FY2020-Q3,1,volume_traffic,Volume : trafic,249.615,False,2919.5280000000002,
+quarterly,FY2021-Q3,FY2020-Q3,2,volume_ticket,Volume : panier moyen,-4.36923,False,-51.103055999999995,
+quarterly,FY2021-Q3,FY2020-Q3,3,volume_other,"Volume : magasins, autres revenus, calendrier",12.959426182396584,False,151.57505599999973,
+quarterly,FY2021-Q3,FY2020-Q3,4,gross_margin_rate,Taux de marge brute,-627.4886885825379,False,,-2.446158929450093
+quarterly,FY2021-Q3,FY2020-Q3,5,sga_rate,Taux de SG&A,408.0927889713676,False,,-1.590880979928924
+quarterly,FY2021-Q3,FY2020-Q3,6,da_rate,Taux d'amortissements,36.19070342877344,False,,-0.14108335969426727
+quarterly,FY2021-Q3,FY2020-Q3,7,end,Résultat opérationnel N,2010.0,True,,
+quarterly,FY2021-Q4,FY2020-Q4,0,start,Résultat opérationnel N-1,1836.0,True,,
+quarterly,FY2021-Q4,FY2020-Q4,1,volume_traffic,Volume : trafic,148.716,False,2295.4590000000003,
+quarterly,FY2021-Q4,FY2020-Q4,2,volume_ticket,Volume : panier moyen,13.893011999999997,False,214.44121299999998,
+quarterly,FY2021-Q4,FY2020-Q4,3,volume_other,"Volume : magasins, autres revenus, calendrier",9.530160165566869,False,147.09978699999974,
+quarterly,FY2021-Q4,FY2020-Q4,4,gross_margin_rate,Taux de marge brute,-355.3731253749252,False,,-1.1465128577072048
+quarterly,FY2021-Q4,FY2020-Q4,5,sga_rate,Taux de SG&A,423.7920533540348,False,,-1.3672475588915822
+quarterly,FY2021-Q4,FY2020-Q4,6,da_rate,Taux d'amortissements,18.44189985532301,False,,-0.059497676652868134
+quarterly,FY2021-Q4,FY2020-Q4,7,end,Résultat opérationnel N,2095.0,True,,
+quarterly,FY2022-Q1,FY2021-Q1,0,start,Résultat opérationnel N-1,2374.0,True,,
+quarterly,FY2022-Q1,FY2021-Q1,1,volume_traffic,Volume : trafic,92.586,False,943.683,
+quarterly,FY2022-Q1,FY2021-Q1,2,volume_ticket,Volume : panier moyen,-14.799515999999997,False,-150.84409799999997,
+quarterly,FY2022-Q1,FY2021-Q1,3,volume_other,"Volume : magasins, autres revenus, calendrier",17.67584604091416,False,180.16109799999998,
+quarterly,FY2022-Q1,FY2021-Q1,4,gross_margin_rate,Taux de marge brute,-1072.8229532586672,False,,-4.262308117833403
+quarterly,FY2022-Q1,FY2021-Q1,5,sga_rate,Taux de SG&A,-71.68591147662944,False,,0.28480695858811855
+quarterly,FY2022-Q1,FY2021-Q1,6,da_rate,Taux d'amortissements,21.04653469438361,False,,-0.0836175395088741
+quarterly,FY2022-Q1,FY2021-Q1,7,end,Résultat opérationnel N,1346.0,True,,
+quarterly,FY2022-Q2,FY2021-Q2,0,start,Résultat opérationnel N-1,2467.0,True,,
+quarterly,FY2022-Q2,FY2021-Q2,1,volume_traffic,Volume : trafic,66.60900000000001,False,679.32,
+quarterly,FY2022-Q2,FY2021-Q2,2,volume_ticket,Volume : panier moyen,0.0,False,0.0,
+quarterly,FY2022-Q2,FY2021-Q2,3,volume_other,"Volume : magasins, autres revenus, calendrier",19.38301112877583,False,197.67999999999995,
+quarterly,FY2022-Q2,FY2021-Q2,4,gross_margin_rate,Taux de marge brute,-2259.672496025438,False,,-8.678697607348917
+quarterly,FY2022-Q2,FY2021-Q2,5,sga_rate,Taux de SG&A,16.02118441971368,False,,-0.0615323747732599
+quarterly,FY2022-Q2,FY2021-Q2,6,da_rate,Taux d'amortissements,11.659300476947548,False,,-0.044779738360592805
+quarterly,FY2022-Q2,FY2021-Q2,7,end,Résultat opérationnel N,321.0,True,,
+quarterly,FY2022-Q3,FY2021-Q3,0,start,Résultat opérationnel N-1,2010.0,True,,
+quarterly,FY2022-Q3,FY2021-Q3,1,volume_traffic,Volume : trafic,28.139999999999997,False,359.128,
+quarterly,FY2022-Q3,FY2021-Q3,2,volume_ticket,Volume : panier moyen,26.495820000000002,False,338.14466400000003,
+quarterly,FY2022-Q3,FY2021-Q3,3,volume_other,"Volume : magasins, autres revenus, calendrier",13.220877333541242,False,168.72733599999998,
+quarterly,FY2022-Q3,FY2021-Q3,4,gross_margin_rate,Taux de marge brute,-859.3736160923147,False,,-3.240718063550474
+quarterly,FY2022-Q3,FY2021-Q3,5,sga_rate,Taux de SG&A,-195.96234211757394,False,,0.7389785885721922
+quarterly,FY2022-Q3,FY2021-Q3,6,da_rate,Taux d'amortissements,-0.5207391236551032,False,,0.001963719449638371
+quarterly,FY2022-Q3,FY2021-Q3,7,end,Résultat opérationnel N,1022.0,True,,
+quarterly,FY2022-Q4,FY2021-Q4,0,start,Résultat opérationnel N-1,2095.0,True,,
+quarterly,FY2022-Q4,FY2021-Q4,1,volume_traffic,Volume : trafic,14.665,False,216.97199999999998,
+quarterly,FY2022-Q4,FY2021-Q4,2,volume_ticket,Volume : panier moyen,0.0,False,0.0,
+quarterly,FY2022-Q4,FY2021-Q4,3,volume_other,"Volume : magasins, autres revenus, calendrier",12.303157181571816,False,182.02800000000002,
+quarterly,FY2022-Q4,FY2021-Q4,4,gross_margin_rate,Taux de marge brute,-969.0060975609745,False,,-3.086498160729334
+quarterly,FY2022-Q4,FY2021-Q4,5,sga_rate,Taux de SG&A,8.249999999999895,False,,-0.02627806975633029
+quarterly,FY2022-Q4,FY2021-Q4,6,da_rate,Taux d'amortissements,-2.2120596205961607,False,,0.007045897820022809
+quarterly,FY2022-Q4,FY2021-Q4,7,end,Résultat opérationnel N,1159.0,True,,
+quarterly,FY2023-Q1,FY2022-Q1,0,start,Résultat opérationnel N-1,1346.0,True,,
+quarterly,FY2023-Q1,FY2022-Q1,1,volume_traffic,Volume : trafic,12.114,False,226.53000000000003,
+quarterly,FY2023-Q1,FY2022-Q1,2,volume_ticket,Volume : panier moyen,-12.223026,False,-228.56877000000003,
+quarterly,FY2023-Q1,FY2022-Q1,3,volume_other,"Volume : magasins, autres revenus, calendrier",8.237432833531981,False,154.03877,
+quarterly,FY2023-Q1,FY2022-Q1,4,gross_margin_rate,Taux de marge brute,186.48478347238841,False,,0.7364536113750431
+quarterly,FY2023-Q1,FY2022-Q1,5,sga_rate,Taux de SG&A,-234.24259038537917,False,,0.9250556448360286
+quarterly,FY2023-Q1,FY2022-Q1,6,da_rate,Taux d'amortissements,21.629400079459685,False,,-0.08541742389803209
+quarterly,FY2023-Q1,FY2022-Q1,7,end,Résultat opérationnel N,1328.0,True,,
+quarterly,FY2023-Q2,FY2022-Q2,0,start,Résultat opérationnel N-1,321.0,True,,
+quarterly,FY2023-Q2,FY2022-Q2,1,volume_traffic,Volume : trafic,-15.408,False,-1249.776,
+quarterly,FY2023-Q2,FY2022-Q2,2,volume_ticket,Volume : panier moyen,-2.1391439999999995,False,-173.51056799999998,
+quarterly,FY2023-Q2,FY2022-Q2,3,volume_other,"Volume : magasins, autres revenus, calendrier",1.9637818615047822,False,159.28656800000005,
+quarterly,FY2023-Q2,FY2022-Q2,4,gross_margin_rate,Taux de marge brute,1366.180435534048,False,,5.514796090639196
+quarterly,FY2023-Q2,FY2022-Q2,5,sga_rate,Taux de SG&A,-424.8285900833434,False,,1.7148855208628078
+quarterly,FY2023-Q2,FY2022-Q2,6,da_rate,Taux d'amortissements,-49.76848331220959,False,,0.20089808788685098
+quarterly,FY2023-Q2,FY2022-Q2,7,end,Résultat opérationnel N,1197.0,True,,
+quarterly,FY2023-Q3,FY2022-Q3,0,start,Résultat opérationnel N-1,1022.0,True,,
+quarterly,FY2023-Q3,FY2022-Q3,1,volume_traffic,Volume : trafic,-41.90199999999999,False,-1087.2379999999998,
+quarterly,FY2023-Q3,FY2022-Q3,2,volume_ticket,Volume : panier moyen,-7.840783999999998,False,-203.44609599999998,
+quarterly,FY2023-Q3,FY2022-Q3,3,volume_other,"Volume : magasins, autres revenus, calendrier",6.5781411159212535,False,170.6840959999998,
+quarterly,FY2023-Q3,FY2022-Q3,4,gross_margin_rate,Taux de marge brute,699.8060939739048,False,,2.7553590596657407
+quarterly,FY2023-Q3,FY2022-Q3,5,sga_rate,Taux de SG&A,-317.4268798551924,False,,1.2498105356925442
+quarterly,FY2023-Q3,FY2022-Q3,6,da_rate,Taux d'amortissements,-44.21457123463306,False,,0.17408682272081685
+quarterly,FY2023-Q3,FY2022-Q3,7,end,Résultat opérationnel N,1317.0,True,,
+quarterly,FY2023-Q4,FY2022-Q4,0,start,Résultat opérationnel N-1,1159.0,True,,
+quarterly,FY2023-Q4,FY2022-Q4,1,volume_traffic,Volume : trafic,-19.703000000000003,False,-533.715,
+quarterly,FY2023-Q4,FY2022-Q4,2,volume_ticket,Volume : panier moyen,-31.900316,False,-864.1159799999999,
+quarterly,FY2023-Q4,FY2022-Q4,3,volume_other,"Volume : magasins, autres revenus, calendrier",70.94767019652812,False,1921.8309800000002,
+quarterly,FY2023-Q4,FY2022-Q4,4,gross_margin_rate,Taux de marge brute,928.9572224876549,False,,2.9103581643775023
+quarterly,FY2023-Q4,FY2022-Q4,5,sga_rate,Taux de SG&A,-245.5662685140942,False,,0.7693419860086287
+quarterly,FY2023-Q4,FY2022-Q4,6,da_rate,Taux d'amortissements,3.2646918299091587,False,,-0.010228051724393492
+quarterly,FY2023-Q4,FY2022-Q4,7,end,Résultat opérationnel N,1865.0,True,,
+quarterly,FY2024-Q1,FY2023-Q1,0,start,Résultat opérationnel N-1,1328.0,True,,
+quarterly,FY2024-Q1,FY2023-Q1,1,volume_traffic,Volume : trafic,-25.232,False,-481.118,
+quarterly,FY2024-Q1,FY2023-Q1,2,volume_ticket,Volume : panier moyen,-24.752591999999996,False,-471.97675799999996,
+quarterly,FY2024-Q1,FY2023-Q1,3,volume_other,"Volume : magasins, autres revenus, calendrier",8.500980910828526,False,162.09475799999996,
+quarterly,FY2024-Q1,FY2023-Q1,4,gross_margin_rate,Taux de marge brute,340.66440249585287,False,,1.3887098059429004
+quarterly,FY2024-Q1,FY2023-Q1,5,sga_rate,Taux de SG&A,-277.969236237264,False,,1.1331345490899842
+quarterly,FY2024-Q1,FY2023-Q1,6,da_rate,Taux d'amortissements,-53.21155516941788,False,,0.2169155565179482
+quarterly,FY2024-Q1,FY2023-Q1,7,end,Résultat opérationnel N,1296.0,True,,
+quarterly,FY2024-Q2,FY2023-Q2,0,start,Résultat opérationnel N-1,1197.0,True,,
+quarterly,FY2024-Q2,FY2023-Q2,1,volume_traffic,Volume : trafic,35.91,False,743.1899999999999,
+quarterly,FY2024-Q2,FY2023-Q2,2,volume_ticket,Volume : panier moyen,-11.096190000000002,False,-229.64571000000004,
+quarterly,FY2024-Q2,FY2023-Q2,3,volume_other,"Volume : magasins, autres revenus, calendrier",7.994610457756433,False,165.4557100000001,
+quarterly,FY2024-Q2,FY2023-Q2,4,gross_margin_rate,Taux de marge brute,459.82311387397607,False,,1.806628610223071
+quarterly,FY2024-Q2,FY2023-Q2,5,sga_rate,Taux de SG&A,-38.91240463407715,False,,0.1528854496074067
+quarterly,FY2024-Q2,FY2023-Q2,6,da_rate,Taux d'amortissements,-15.719129697654678,False,,0.061759899802195026
+quarterly,FY2024-Q2,FY2023-Q2,7,end,Résultat opérationnel N,1635.0,True,,
+quarterly,FY2024-Q3,FY2023-Q3,0,start,Résultat opérationnel N-1,1317.0,True,,
+quarterly,FY2024-Q3,FY2023-Q3,1,volume_traffic,Volume : trafic,31.608,False,609.552,
+quarterly,FY2024-Q3,FY2023-Q3,2,volume_ticket,Volume : panier moyen,-26.97216,False,-520.15104,
+quarterly,FY2024-Q3,FY2023-Q3,3,volume_other,"Volume : magasins, autres revenus, calendrier",9.364868717221826,False,180.59903999999995,
+quarterly,FY2024-Q3,FY2023-Q3,4,gross_margin_rate,Taux de marge brute,-60.062367115518704,False,,-0.23399706683621124
+quarterly,FY2024-Q3,FY2023-Q3,5,sga_rate,Taux de SG&A,-86.48688873139619,False,,0.33694440054307384
+quarterly,FY2024-Q3,FY2023-Q3,6,da_rate,Taux d'amortissements,-16.451452870304728,False,,0.06409324010559735
+quarterly,FY2024-Q3,FY2023-Q3,7,end,Résultat opérationnel N,1168.0,True,,
+quarterly,FY2024-Q4,FY2023-Q4,0,start,Résultat opérationnel N-1,1865.0,True,,
+quarterly,FY2024-Q4,FY2023-Q4,1,volume_traffic,Volume : trafic,39.165000000000006,False,670.2990000000001,
+quarterly,FY2024-Q4,FY2023-Q4,2,volume_ticket,Volume : panier moyen,-11.42499,False,-195.53579399999998,
+quarterly,FY2024-Q4,FY2023-Q4,3,volume_other,"Volume : magasins, autres revenus, calendrier",-86.40287537798804,False,-1478.763206,
+quarterly,FY2024-Q4,FY2023-Q4,4,gross_margin_rate,Taux de marge brute,-46.02628528462628,False,,-0.14888010766497262
+quarterly,FY2024-Q4,FY2023-Q4,5,sga_rate,Taux de SG&A,-249.74607600488733,False,,0.8078475691570025
+quarterly,FY2024-Q4,FY2023-Q4,6,da_rate,Taux d'amortissements,-43.56477333249789,False,,0.14091791470968104
+quarterly,FY2024-Q4,FY2023-Q4,7,end,Résultat opérationnel N,1467.0,True,,
+quarterly,FY2025-Q1,FY2024-Q1,0,start,Résultat opérationnel N-1,1296.0,True,,
+quarterly,FY2025-Q1,FY2024-Q1,1,volume_traffic,Volume : trafic,-31.104,False,-588.744,
+quarterly,FY2025-Q1,FY2024-Q1,2,volume_ticket,Volume : panier moyen,-17.708543999999996,False,-335.191584,
+quarterly,FY2025-Q1,FY2024-Q1,3,volume_other,"Volume : magasins, autres revenus, calendrier",12.62323251657087,False,238.935584,
+quarterly,FY2025-Q1,FY2024-Q1,4,gross_margin_rate,Taux de marge brute,-144.8576087399628,False,,-0.6074713106599128
+quarterly,FY2025-Q1,FY2024-Q1,5,sga_rate,Taux de SG&A,411.30386042150707,False,,-1.724833768437084
+quarterly,FY2025-Q1,FY2024-Q1,6,da_rate,Taux d'amortissements,-54.25694019811668,False,,0.2275305719957925
+quarterly,FY2025-Q1,FY2024-Q1,7,end,Résultat opérationnel N,1472.0,True,,
+quarterly,FY2025-Q2,FY2024-Q2,0,start,Résultat opérationnel N-1,1635.0,True,,
+quarterly,FY2025-Q2,FY2024-Q2,1,volume_traffic,Volume : trafic,-21.255000000000003,False,-330.87600000000003,
+quarterly,FY2025-Q2,FY2024-Q2,2,volume_ticket,Volume : panier moyen,-9.68247,False,-150.726744,
+quarterly,FY2025-Q2,FY2024-Q2,3,volume_other,"Volume : magasins, autres revenus, calendrier",15.455975421970772,False,240.60274400000003,
+quarterly,FY2025-Q2,FY2024-Q2,4,gross_margin_rate,Taux de marge brute,-245.7909005186242,False,,-0.9749351494134473
+quarterly,FY2025-Q2,FY2024-Q2,5,sga_rate,Taux de SG&A,-44.80013358478697,False,,0.17770074009276493
+quarterly,FY2025-Q2,FY2024-Q2,6,da_rate,Taux d'amortissements,-11.927471318560446,False,,0.04731058394573974
+quarterly,FY2025-Q2,FY2024-Q2,7,end,Résultat opérationnel N,1317.0,True,,
+quarterly,FY2025-Q3,FY2024-Q3,0,start,Résultat opérationnel N-1,1168.0,True,,
+quarterly,FY2025-Q3,FY2024-Q3,1,volume_traffic,Volume : trafic,-25.696,False,-564.696,
+quarterly,FY2025-Q3,FY2024-Q3,2,volume_ticket,Volume : panier moyen,-5.71152,False,-125.51652,
+quarterly,FY2025-Q3,FY2024-Q3,3,volume_other,"Volume : magasins, autres revenus, calendrier",13.296876397070283,False,292.21252000000004,
+quarterly,FY2025-Q3,FY2024-Q3,4,gross_margin_rate,Taux de marge brute,-20.335670874240474,False,,-0.08047356895227731
+quarterly,FY2025-Q3,FY2024-Q3,5,sga_rate,Taux de SG&A,-161.6455508804736,False,,0.6396737272674063
+quarterly,FY2025-Q3,FY2024-Q3,6,da_rate,Taux d'amortissements,-19.908134642356238,False,,0.07878169624992576
+quarterly,FY2025-Q3,FY2024-Q3,7,end,Résultat opérationnel N,948.0,True,,
+quarterly,FY2025-Q4,FY2024-Q4,0,start,Résultat opérationnel N-1,1467.0,True,,
+quarterly,FY2025-Q4,FY2024-Q4,1,volume_traffic,Volume : trafic,-42.543,False,-896.535,
+quarterly,FY2025-Q4,FY2024-Q4,2,volume_ticket,Volume : panier moyen,5.697828,False,120.07386,
+quarterly,FY2025-Q4,FY2024-Q4,3,volume_other,"Volume : magasins, autres revenus, calendrier",14.922027895196507,False,314.46114,
+quarterly,FY2025-Q4,FY2024-Q4,4,gross_margin_rate,Taux de marge brute,118.24230955846717,False,,0.38827803355487855
+quarterly,FY2025-Q4,FY2024-Q4,5,sga_rate,Taux de SG&A,-138.6652110625911,False,,0.45534171038187077
+quarterly,FY2025-Q4,FY2024-Q4,6,da_rate,Taux d'amortissements,-44.653954391072226,False,,0.14663236591164164
+quarterly,FY2025-Q4,FY2024-Q4,7,end,Résultat opérationnel N,1380.0,True,,
+quarterly,FY2026-Q1,FY2025-Q1,0,start,Résultat opérationnel N-1,1472.0,True,,
+quarterly,FY2026-Q1,FY2025-Q1,1,volume_traffic,Volume : trafic,64.76800000000001,False,1049.2240000000002,
+quarterly,FY2026-Q1,FY2025-Q1,2,volume_ticket,Volume : panier moyen,16.904448000000006,False,273.84746400000006,
+quarterly,FY2026-Q1,FY2025-Q1,3,volume_other,"Volume : magasins, autres revenus, calendrier",16.909452528390492,False,273.9285359999998,
+quarterly,FY2026-Q1,FY2025-Q1,4,gross_margin_rate,Taux de marge brute,214.08613603958977,False,,0.8414343278685288
+quarterly,FY2026-Q1,FY2025-Q1,5,sga_rate,Taux de SG&A,-663.5343034471191,False,,2.607924786570448
+quarterly,FY2026-Q1,FY2025-Q1,6,da_rate,Taux d'amortissements,13.866266879141136,False,,-0.054499339225488885
+quarterly,FY2026-Q1,FY2025-Q1,7,end,Résultat opérationnel N,1135.0,True,,
+quarterly,FY2026-Q2,FY2025-Q2,0,start,Résultat opérationnel N-1,1317.0,True,,
+quarterly,FY2026-Q2,FY2025-Q2,1,volume_traffic,Volume : trafic,47.412000000000006,False,907.5960000000001,
+quarterly,FY2026-Q2,FY2025-Q2,2,volume_ticket,Volume : panier moyen,2.728824,False,52.237192,
+quarterly,FY2026-Q2,FY2025-Q2,3,volume_other,"Volume : magasins, autres revenus, calendrier",19.232703428503424,False,368.1668079999999,
+quarterly,FY2026-Q2,FY2025-Q2,4,gross_margin_rate,Taux de marge brute,1243.048034588077,False,,4.6838540811186435
+quarterly,FY2026-Q2,FY2025-Q2,5,sga_rate,Taux de SG&A,-83.71242711514824,False,,0.31543173109442046
+quarterly,FY2026-Q2,FY2025-Q2,6,da_rate,Taux d'amortissements,14.290865098568096,False,,-0.05384854402414596
+quarterly,FY2026-Q2,FY2025-Q2,7,end,Résultat opérationnel N,2560.0,True,,

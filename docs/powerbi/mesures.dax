@@ -1,0 +1,85 @@
+// Mesures DAX du rapport FP&A Target.
+// À créer dans une table de mesures vide nommée « _Mesures » (Accueil > Entrer des données > OK).
+// Montants en millions de dollars (MUSD). Taux au format pourcentage.
+
+// ---------- Performance ----------
+CA = SUM ( kpi_quarterly[revenue] )
+Coût des ventes = SUM ( kpi_quarterly[cogs] )
+Marge brute = [CA] - [Coût des ventes]
+Taux de marge brute = DIVIDE ( [Marge brute], [CA] )
+SG&A = SUM ( kpi_quarterly[sga] )
+Taux de SG&A = DIVIDE ( [SG&A], [CA] )
+EBITDA = SUM ( kpi_quarterly[ebitda] )
+EBIT = SUM ( kpi_quarterly[operating_income] )
+Taux de marge opérationnelle = DIVIDE ( [EBIT], [CA] )
+Résultat net = SUM ( kpi_quarterly[net_income] )
+Free cash-flow = SUM ( kpi_quarterly[free_cash_flow] )
+
+// ---------- Comparaison N-1 (calendrier fiscal : même trimestre de l'exercice précédent) ----------
+CA N-1 =
+SUMX (
+    VALUES ( dim_period[period_key] ),
+    VAR fy = CALCULATE ( MAX ( dim_period[fiscal_year] ) )
+    VAR fq = CALCULATE ( MAX ( dim_period[fiscal_quarter] ) )
+    RETURN
+        CALCULATE (
+            [CA],
+            REMOVEFILTERS ( dim_period ),
+            dim_period[fiscal_year] = fy - 1,
+            dim_period[fiscal_quarter] = fq
+        )
+)
+
+EBIT N-1 =
+SUMX (
+    VALUES ( dim_period[period_key] ),
+    VAR fy = CALCULATE ( MAX ( dim_period[fiscal_year] ) )
+    VAR fq = CALCULATE ( MAX ( dim_period[fiscal_quarter] ) )
+    RETURN
+        CALCULATE (
+            [EBIT],
+            REMOVEFILTERS ( dim_period ),
+            dim_period[fiscal_year] = fy - 1,
+            dim_period[fiscal_quarter] = fq
+        )
+)
+
+Croissance du CA = DIVIDE ( [CA] - [CA N-1], [CA N-1] )
+Taux de marge opérationnelle N-1 = DIVIDE ( [EBIT N-1], [CA N-1] )
+Écart de marge opérationnelle (pts) = ( [Taux de marge opérationnelle] - [Taux de marge opérationnelle N-1] ) * 100
+
+// ---------- Bilan : solde du dernier trimestre sélectionné ----------
+Dernière clôture = MAX ( dim_period[period_end] )
+Stocks =
+VAR fin = [Dernière clôture]
+RETURN CALCULATE ( SUM ( kpi_quarterly[inventory] ), dim_period[period_end] = fin )
+Dettes fournisseurs =
+VAR fin = [Dernière clôture]
+RETURN CALCULATE ( SUM ( kpi_quarterly[accounts_payable] ), dim_period[period_end] = fin )
+Dette nette =
+VAR fin = [Dernière clôture]
+RETURN CALCULATE ( SUM ( kpi_quarterly[net_debt] ), dim_period[period_end] = fin )
+DIO (jours) =
+VAR fin = [Dernière clôture]
+RETURN CALCULATE ( SUM ( kpi_quarterly[dio_days] ), dim_period[period_end] = fin )
+DPO (jours) =
+VAR fin = [Dernière clôture]
+RETURN CALCULATE ( SUM ( kpi_quarterly[dpo_days] ), dim_period[period_end] = fin )
+
+// ---------- Ventes comparables ----------
+Ventes comparables = DIVIDE ( SUM ( fact_comparable_sales[comparable_sales_pct] ), 100 )
+Trafic = DIVIDE ( SUM ( fact_comparable_sales[traffic_pct] ), 100 )
+Panier moyen = DIVIDE ( SUM ( fact_comparable_sales[average_ticket_pct] ), 100 )
+
+// ---------- Réel vs guidance (page Écarts) ----------
+// Dernier objectif publié pour l'exercice sélectionné et l'indicateur choisi.
+Objectif (dernier publié) =
+VAR lastIssue = MAX ( guidance_vs_actual[issued_date] )
+RETURN
+    CALCULATE ( MAX ( guidance_vs_actual[guidance_mid] ), guidance_vs_actual[issued_date] = lastIssue )
+
+Réel comparé = MAX ( guidance_vs_actual[actual] )
+Écart au dernier objectif = [Réel comparé] - [Objectif (dernier publié)]
+
+// ---------- Pont de résultat opérationnel ----------
+Effet sur l'EBIT = SUM ( bridge_operating_income[value] )

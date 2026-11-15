@@ -37,11 +37,17 @@ flowchart LR
 | **Gold** | Faits `financials`, `guidance`, `category_sales` et dimensions `period`, `account` | SQL (DuckDB) |
 | **Restitution** | Dashboard 4 pages, simulateur, note de gestion | Power BI, DAX, Streamlit |
 
+## Résultat clé (phase 3)
+
+**La chute du taux de marge brute (−4,7 points) explique −5,1 Md$ sur les −5,1 Md$ de baisse de l'EBIT en FY2022.** Le volume reste positif (+0,3 Md$). La cause : des stocks gonflés de 43 % sur un an, écoulés à coups de démarques, avec un fret plus cher. Le free cash-flow passe de +5,1 Md$ à −1,5 Md$. Détails dans la [note d'analyse](docs/analyse-marge-fy2022.md).
+
+![Pont EBIT FY2021 → FY2022](docs/img/pont-ebit-fy2022.png)
+
 ## Avancement
 
 - [x] **Phase 1 : collecte.** Comptes XBRL, liste des dépôts, 31 communiqués de résultats, référentiel de guidance sourcé
 - [x] **Phase 2 : fiabilisation.** Couches Silver et Gold, 38 trimestres reconstruits (FY2017 à FY2026-T2), [rapport de contrôles](docs/rapport-controles.md)
-- [ ] **Phase 3 : analyse et dashboard V1.** P&L de gestion, réel vs N-1 et vs guidance, effets prix/volume, BFR, free cash-flow
+- [x] **Phase 3 : analyse et dashboard V1.** Pont de résultat opérationnel, ventes comparables (trafic, panier), réel vs guidance, BFR et free cash-flow, [note d'analyse](docs/analyse-marge-fy2022.md), [guide Power BI](docs/powerbi/README.md)
 - [ ] **Phase 4 : prévision et scénarios.** ETS/SARIMA vs référence saisonnière (MAE, WAPE), cash projeté, Streamlit, note de gestion
 
 ## Données
@@ -88,6 +94,10 @@ python -m fpa.ingestion.earnings_releases --offline   # réextraction depuis les
 python -m fpa.silver.build      # Silver : faits normalisés, trimestres reconstruits
 python -m fpa.gold.build        # Gold : modèle en étoile (Parquet + CSV pour Power BI)
 python -m fpa.gold.controls     # contrôles qualité -> docs/rapport-controles.md
+
+python -m fpa.analysis.comparable_sales  # ventes comparables extraites des communiqués
+python -m fpa.analysis.build             # Gold : ponts EBIT, réel vs guidance
+python -m fpa.analysis.charts            # graphiques -> docs/img/
 ```
 
 ### Tables Gold pour Power BI
@@ -100,8 +110,11 @@ python -m fpa.gold.controls     # contrôles qualité -> docs/rapport-controles.
 | `fact_guidance` | objectif publié | fourchette, point central, citation et lien SEC |
 | `kpi_quarterly` | trimestre | marges, EBITDA, free cash-flow, DIO, DPO, dette nette, croissance N-1, cumul 12 mois |
 | `kpi_annual` | exercice | mêmes indicateurs sur l'exercice, BPA dilué publié |
+| `fact_comparable_sales` | trimestre | ventes comparables, trafic, panier moyen (trimestre et cumul) |
+| `bridge_operating_income` | période × étape | pont EBIT : volume (trafic, panier, autres), taux de marge brute, SG&A, amortissements |
+| `guidance_vs_actual` | objectif publié | objectif, réel comparable, écart et verdict |
 
-Les fichiers sont dans `data/gold/` en CSV (import direct dans Power BI) et en Parquet.
+Les fichiers sont dans `data/gold/` en CSV (import direct dans Power BI) et en Parquet. Le modèle, les relations, les mesures DAX, le thème et la maquette des pages sont dans [`docs/powerbi/`](docs/powerbi/README.md).
 
 ## Structure
 
@@ -111,11 +124,12 @@ Les fichiers sont dans `data/gold/` en CSV (import direct dans Power BI) et en P
 │   ├── silver/          # faits normalisés, trimestres reconstruits
 │   ├── gold/            # modèle en étoile et indicateurs pour Power BI
 │   └── reference/       # référentiels sourcés : guidance, mapping des comptes, points de rapprochement
-├── docs/                # méthodologie et décisions
+├── docs/                # méthodologie, note d'analyse, graphiques, guide Power BI
 ├── src/fpa/
 │   ├── ingestion/       # client SEC, archivage Bronze, inventaires, communiqués
 │   ├── silver/          # calendrier fiscal, versions, reconstruction trimestrielle
-│   └── gold/            # SQL DuckDB du modèle en étoile, contrôles qualité
+│   ├── gold/            # SQL DuckDB du modèle en étoile, contrôles qualité
+│   └── analysis/        # ventes comparables, ponts EBIT, réel vs guidance, graphiques
 └── tests/               # tests unitaires et contrôles de traçabilité
 ```
 
