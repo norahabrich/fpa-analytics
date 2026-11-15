@@ -82,12 +82,12 @@ class _TextExtractor(HTMLParser):
             self.parts.append(data)
 
 
-def html_to_paragraphs(html: str) -> list[str]:
+def html_to_paragraphs(html: str, min_length: int = 41) -> list[str]:
     parser = _TextExtractor()
     parser.feed(html)
     text = "".join(parser.parts).replace("\xa0", " ")
     paragraphs = (re.sub(r"\s+", " ", block).strip() for block in text.split("\n"))
-    return [p for p in paragraphs if len(p) > 40]
+    return [p for p in paragraphs if len(p) >= min_length]
 
 
 def outlook_paragraphs(html: str) -> list[str]:
