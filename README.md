@@ -123,6 +123,10 @@ pip install -e ".[app]"
 streamlit run app/simulateur.py          # simulateur d'hypothèses dans le navigateur
 ```
 
+### Mettre le simulateur en ligne
+
+Le simulateur se déploie gratuitement sur [Streamlit Community Cloud](https://share.streamlit.io) : dépôt `norahabrich/fpa-analytics`, branche `main`, fichier principal `app/simulateur.py`. Les dépendances sont lues dans [`requirements.txt`](requirements.txt) et les données dans `data/gold/`.
+
 ### Tables Gold pour Power BI
 
 | Table | Grain | Contenu |
