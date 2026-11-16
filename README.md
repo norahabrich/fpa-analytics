@@ -3,6 +3,9 @@
 > Analyse FP&A de **Target Corporation** (NYSE : TGT) sur ses **comptes réels publiés à la SEC** : pourquoi la marge s'est dégradée, où l'exercice va atterrir, et quels leviers préservent la trésorerie.
 
 [![CI](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fpa-analytics-target-corporation-norahabrich.streamlit.app/)
+
+**▶ [Essayer le simulateur en ligne](https://fpa-analytics-target-corporation-norahabrich.streamlit.app/)** : atterrissage FY2026 et trésorerie de fin d'exercice selon vos hypothèses (croissance, marge, stocks, délais fournisseurs, capex).
 
 ## La question métier
 
@@ -125,7 +128,9 @@ streamlit run app/simulateur.py          # simulateur d'hypothèses dans le navi
 
 ### Mettre le simulateur en ligne
 
-Le simulateur se déploie gratuitement sur [Streamlit Community Cloud](https://share.streamlit.io) : dépôt `norahabrich/fpa-analytics`, branche `main`, fichier principal `app/simulateur.py`. Les dépendances sont lues dans [`requirements.txt`](requirements.txt) et les données dans `data/gold/`.
+Version en ligne : **https://fpa-analytics-target-corporation-norahabrich.streamlit.app/**
+
+Le simulateur est déployé gratuitement sur [Streamlit Community Cloud](https://share.streamlit.io) : dépôt `norahabrich/fpa-analytics`, branche `main`, fichier principal `app/simulateur.py`. Les dépendances sont lues dans [`requirements.txt`](requirements.txt) et les données dans `data/gold/`.
 
 ### Tables Gold pour Power BI
 
