@@ -3,17 +3,24 @@
 Lancement :
     pip install -e ".[app]"
     streamlit run app/simulateur.py
+
+En ligne (Streamlit Community Cloud), seules les dépendances de requirements.txt sont
+installées : le dossier src/ est alors ajouté au chemin d'import ci-dessous.
 """
 
 from __future__ import annotations
 
+import sys
 from dataclasses import replace
+from pathlib import Path
 
-import pandas as pd
-import streamlit as st
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from fpa.config import DATA_DIR
-from fpa.forecast import cash
+import pandas as pd  # noqa: E402
+import streamlit as st  # noqa: E402
+
+from fpa.config import DATA_DIR  # noqa: E402
+from fpa.forecast import cash  # noqa: E402
 
 GOLD = DATA_DIR / "gold"
 

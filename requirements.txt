@@ -1,0 +1,5 @@
+# Dépendances du simulateur pour Streamlit Community Cloud (share.streamlit.io).
+# Le projet complet s'installe avec : pip install -e ".[dev,app]"
+streamlit>=1.35
+pandas>=2.1
+pyarrow>=15
