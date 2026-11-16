@@ -5,6 +5,8 @@
 [![CI](../../actions/workflows/ci.yml/badge.svg)](../../actions/workflows/ci.yml)
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fpa-analytics-target-corporation-norahabrich.streamlit.app/)
 
+> **In English.** FP&A case study on Target Corporation built only from real SEC EDGAR filings: a reproducible Python/DuckDB Bronze-Silver-Gold pipeline reconciled to the 10-K (225 controls), an operating-income bridge explaining the FY2022 margin collapse, actual-vs-guidance tracking, a rolling quarterly forecast benchmarked with time-series cross-validation (MAE, WAPE), working-capital and free-cash-flow scenarios, and a [live Streamlit simulator](https://fpa-analytics-target-corporation-norahabrich.streamlit.app/).
+
 **▶ [Essayer le simulateur en ligne](https://fpa-analytics-target-corporation-norahabrich.streamlit.app/)** : atterrissage FY2026 et trésorerie de fin d'exercice selon vos hypothèses (croissance, marge, stocks, délais fournisseurs, capex).
 
 ## La question métier
@@ -13,7 +15,7 @@ En mars 2022, Target annonçait pour l'exercice FY2022 un **taux de marge opéra
 
 Ce projet reconstruit l'analyse qu'aurait menée une équipe FP&A :
 
-1. **Pourquoi la marge s'est-elle dégradée ?** Effets volume, panier moyen, mix, démarques et coûts logistiques, avec le lien stocks → marge → cash.
+1. **Pourquoi la marge s'est-elle dégradée ?** Effets volume (trafic, panier moyen), taux de marge brute, frais et démarques, avec le lien stocks → marge → cash.
 2. **Où l'exercice va-t-il atterrir ?** Rolling forecast trimestriel du CA, de la marge et du cash.
 3. **Quels leviers préservent la trésorerie ?** Scénarios sur les stocks, les délais fournisseurs et les investissements.
 
@@ -48,8 +50,8 @@ flowchart LR
 |---|---|---|
 | **Bronze** | Réponses brutes de la SEC, archivées sans modification, avec journal (URL, date, SHA-256) | Python, requests |
 | **Silver** | Une ligne par indicateur et période, libellés harmonisés, trimestres reconstruits à partir des cumuls | pandas, DuckDB, Parquet |
-| **Gold** | Faits `financials`, `guidance`, `category_sales` et dimensions `period`, `account` | SQL (DuckDB) |
-| **Restitution** | Dashboard 4 pages, simulateur, note de gestion | Power BI, DAX, Streamlit |
+| **Gold** | Modèle en étoile (`fact_financials`, `dim_period`, `dim_account`), KPI, ventes comparables, ponts d'EBIT, réel vs guidance, prévisions et scénarios de cash | SQL (DuckDB), pandas |
+| **Restitution** | Modèle et maquette Power BI 4 pages (mesures DAX, thème), simulateur en ligne, note de gestion | Power BI, DAX, Streamlit |
 
 ## Résultat clé (phase 3)
 
@@ -79,7 +81,7 @@ flowchart LR
 | Communiqués de résultats (8-K, pièce 99) | Résultats trimestriels et objectifs de la direction | `data/bronze/sec/earnings_releases/` |
 | Référentiel de guidance | 58 objectifs chiffrés FY2021–FY2026, chacun cité et lié à sa source | [`data/reference/guidance.csv`](data/reference/guidance.csv) |
 
-Chaque collecte est tracée dans `data/bronze/_ingestion_log.jsonl`. Les instantanés sont versionnés dans le dépôt pour que les analyses soient reproductibles même si la SEC republie des chiffres.
+Chaque collecte est tracée dans `data/bronze/_ingestion_log.jsonl`. Après une publication de résultats, le workflow GitHub **Collecte SEC** (onglet *Actions*, bouton *Run workflow*) télécharge les nouveaux documents, reconstruit toute la chaîne et propose le résultat dans une pull request. Il demande le secret `SEC_USER_AGENT`. Les instantanés sont versionnés dans le dépôt pour que les analyses soient reproductibles même si la SEC republie des chiffres.
 
 ### Points d'attention déjà identifiés
 
@@ -121,6 +123,9 @@ python -m fpa.analysis.charts            # graphiques -> docs/img/
 
 python -m fpa.forecast.build             # Gold : validation des modèles, atterrissage, scénarios de cash
 python -m fpa.forecast.charts            # graphiques de prévision -> docs/img/
+
+python -m fpa.pipeline --charts          # tout ce qui précède en une commande (sans appel à la SEC)
+python -m fpa.reproducibility            # vérifie que les tables versionnées correspondent au code
 
 pip install -e ".[app]"
 streamlit run app/simulateur.py          # simulateur d'hypothèses dans le navigateur
@@ -166,7 +171,9 @@ Les fichiers sont dans `data/gold/` en CSV (import direct dans Power BI) et en P
 │   ├── silver/          # calendrier fiscal, versions, reconstruction trimestrielle
 │   ├── gold/            # SQL DuckDB du modèle en étoile, contrôles qualité
 │   ├── analysis/        # ventes comparables, ponts EBIT, réel vs guidance, graphiques
-│   └── forecast/        # modèles de prévision, validation chronologique, modèle de cash
+│   ├── forecast/        # modèles de prévision, validation chronologique, modèle de cash
+│   ├── pipeline.py      # reconstruction complète Bronze -> Gold -> prévision
+│   └── reproducibility.py  # contrôle : tables versionnées = sortie du code
 ├── app/                 # simulateur Streamlit
 └── tests/               # tests unitaires et contrôles de traçabilité
 ```

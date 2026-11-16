@@ -149,3 +149,12 @@ def test_streamlit_app_runs():
     at = AppTest.from_file(str(PROJECT_ROOT / "app" / "simulateur.py"), default_timeout=60).run()
     assert not at.exception
     assert [m.label for m in at.metric][2] == "Free cash-flow"
+
+
+def test_pipeline_steps_are_runnable_modules():
+    import importlib
+
+    from fpa.pipeline import CHART_STEPS, STEPS
+
+    for name in STEPS + CHART_STEPS:
+        assert callable(importlib.import_module(name).main), name
