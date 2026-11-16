@@ -1,7 +1,10 @@
 name: Collecte SEC
 
-# Relance la collecte à la demande (après une publication de résultats, par exemple)
-# et propose les nouvelles données dans une pull request à relire.
+# Relance la collecte à la demande (après une publication de résultats, par exemple),
+# reconstruit toute la chaîne (Silver, Gold, analyse, prévision, graphiques)
+# et propose le résultat dans une pull request à relire.
+# Prérequis : secret SEC_USER_AGENT (Settings > Secrets and variables > Actions),
+# au format « Prénom Nom adresse@exemple.com ».
 on:
   workflow_dispatch:
 
@@ -26,6 +29,8 @@ jobs:
           test -n "$SEC_USER_AGENT" || { echo "Ajoute le secret SEC_USER_AGENT dans Settings > Secrets and variables > Actions"; exit 1; }
           python -m fpa.ingestion.collect
           python -m fpa.ingestion.earnings_releases
+      - name: Reconstruction de la chaîne
+        run: python -m fpa.pipeline --charts
       - name: Pull request des nouvelles données
         env:
           GH_TOKEN: ${{ github.token }}
@@ -35,7 +40,8 @@ jobs:
           branch="data/collect-$(date -u +%Y-%m-%d)"
           git checkout -b "$branch"
           git add data/bronze
-          if git diff --cached --quiet; then echo "Aucune nouvelle donnée."; exit 0; fi
-          git commit -m "Collecte SEC du $(date -u +%Y-%m-%d)"
+          if git diff --cached --quiet; then echo "Aucune nouvelle donnée SEC."; exit 0; fi
+          git add data docs
+          git commit -m "Collecte SEC et mise à jour des tables du $(date -u +%Y-%m-%d)"
           git push -u origin "$branch"
           gh pr create --title "Collecte SEC du $(date -u +%Y-%m-%d)" --body "Nouvelles données SEC collectées automatiquement. Vérifier le journal de collecte avant de fusionner."

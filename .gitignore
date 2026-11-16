@@ -21,3 +21,4 @@ dist/
 # Power BI : fichiers de verrouillage
 *.pbix.lock
 ~$*
+.coverage
